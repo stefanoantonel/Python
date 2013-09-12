@@ -7,6 +7,7 @@ el import os.path es el que nos permite manejar archivos. con el chdir nos devue
 se crea un metodo fill para rellanar el arbol. 
 una vex que encontramos un directorio, tenemos que llamar recursivamente y encontrar todos los directorios dentro..
 por el tema del self no se puede hacer recursiva la fill y por eso tenemos que crear un metodo visita.
+para el arbol le tengo que pasar una referencia de los parientes. none es que esta en el margen izquierdo (las raices)
 
 
 
