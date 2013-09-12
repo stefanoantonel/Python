@@ -1,0 +1,6 @@
+Clase 12-9
+Estamos pasando todo lo que hicimos antes con left y right a clases separadas. 
+De la clase heredamos gtk. 
+Hicimos 2 treeview pero con funcionalidades distintas, una con el arbol y otro como grilla.. 
+Con el SELF es poner a la variable que sea de la clase, sino es una variable de todo el programa. 
+
