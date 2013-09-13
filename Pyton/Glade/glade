@@ -1,7 +1,0 @@
-para abrir glade: glade &
-
-grep "interface" ejemplo1.glade
-
-ponemos botones y cosas, una vez que lo clickeamos ponemos para que en el geany tenemos que poner handler y con el connect le decimos para que  lo relacione al evento con algo del codigo.
-
-
