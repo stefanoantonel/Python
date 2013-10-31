@@ -64,7 +64,9 @@ class miVentana(gtk.Window):
 			render=gtk.CellRendererText()
 			#es el que sabe dibujar y que entiende los tamanos de las celdas y se comunica con el dueno de la celda
 			#si tenemos que hcer algo ams
+			
 			col=gtk.TreeViewColumn(cols[i],render, text=i)
+			col.set_sort_column_id(i)
 			#que el texto lo busque en el campo i de la BD
 			self.right.append_column(col)
 		

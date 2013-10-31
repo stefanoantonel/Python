@@ -1,0 +1,24 @@
+En hilo recibe como argumento la funcion que va a ejecutar en otro hilo.
+
+CLase 17-10
+-----------------CLase preferences.py.....
+La clase preferenfes se encarga solo de mostrar las cosas graficas 
+Es una clase extencible, osea que otras clases pueden usarla para guardar las preferencias. 
+COn los cat1 cat2, con eso me genera la ventana, si pongo e es para una entry, si le pongo un c es para un checkbox. 
+Esos 1234 es lo que carga por defecto. 
+Con el prefs.get(...) lo que hace es devolverme el  valor que esta gurdado en el archivo de preferencias.
+El [cat][key][2] es el que le pusimos, el [cat][key][1] es el default.
+El set_modal(true) bloquear la app aula.. (Es coomo la de windows los msgbox de vb)
+En los button_box(..) le paso una tupla que tiene los botones, el nombre y que accion me va a hacer. 
+En el def param_page() me hace una tabla que tiene a la izq los nommbres y a la derecha las cosas como el check o el text entry.
+tbl.attach(..) hay lines que son como las columnas (el l es el label) y los segundos parametros (l,0,1) me dice que ponga el l desde que ocupe de la columna 0 a la 1.  y los "y" son lo mismo pero para la parte horizontal, osea las filas.
+El notebook todo completo :( ...
+
+Vamos a hacer import socket para incorporar la comunicacion del udp.
+para que nosotros checkemos la ip del profe. 
+
+El | es para conectar lo que sale d una en otro programa por ej:
+"bla.py | grep 100" lo que me hace es buscar en el bla una expresion regular de 100, y me implrime en pantalla la linea donde esta la coincidencia.
+
+------------------Clase 24-10----------------------
+Vemos un poco de las cosas de GitPython.
