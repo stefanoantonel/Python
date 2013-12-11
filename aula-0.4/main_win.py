@@ -102,7 +102,8 @@ class main_window(gtk.Window):
 		itemBarra={"_File":	{
 							"_Save": self.save,
 							"": None,
-							"_Quit": self.destroy
+							"_Quit": self.destroy,
+							"_New": self.new
 							},
 					"_Edit":{
 							"_Copy": self.copy,
@@ -119,39 +120,29 @@ class main_window(gtk.Window):
 		vb.pack_start(barra, expand = False)
 		
 		# subdivisor para editor/archivos
-		hp = gtk.HPaned() 
+		self.hp = gtk.HPaned() 
 		
 		#~ vb.pack_start(hp, expand = False)
-		vb.add(hp)
+		vb.add(self.hp)
 		
 		l = gtk.Label("Espacio panel izquierdo")
 		f1 = gtk.Frame()
 		f1.set_shadow_type(gtk.SHADOW_ETCHED_IN)
 		f1.add(l)
 		#~ hp.add1(f1)
-		hp.add(f1)
-		
-		
+		self.hp.add(f1)
 		
 		self.ed_mgr = editor_mgr.editor_manager()
 		self.editor=self.ed_mgr.add_editor("Inicial")
 		
-		
-		
-		
-		
-		
-		#~ print(self.ed_mgr.get_current_page())
-		#~ self.ed_mgr.set_tab_label(self.ed_mgr.get_current_page(), tab_label=gtk.Label(arrayPath[-1]))
-
 		self.editor2=self.ed_mgr.add_editor("Final")
 		#~ print(self.ed_mgr.get_current_page())
-		f2 = gtk.Frame()
-		f2.set_shadow_type(gtk.SHADOW_ETCHED_IN)
+		self.f2 = gtk.Frame()
+		self.f2.set_shadow_type(gtk.SHADOW_ETCHED_IN)
 		
-		f2.add(self.ed_mgr)
+		self.f2.add(self.ed_mgr)
 		#~ hp.add2(f2)
-		hp.add(f2)
+		self.hp.add(self.f2)
 		
 	
 		self.show_all()
@@ -199,6 +190,16 @@ class main_window(gtk.Window):
 		fileNameSaved = filename.split("/")[-1]
 		self.ed_mgr.set_title(gtk.Label(fileNameSaved))
 		
+	def new(self,event):
+		self.editor3=self.ed_mgr.add_editor("NUEVO")
+		#~ print(self.ed_mgr.get_current_page())
+		
+		self.f2.add(self.editor3)
+		#~ hp.add2(f2)
+		self.hp.add(self.f2)
+		
+		
+		self.show_all()
 	def run(self):
 		gtk.main()
 
