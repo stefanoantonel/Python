@@ -7,16 +7,13 @@ import urllib2
 class Downloader():
 	def downloadFile(self, filePath):
 		fileName = filePath.split('/')[-1]
-		#~ print ("fileName"+filename)
+		
 		try:
 			u = urllib2.urlopen(filePath)
 			print "Descargado: "+filePath
 		except:
 			print "No se pudo descargar " + filePath
 			return False
-			
-		
-			
 		f = open(fileName, 'wb')
 		blockSz = 8192
 		while True:
@@ -31,9 +28,7 @@ class Downloader():
 		#~ pass
 		
 		r=requests.get(url)
-		
 		cont=r.content
-		print ("----------------------------------"+ cont)
 		#~ regExp=r"a href=\".*?\""
 		regExp=r"a href=\".*?"+ext+"\""
 		#~ regExp="\"http://www.*?"+ext+"\""
@@ -44,7 +39,7 @@ class Downloader():
 			fi=i.find("\"")
 			
 			sin= i[fi+1:-1]
-			print("sin: "+sin)
+			
 			if( sin.startswith("/")):
 				#~ print "/////"
 				t= url+sin

@@ -39,7 +39,10 @@ class editor_manager(gtk.Notebook):
         return new_editor
 
 def main():
-	
+	a=[("File"),[("Open"),("Save")]]
+	for i in a[1]:
+		print i
+	print a
 	return 0
 
 if __name__ == '__main__':

@@ -23,3 +23,12 @@ El | es para conectar lo que sale d una en otro programa por ej:
 ------------------Clase 24-10----------------------
 Vemos un poco de las cosas de GitPython.
 Le vamos a pasar al profe nuestar clave publica para ssh y dsp el lo va a poner para que se pueda pasar las cosas y poner.
+
+-------------------Clase 31-10-----------------
+Para el debug en python tenemos que importar el pdb (python debuger)
+
+
+
+
+
+

@@ -9,10 +9,9 @@ def main():
 	args = sys.argv
 	
 	#~ url = parser.get_url(args)
-	#url= "http://my.e-photovault.com/app/wl/?id=h&filename=India"
-	url="http://www.sosmath.com/tables/tables.html"
+	url= "http://my.e-photovault.com/app/wl/?id=h&filename=India"
 	#~ ext = parser.get_ext(args)
-	ext= ".html"
+	ext= ".jpg"
 
 	
 	if (url == "" or ext == ""):
