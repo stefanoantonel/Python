@@ -50,7 +50,7 @@ class GladeEjemploWindow:
 	def errorCartel(self,widget,mnj):
 		print "error"
 		md = gtk.MessageDialog(widget, 
-				gtk.DIALOG_DESTROY_WITH_PARENT, 				gtk.MESSAGE_ERROR, 
+				gtk.DIALOG_DESTROY_WITH_PARENT, gtk.MESSAGE_ERROR, 
 				gtk.BUTTONS_CLOSE, mnj)
 		md.run()
 		md.destroy()

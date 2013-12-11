@@ -2,7 +2,25 @@
 # -*- coding: utf-8 -*-
 #
 #  main_win.py
-
+#  
+#  Copyright 2013 John Coppens <john@jcoppens.com>
+#  
+#  This program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation; either version 2 of the License, or
+#  (at your option) any later version.
+#  
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#  
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+#  MA 02110-1301, USA.
+#  
+#  
 
 import pygtk
 import gtk
@@ -19,7 +37,6 @@ class about_window(gtk.MessageDialog):
 		gtk.MessageDialog.__init__(self, flags = gtk.DIALOG_MODAL, 
 										 buttons = gtk.BUTTONS_OK, 
 										 message_format = "(c) John Coppens")
-										 
 		
 		self.show_all()
 		if self.run():
@@ -40,7 +57,6 @@ class barraHerramientas(gtk.MenuBar):
 			return self.params[cat][key][1]     # Return default value
 			
 	def add_items(self, items):
-		
 		for i in items.keys():
 			menuVertical = gtk.Menu()
 			fileitem = gtk.MenuItem(i)
@@ -88,6 +104,7 @@ class main_menu(gtk.MenuBar):
 		
  
 class main_window(gtk.Window):
+
 	def __init__(self):
 		gtk.Window.__init__(self)
 		self.connect("destroy", self.destroy)
@@ -99,19 +116,16 @@ class main_window(gtk.Window):
 		self.add(vb)
 		#itemBarra={"_File",{{"_Save",self.save},{"", None},{"_Quit", self.destroy}}}
 		
-		itemBarra={"_File":	{
-							"_Save": self.save,
-							"": None,
-							"_Quit": self.destroy
-							},
-					"_Edit":{
-							"_Copy": self.copy,
-							"_Cut": self.cut,
-							"_Paste": self.paste
-							},
-			
-					"_Help": {"_About": about_window}
-					}
+		itemBarra={"_File": {
+			"_Save": self.save,
+			"": None,
+			"_Quit": self.destroy},
+		"_Edit": {"_Copy": self.copy,
+			"_Cut": self.cut,
+			"_Paste": self.paste},
+			#~ "": None,
+			#~ "_Preferences": "edit_pref"},
+		"_Help": {"_About": about_window}}
 		
 		barra = barraHerramientas()
 		
@@ -119,41 +133,22 @@ class main_window(gtk.Window):
 		vb.pack_start(barra, expand = False)
 		
 		# subdivisor para editor/archivos
-		hp = gtk.HPaned() 
-		
-		#~ vb.pack_start(hp, expand = False)
-		vb.add(hp)
+		hp = gtk.HPaned()
+		vb.pack_start(hp, expand = False)
 		
 		l = gtk.Label("Espacio panel izquierdo")
 		f1 = gtk.Frame()
 		f1.set_shadow_type(gtk.SHADOW_ETCHED_IN)
 		f1.add(l)
-		#~ hp.add1(f1)
-		hp.add(f1)
-		
-		
+		hp.add1(f1)
 		
 		self.ed_mgr = editor_mgr.editor_manager()
 		self.editor=self.ed_mgr.add_editor("Inicial")
-		
-		
-		
-		
-		
-		
-		#~ print(self.ed_mgr.get_current_page())
-		#~ self.ed_mgr.set_tab_label(self.ed_mgr.get_current_page(), tab_label=gtk.Label(arrayPath[-1]))
-
-		self.editor2=self.ed_mgr.add_editor("Final")
-		#~ print(self.ed_mgr.get_current_page())
 		f2 = gtk.Frame()
 		f2.set_shadow_type(gtk.SHADOW_ETCHED_IN)
-		
 		f2.add(self.ed_mgr)
-		#~ hp.add2(f2)
-		hp.add(f2)
+		hp.add2(f2)
 		
-	
 		self.show_all()
 		
 	def destroy(self, event):
@@ -181,8 +176,7 @@ class main_window(gtk.Window):
 		response = chooser.run()
 		if response == gtk.RESPONSE_OK: 
 			filename = chooser.get_filename()
-			chooser.destroy()
-		#~ import pdb; pdb.set_trace()
+		import pdb; pdb.set_trace()
 		buff = self.editor.get_buffer()
 		startIter = buff.get_start_iter()
 		endIter = buff.get_end_iter()
@@ -190,15 +184,7 @@ class main_window(gtk.Window):
 		openfile = open(filename,"w")
 		openfile.write(text)
 		openfile.close() 
-		
-		#cambio el nombre del tab con el guardado recien
-		arrayPath=filename.split("/")
-		
-		print (arrayPath[-1])
-		
-		fileNameSaved = filename.split("/")[-1]
-		self.ed_mgr.set_title(gtk.Label(fileNameSaved))
-		
+
 	def run(self):
 		gtk.main()
 
