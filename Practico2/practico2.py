@@ -60,18 +60,25 @@ class GladeEjemploWindow:
 		apellido=self.builder.get_object("txtApellido").get_text()
 		nombre=self.builder.get_object("txtNombre").get_text()
 		telefono=self.builder.get_object("txtTelefono").get_text()
+		
+			
 		print apellido
 		if apellido == "" or nombre == "" or telefono == "":
 			self.errorCartel(self.window,"FALTA COMPLETAR DATOS")
+		
 		else:
-			person = apellido,nombre,telefono
-			self.lista.append(person)
-			print self.lista
-			self.lista.sort()
-			self.model=gtk.TreeStore(gobject.TYPE_STRING, gobject.TYPE_STRING, gobject.TYPE_STRING)
-			for per in self.lista:
-				self.model.append(None,per)
-			self.tree.set_model(self.model)
+			if(telefono.isdigit()):
+				person = apellido,nombre,telefono
+				if person not in self.lista:
+					self.lista.append(person)
+				print self.lista
+				self.lista.sort()
+				self.model=gtk.TreeStore(gobject.TYPE_STRING, gobject.TYPE_STRING, gobject.TYPE_STRING)
+				for per in self.lista:
+					self.model.append(None,per)
+				self.tree.set_model(self.model)
+			else:
+				self.errorCartel(self.window,"TELEFONO ERRONEO")
 if __name__ == "__main__":  #unicamente tiene nombre main si la ejecuto, si la importo no
 	gew = GladeEjemploWindow()
 	gtk.main()
