@@ -137,8 +137,8 @@ class main_window(gtk.Window):
 		self.ed_mgr = editor_mgr.editor_manager() # el notebook contenedor de pages(editors)
 		
 		# al notebook le agrega las paginas
-		self.editor=self.ed_mgr.add_editor("Incial")
-		
+		editor=self.ed_mgr.add_editor("Incial")
+		self.editorActual=editor
 		
 		self.f2.add(self.ed_mgr) #agrega el notebook al paned
 		self.hp.add(self.f2)
@@ -171,11 +171,11 @@ class main_window(gtk.Window):
 		if response == gtk.RESPONSE_OK: 
 			filename = chooser.get_filename()
 			chooser.destroy()
-		#~ import pdb; pdb.set_trace()
-		buff = self.editor.get_buffer()
+		buff = self.editorActual.get_buffer() #obtengo buffer del actual 
 		startIter = buff.get_start_iter()
 		endIter = buff.get_end_iter()
-		text= self.editor.get_buffer().get_text(startIter,endIter)
+		text= self.editorActual.get_buffer().get_text(startIter,endIter)
+		print ("texto nuevo:"+str(text))
 		openfile = open(filename,"w")
 		openfile.write(text)
 		openfile.close() 
@@ -183,10 +183,10 @@ class main_window(gtk.Window):
 		#cambio el nombre del tab con el guardado recien
 		arrayPath=filename.split("/")
 		
-		print (arrayPath[-1])
+		#~ print (arrayPath[-1])
 		
 		fileNameSaved = filename.split("/")[-1]
-		self.ed_mgr.set_title(gtk.Label(fileNameSaved))
+		self.ed_mgr.set_title(fileNameSaved)
 		
 	def new(self,event):
 		self.editor3=self.ed_mgr.add_editor("NUEVO")
@@ -210,7 +210,7 @@ class main_window(gtk.Window):
 		filename=filename.split("/")[-1]
 		editorNew=self.ed_mgr.add_editor(filename)
 		editorNew.get_buffer().set_text(textOpen)
-		
+		self.editorActual=editorNew
 		
 		self.show_all()
 		

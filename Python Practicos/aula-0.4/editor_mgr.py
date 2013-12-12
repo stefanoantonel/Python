@@ -92,7 +92,9 @@ class editor_manager(gtk.Notebook):
 		
 	def set_title (self, label):
 		#~ hbox=self.createButton("viejo") 
-		self.set_tab_label(self.get_nth_page(self.get_current_page()), label)
+		hbox=self.createButton(label) 
+		hbox.show_all()
+		self.set_tab_label(self.get_nth_page(self.get_current_page()), hbox)
 
 def main():
 	
