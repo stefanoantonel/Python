@@ -12,6 +12,9 @@ import editor_mgr
 import os.path as osp
 from preferences import *
 
+import os, os.path
+import time
+
 pref_fn = osp.expanduser("~/.aula.config")
 
 class about_window(gtk.MessageDialog):
@@ -125,13 +128,20 @@ class main_window(gtk.Window):
 		#~ vb.pack_start(hp, expand = False)
 		vb.add(self.hp)
 		
+		#----------------ESPACIO IZQUIERDO--------------------------
 		l = gtk.Label("Espacio panel izquierdo")
 		f1 = gtk.Frame()
 		f1.set_shadow_type(gtk.SHADOW_ETCHED_IN)
-		f1.add(l)
-		#~ hp.add1(f1)
+		directory=Directory()
+		#~ scrw = gtk.ScrolledWindow()
+		#~ scrw.add(directory)
+		#~ f1.add(scrw)
+		f1.add(directory)
+		
 		self.hp.add(f1)
 		
+		
+		#----------------ESPACIO DERECHO---------------------------
 		self.f2 = gtk.Frame()
 		self.f2.set_shadow_type(gtk.SHADOW_ETCHED_IN)
 		self.ed_mgr = editor_mgr.editor_manager() # el notebook contenedor de pages(editors)
@@ -142,6 +152,7 @@ class main_window(gtk.Window):
 		
 		self.f2.add(self.ed_mgr) #agrega el notebook al paned
 		self.hp.add(self.f2)
+		
 		self.show_all()
 		
 	def destroy(self, event):
@@ -213,6 +224,46 @@ class main_window(gtk.Window):
 		
 		self.show_all()
 		
+class Directory (gtk.TreeView):
+	def __init__(self):
+		gtk.TreeView.__init__(self)
+		
+		self.columns(("Archivo", "fecha", "Tamanio"))
+		self.fill(".")
+		#~ self.run()
+		#~ self.show_all()
+		
+		
+	def columns(self, cols):
+		types = (str,) * len(cols)
+		self.store = gtk.TreeStore(*types)
+		
+		for i in range(len(cols)):
+			renderer = gtk.CellRendererText()
+			col = gtk.TreeViewColumn(cols[i], renderer, text = i)
+			col.set_sort_column_id(i)
+			self.append_column(col)
+		
+		self.set_model(self.store)
+		
+	def format_file_time(self, file):
+		mtime = time.localtime(os.path.getmtime(file))
+		return time.strftime("%Y/%m/%d %H:%M", mtime)
+		
+	def fill(self, path):
+		def visit(path, parent):
+			os.chdir(path)
+			for file in os.listdir("."):
+				if os.path.isfile(file):
+					self.store.append(parent, (file, self.format_file_time(file), os.path.getsize(file)))
+				elif os.path.isdir(file):
+					iter = self.store.append(parent, (file, self.format_file_time(file), ""))
+					visit(file, iter)
+			os.chdir("..")
+		visit(path, None)
+		
+	def run(self):
+		gtk.main()
 
 def main():
 	w = main_window()
