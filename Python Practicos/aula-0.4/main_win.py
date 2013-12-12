@@ -189,9 +189,8 @@ class main_window(gtk.Window):
 		self.ed_mgr.set_title(fileNameSaved)
 		
 	def new(self,event):
-		self.editor3=self.ed_mgr.add_editor("NUEVO")
-		self.f2.add(self.editor3)
-		self.hp.add(self.f2)
+		editor=self.ed_mgr.add_editor("NUEVO")
+		
 		self.show_all()
 		
 	def run(self):
