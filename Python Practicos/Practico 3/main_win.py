@@ -153,6 +153,7 @@ class main_window(gtk.Window):
 		self.f2.add(self.ed_mgr) #agrega el notebook al paned
 		self.hp.add(self.f2)
 		
+		self.maximize()
 		self.show_all()
 		
 	def destroy(self, event):
