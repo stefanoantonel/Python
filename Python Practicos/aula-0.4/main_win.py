@@ -210,9 +210,8 @@ class main_window(gtk.Window):
 		filename=filename.split("/")[-1]
 		editorNew=self.ed_mgr.add_editor(filename)
 		editorNew.get_buffer().set_text(textOpen)
-		print(textOpen)
 		
-		#cambio el nombre del tab con el guardado recien
+		
 		self.show_all()
 		
 
