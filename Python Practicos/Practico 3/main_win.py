@@ -166,7 +166,7 @@ class main_window(gtk.Window):
 	def save(self,event):
 		filename = None
 		chooser = gtk.FileChooserDialog("Save File...", None,gtk.FILE_CHOOSER_ACTION_SAVE,(gtk.STOCK_CANCEL, gtk.RESPONSE_CANCEL,gtk.STOCK_SAVE, gtk.RESPONSE_OK))
-		
+		chooser.set_do_overwrite_confirmation(True) ##confirmacion de reemplazo
 		response = chooser.run()
 		if response == gtk.RESPONSE_OK: 
 			filename = chooser.get_filename()
