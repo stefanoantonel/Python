@@ -138,7 +138,7 @@ class main_window(gtk.Window):
 		
 		# al notebook le agrega las paginas
 		self.editor=self.ed_mgr.add_editor("Incial")
-		self.editor=self.ed_mgr.add_editor("Incial2")
+		
 		
 		self.f2.add(self.ed_mgr) #agrega el notebook al paned
 		self.hp.add(self.f2)
@@ -206,16 +206,13 @@ class main_window(gtk.Window):
 		openfile = open(filename,"r")
 		textOpen=openfile.read() #saco el contenido del file
 		openfile.close()
-		editorNew=self.ed_mgr.add_editor("Incial")
+		#agregar la tab 
+		filename=filename.split("/")[-1]
+		editorNew=self.ed_mgr.add_editor(filename)
 		editorNew.get_buffer().set_text(textOpen)
 		print(textOpen)
 		
 		#cambio el nombre del tab con el guardado recien
-		
-		fileNameSaved = filename.split("/")[-1]
-		#~ self.ed_mgr.set_title(gtk.Label(fileNameSaved))
-		#~ self.f2.add(self.ed_mgr) #agrega el notebook al paned
-		#~ self.hp.add(self.f2)
 		self.show_all()
 		
 
