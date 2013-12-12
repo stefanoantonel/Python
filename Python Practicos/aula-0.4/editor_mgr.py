@@ -39,7 +39,7 @@ class editor_manager(gtk.Notebook):
 		#~ print(self.query_tab_label_packing(new_editor))
 		
 		
-		hbox=self.createButton("Nuevo") 
+		hbox=self.createButton(label) 
 		
 		hbox.show_all()
 
@@ -47,7 +47,8 @@ class editor_manager(gtk.Notebook):
 		
 		
 		#add the tab
-		self.insert_page(self.new_editor, hbox)
+		self.insert_page(self.new_editor, hbox) #widget + tabLabel
+		#~ self.add(self.new_editor, hbox)
 		return self.new_editor
 		
 		

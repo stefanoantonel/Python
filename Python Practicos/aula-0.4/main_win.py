@@ -95,7 +95,7 @@ class main_window(gtk.Window):
 		self.preferences = pref.preferences(pref_fn)
 		 
 		# subdivisor para menu y resto
-		vb = gtk.VBox()
+		vb = gtk.VBox() #contenedor de TODO
 		self.add(vb)
 		#itemBarra={"_File",{{"_Save",self.save},{"", None},{"_Quit", self.destroy}}}
 		
@@ -116,9 +116,8 @@ class main_window(gtk.Window):
 					}
 		
 		barra = barraHerramientas()
-		
 		barra.add_items(itemBarra)
-		vb.pack_start(barra, expand = False)
+		vb.pack_start(barra, expand = False) 
 		
 		# subdivisor para editor/archivos
 		self.hp = gtk.HPaned() 
@@ -133,19 +132,16 @@ class main_window(gtk.Window):
 		#~ hp.add1(f1)
 		self.hp.add(f1)
 		
-		self.ed_mgr = editor_mgr.editor_manager()
-		self.editor=self.ed_mgr.add_editor("Inicial")
-		
-		self.editor2=self.ed_mgr.add_editor("Final")
-		#~ print(self.ed_mgr.get_current_page())
 		self.f2 = gtk.Frame()
 		self.f2.set_shadow_type(gtk.SHADOW_ETCHED_IN)
+		self.ed_mgr = editor_mgr.editor_manager() # el notebook contenedor de pages(editors)
 		
-		self.f2.add(self.ed_mgr)
-		#~ hp.add2(f2)
+		# al notebook le agrega las paginas
+		self.editor=self.ed_mgr.add_editor("Incial")
+		self.editor=self.ed_mgr.add_editor("Incial2")
+		
+		self.f2.add(self.ed_mgr) #agrega el notebook al paned
 		self.hp.add(self.f2)
-		
-	
 		self.show_all()
 		
 	def destroy(self, event):
@@ -210,15 +206,18 @@ class main_window(gtk.Window):
 		openfile = open(filename,"r")
 		textOpen=openfile.read() #saco el contenido del file
 		openfile.close()
-		text= self.editor.get_buffer().set_text(textOpen)
+		editorNew=self.ed_mgr.add_editor("Incial")
+		editorNew.get_buffer().set_text(textOpen)
+		print(textOpen)
 		
 		#cambio el nombre del tab con el guardado recien
-		arrayPath=filename.split("/")
-		
-		print (arrayPath[-1])
 		
 		fileNameSaved = filename.split("/")[-1]
-		self.ed_mgr.set_title(gtk.Label(fileNameSaved))
+		#~ self.ed_mgr.set_title(gtk.Label(fileNameSaved))
+		#~ self.f2.add(self.ed_mgr) #agrega el notebook al paned
+		#~ self.hp.add(self.f2)
+		self.show_all()
+		
 
 def main():
 	w = main_window()
