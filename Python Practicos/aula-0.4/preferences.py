@@ -1,26 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-#
-#  preferences.py
-#  
-#  Copyright 2013 Unknown <root@on6jc>
-#  
-#  This program is free software; you can redistribute it and/or modify
-#  it under the terms of the GNU General Public License as published by
-#  the Free Software Foundation; either version 2 of the License, or
-#  (at your option) any later version.
-#  
-#  This program is distributed in the hope that it will be useful,
-#  but WITHOUT ANY WARRANTY; without even the implied warranty of
-#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#  GNU General Public License for more details.
-#  
-#  You should have received a copy of the GNU General Public License
-#  along with this program; if not, write to the Free Software
-#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
-#  MA 02110-1301, USA.
-#  
-#  
+
 
 import gtk
 import pygtk
@@ -164,10 +144,10 @@ class preferences():
 
 def main():
     cat1 = {"Cat1": {"Par_1_1": ["e", "Default"],
-                     "Par_1_2": ["e", 1234]}
+                     "Par_1_2": ["e", "1234"]}
            }
     cat2 = {"Cat2": {"Par_2_1": ["e", "Default"],
-                     "Par_2_2": ["s", 1234],
+                     "Par_2_2": ["s", "1234"],
                      "Par_2_3": ["c", True]},
             "Cat3": {"Par_3_1": ["e", "Default"],
                      "Par_3_3": ["c", True]}

@@ -103,7 +103,8 @@ class main_window(gtk.Window):
 							"_Save": self.save,
 							"": None,
 							"_Quit": self.destroy,
-							"_New": self.new
+							"_New": self.new,
+							"_Open": self.openn
 							},
 					"_Edit":{
 							"_Copy": self.copy,
@@ -169,6 +170,7 @@ class main_window(gtk.Window):
 	def save(self,event):
 		filename = None
 		chooser = gtk.FileChooserDialog("Save File...", None,gtk.FILE_CHOOSER_ACTION_SAVE,(gtk.STOCK_CANCEL, gtk.RESPONSE_CANCEL,gtk.STOCK_SAVE, gtk.RESPONSE_OK))
+		
 		response = chooser.run()
 		if response == gtk.RESPONSE_OK: 
 			filename = chooser.get_filename()
@@ -192,16 +194,31 @@ class main_window(gtk.Window):
 		
 	def new(self,event):
 		self.editor3=self.ed_mgr.add_editor("NUEVO")
-		#~ print(self.ed_mgr.get_current_page())
-		
 		self.f2.add(self.editor3)
-		#~ hp.add2(f2)
 		self.hp.add(self.f2)
-		
-		
 		self.show_all()
+		
 	def run(self):
 		gtk.main()
+		
+	def openn(self,event):
+		chooser = gtk.FileChooserDialog("Open File...", None,gtk.FILE_CHOOSER_ACTION_OPEN,(gtk.STOCK_CANCEL, gtk.RESPONSE_CANCEL,gtk.STOCK_OPEN, gtk.RESPONSE_OK))
+		response = chooser.run()
+		if response == gtk.RESPONSE_OK: 
+			filename = chooser.get_filename()
+			chooser.destroy()
+		openfile = open(filename,"r")
+		textOpen=openfile.read() #saco el contenido del file
+		openfile.close()
+		text= self.editor.get_buffer().set_text(textOpen)
+		
+		#cambio el nombre del tab con el guardado recien
+		arrayPath=filename.split("/")
+		
+		print (arrayPath[-1])
+		
+		fileNameSaved = filename.split("/")[-1]
+		self.ed_mgr.set_title(gtk.Label(fileNameSaved))
 
 def main():
 	w = main_window()

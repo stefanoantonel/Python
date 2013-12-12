@@ -1,0 +1,5 @@
+import Tkinter
+from tkFileDialog import askopenfilename
+root = Tkinter.Tk()
+root.withdraw() # hide the main GUI window for our example
+filename = askopenfilename()
