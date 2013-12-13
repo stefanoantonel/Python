@@ -1,0 +1,3463 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<TITLE>A Table of The Common Logarithm</TITLE>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 9">
+<link rel=File-List href="./logs_files/filelist.xml">
+<link rel=Edit-Time-Data href="./logs_files/editdata.mso">
+<link rel=OLE-Object-Data href="./logs_files/oledata.mso">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>hknaust</o:Author>
+  <o:LastAuthor>hknaust</o:LastAuthor>
+  <o:Created>2000-02-08T23:09:41Z</o:Created>
+  <o:LastSaved>2000-02-08T23:45:40Z</o:LastSaved>
+  <o:Version>9.2720</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:DownloadComponents/>
+  <o:LocationOfComponents HRef="file:D:\msowc.cab"/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+tr
+	{mso-height-source:auto;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl24
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;}
+.xl25
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	font-weight:700;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	text-align:left;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl26
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;}
+.xl27
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl28
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	font-weight:700;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	text-align:left;}
+.xl29
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:"0\.000";
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;}
+.xl30
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	font-weight:700;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:"0\.0000000";
+	text-align:left;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl31
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	font-weight:700;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:"0\.0000000";
+	text-align:left;}
+.xl32
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	font-weight:700;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:"0\.00000000";
+	text-align:left;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl33
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	font-weight:700;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:"0\.00000000";
+	text-align:left;}
+.xl34
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;}
+.xl35
+	{mso-style-parent:style0;
+	font-size:8.0pt;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:center;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet1</x:Name>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>204</x:DefaultRowHeight>
+     <x:Print>
+      <x:ValidPrinterInfo/>
+      <x:HorizontalResolution>-4</x:HorizontalResolution>
+      <x:VerticalResolution>0</x:VerticalResolution>
+     </x:Print>
+     <x:Selected/>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet2</x:Name>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>264</x:DefaultRowHeight>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet3</x:Name>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>264</x:DefaultRowHeight>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>6456</x:WindowHeight>
+  <x:WindowWidth>11328</x:WindowWidth>
+  <x:WindowTopX>480</x:WindowTopX>
+  <x:WindowTopY>108</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+
+<body link=blue vlink=purple background="../../back001.gif" class=xl26>
+<center>
+<table cellpadding="0" border="0" cellspacing="0">
+<tr>
+<td valign=top>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-0120177304734599";
+/* top728x90 */
+google_ad_slot = "4247478622";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<td width=12>
+<td valign=top>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-0120177304734599";
+/* top160x90 */
+google_ad_slot = "4107877822";
+google_ad_width = 160;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</table>
+
+</center>
+<H3><font size=3><img src="../../logos001.gif" align=left>
+A Table of the Common Logarithm</font></H2>
+<br clear=left> 
+<p>
+<hr>
+<p>
+<font size=2>The table below lists the common logarithms (with base 10) for 
+numbers between 1 and 10. 
+<p>The logarithm is denoted in bold face. For instance, the first entry in the third column 
+means that the common log of 2.00 is 0.3010300.
+<p>
+Note: This table is rather long and might take a few seconds to load!
+You can also download the table as an <a href="logs.xls">Excel spreadsheet</a>. 
+Printing in landscape mode on two pages should give satisfactory results.
+</font>
+<center>
+<p>
+<table x:str border=1 cellpadding=0 cellspacing=0 width=895 style='border-collapse:
+ collapse;table-layout:fixed;width:674pt'>
+ <col class=xl27 width=36 style='mso-width-source:userset;mso-width-alt:1280;
+ width:27pt'>
+ <col class=xl33 width=58 style='mso-width-source:userset;mso-width-alt:2076;
+ width:44pt'>
+ <col class=xl27 width=36 style='mso-width-source:userset;mso-width-alt:1280;
+ width:27pt'>
+ <col class=xl28 width=53 style='mso-width-source:userset;mso-width-alt:1877;
+ width:40pt'>
+ <col class=xl35 width=36 style='mso-width-source:userset;mso-width-alt:1280;
+ width:27pt'>
+ <col class=xl31 width=53 style='mso-width-source:userset;mso-width-alt:1877;
+ width:40pt'>
+ <col class=xl35 width=36 style='mso-width-source:userset;mso-width-alt:1280;
+ width:27pt'>
+ <col class=xl31 width=53 style='mso-width-source:userset;mso-width-alt:1877;
+ width:40pt'>
+ <col class=xl35 width=36 style='mso-width-source:userset;mso-width-alt:1280;
+ width:27pt'>
+ <col class=xl31 width=53 style='mso-width-source:userset;mso-width-alt:1877;
+ width:40pt'>
+ <col class=xl35 width=36 style='mso-width-source:userset;mso-width-alt:1280;
+ width:27pt'>
+ <col class=xl31 width=53 style='mso-width-source:userset;mso-width-alt:1877;
+ width:40pt'>
+ <col class=xl35 width=36 style='mso-width-source:userset;mso-width-alt:1280;
+ width:27pt'>
+ <col class=xl31 width=53 style='mso-width-source:userset;mso-width-alt:1877;
+ width:40pt'>
+ <col class=xl35 width=36 style='mso-width-source:userset;mso-width-alt:1280;
+ width:27pt'>
+ <col class=xl31 width=53 style='mso-width-source:userset;mso-width-alt:1877;
+ width:40pt'>
+ <col class=xl35 width=36 style='mso-width-source:userset;mso-width-alt:1280;
+ width:27pt'>
+ <col class=xl31 width=53 style='mso-width-source:userset;mso-width-alt:1877;
+ width:40pt'>
+ <col class=xl35 width=36 style='mso-width-source:userset;mso-width-alt:1280;
+ width:27pt'>
+ <col class=xl31 width=53 style='mso-width-source:userset;mso-width-alt:1877;
+ width:40pt'>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 width=36 style='height:10.2pt;width:27pt' x:num
+  x:fmla="=1000/1000">1.000</td>
+  <td class=xl32 width=58 style='width:44pt' x:num x:fmla="=LOG(A1)">0.00000000</td>
+  <td class=xl24 width=36 style='border-left:none;width:27pt'>&nbsp;</td>
+  <td class=xl25 width=53 style='width:40pt'>&nbsp;</td>
+  <td class=xl34 width=36 style='border-left:none;width:27pt' x:num>2.00</td>
+  <td class=xl30 width=53 style='width:40pt' x:num="0.3010299956639812"
+  x:fmla="=LOG(E1)-FLOOR(LOG(E1),1)">0.3010300</td>
+  <td class=xl34 width=36 style='border-left:none;width:27pt' x:num>3.00</td>
+  <td class=xl30 width=53 style='width:40pt' x:num="0.47712125471966244"
+  x:fmla="=LOG(G1)-FLOOR(LOG(G1),1)">0.4771213</td>
+  <td class=xl34 width=36 style='border-left:none;width:27pt' x:num>4.00</td>
+  <td class=xl30 width=53 style='width:40pt' x:num="0.6020599913279624"
+  x:fmla="=LOG(I1)-FLOOR(LOG(I1),1)">0.6020600</td>
+  <td class=xl34 width=36 style='border-left:none;width:27pt' x:num>5.00</td>
+  <td class=xl30 width=53 style='width:40pt' x:num="0.69897000433601886"
+  x:fmla="=LOG(K1)-FLOOR(LOG(K1),1)">0.6989700</td>
+  <td class=xl34 width=36 style='border-left:none;width:27pt' x:num>6.00</td>
+  <td class=xl30 width=53 style='width:40pt' x:num="0.77815125038364363"
+  x:fmla="=LOG(M1)-FLOOR(LOG(M1),1)">0.7781513</td>
+  <td class=xl34 width=36 style='border-left:none;width:27pt' x:num>7.00</td>
+  <td class=xl30 width=53 style='width:40pt' x:num="0.84509804001425681"
+  x:fmla="=LOG(O1)-FLOOR(LOG(O1),1)">0.8450980</td>
+  <td class=xl34 width=36 style='border-left:none;width:27pt' x:num>8.00</td>
+  <td class=xl30 width=53 style='width:40pt' x:num="0.90308998699194354"
+  x:fmla="=LOG(Q1)-FLOOR(LOG(Q1),1)">0.9030900</td>
+  <td class=xl34 width=36 style='border-left:none;width:27pt' x:num>9.00</td>
+  <td class=xl30 width=53 style='width:40pt' x:num="0.95424250943932487"
+  x:fmla="=LOG(S1)-FLOOR(LOG(S1),1)">0.9542425</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0009999999999999"
+  x:fmla="=A1+0.001">1.001</td>
+  <td class=xl32 x:num="4.340774793185929E-4" x:fmla="=LOG(A2)">0.00043408</td>
+  <td class=xl24 style='border-left:none'>&nbsp;</td>
+  <td class=xl25>&nbsp;</td>
+  <td class=xl34 style='border-left:none' x:num>2.01</td>
+  <td class=xl30 x:num="0.30319605742048883" x:fmla="=LOG(E2)-FLOOR(LOG(E2),1)">0.3031961</td>
+  <td class=xl34 style='border-left:none' x:num>3.01</td>
+  <td class=xl30 x:num="0.47856649559384334" x:fmla="=LOG(G2)-FLOOR(LOG(G2),1)">0.4785665</td>
+  <td class=xl34 style='border-left:none' x:num>4.01</td>
+  <td class=xl30 x:num="0.60314437262018228" x:fmla="=LOG(I2)-FLOOR(LOG(I2),1)">0.6031444</td>
+  <td class=xl34 style='border-left:none' x:num>5.01</td>
+  <td class=xl30 x:num="0.69983772586724569" x:fmla="=LOG(K2)-FLOOR(LOG(K2),1)">0.6998377</td>
+  <td class=xl34 style='border-left:none' x:num>6.01</td>
+  <td class=xl30 x:num="0.77887447200273952" x:fmla="=LOG(M2)-FLOOR(LOG(M2),1)">0.7788745</td>
+  <td class=xl34 style='border-left:none' x:num>7.01</td>
+  <td class=xl30 x:num="0.84571801796665869" x:fmla="=LOG(O2)-FLOOR(LOG(O2),1)">0.8457180</td>
+  <td class=xl34 style='border-left:none' x:num>8.01</td>
+  <td class=xl30 x:num="0.90363251608423767" x:fmla="=LOG(Q2)-FLOOR(LOG(Q2),1)">0.9036325</td>
+  <td class=xl34 style='border-left:none' x:num>9.01</td>
+  <td class=xl30 x:num="0.95472479097906293" x:fmla="=LOG(S2)-FLOOR(LOG(S2),1)">0.9547248</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0019999999999998"
+  x:fmla="=A2+0.001">1.002</td>
+  <td class=xl32 x:num="8.6772153122681699E-4" x:fmla="=LOG(A3)">0.00086772</td>
+  <td class=xl24 style='border-left:none'>&nbsp;</td>
+  <td class=xl25>&nbsp;</td>
+  <td class=xl34 style='border-left:none' x:num>2.02</td>
+  <td class=xl30 x:num="0.30535136944662378" x:fmla="=LOG(E3)-FLOOR(LOG(E3),1)">0.3053514</td>
+  <td class=xl34 style='border-left:none' x:num>3.02</td>
+  <td class=xl30 x:num="0.48000694295715063" x:fmla="=LOG(G3)-FLOOR(LOG(G3),1)">0.4800069</td>
+  <td class=xl34 style='border-left:none' x:num>4.02</td>
+  <td class=xl30 x:num="0.60422605308446997" x:fmla="=LOG(I3)-FLOOR(LOG(I3),1)">0.6042261</td>
+  <td class=xl34 style='border-left:none' x:num>5.02</td>
+  <td class=xl30 x:num="0.70070371714501933" x:fmla="=LOG(K3)-FLOOR(LOG(K3),1)">0.7007037</td>
+  <td class=xl34 style='border-left:none' x:num>6.02</td>
+  <td class=xl30 x:num="0.77959649125782449" x:fmla="=LOG(M3)-FLOOR(LOG(M3),1)">0.7795965</td>
+  <td class=xl34 style='border-left:none' x:num>7.02</td>
+  <td class=xl30 x:num="0.84633711212980522" x:fmla="=LOG(O3)-FLOOR(LOG(O3),1)">0.8463371</td>
+  <td class=xl34 style='border-left:none' x:num>8.02</td>
+  <td class=xl30 x:num="0.90417436828416353" x:fmla="=LOG(Q3)-FLOOR(LOG(Q3),1)">0.9041744</td>
+  <td class=xl34 style='border-left:none' x:num>9.02</td>
+  <td class=xl30 x:num="0.95520653754194174" x:fmla="=LOG(S3)-FLOOR(LOG(S3),1)">0.9552065</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0029999999999997"
+  x:fmla="=A3+0.001">1.003</td>
+  <td class=xl32 x:num="1.3009330204179757E-3" x:fmla="=LOG(A4)">0.00130093</td>
+  <td class=xl24 style='border-left:none'>&nbsp;</td>
+  <td class=xl25>&nbsp;</td>
+  <td class=xl34 style='border-left:none' x:num>2.03</td>
+  <td class=xl30 x:num="0.30749603791321289" x:fmla="=LOG(E4)-FLOOR(LOG(E4),1)">0.3074960</td>
+  <td class=xl34 style='border-left:none' x:num>3.03</td>
+  <td class=xl30 x:num="0.48144262850230496" x:fmla="=LOG(G4)-FLOOR(LOG(G4),1)">0.4814426</td>
+  <td class=xl34 style='border-left:none' x:num>4.03</td>
+  <td class=xl30 x:num="0.60530504614110947" x:fmla="=LOG(I4)-FLOOR(LOG(I4),1)">0.6053050</td>
+  <td class=xl34 style='border-left:none' x:num>5.03</td>
+  <td class=xl30 x:num="0.70156798505592743" x:fmla="=LOG(K4)-FLOOR(LOG(K4),1)">0.7015680</td>
+  <td class=xl34 style='border-left:none' x:num>6.03</td>
+  <td class=xl30 x:num="0.78031731214015132" x:fmla="=LOG(M4)-FLOOR(LOG(M4),1)">0.7803173</td>
+  <td class=xl34 style='border-left:none' x:num>7.03</td>
+  <td class=xl30 x:num="0.84695532501982396" x:fmla="=LOG(O4)-FLOOR(LOG(O4),1)">0.8469553</td>
+  <td class=xl34 style='border-left:none' x:num>8.03</td>
+  <td class=xl30 x:num="0.90471554527868092" x:fmla="=LOG(Q4)-FLOOR(LOG(Q4),1)">0.9047155</td>
+  <td class=xl34 style='border-left:none' x:num>9.03</td>
+  <td class=xl30 x:num="0.95568775031350572" x:fmla="=LOG(S4)-FLOOR(LOG(S4),1)">0.9556878</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0039999999999996"
+  x:fmla="=A4+0.001">1.004</td>
+  <td class=xl32 x:num="1.7337128090003393E-3" x:fmla="=LOG(A5)">0.00173371</td>
+  <td class=xl24 style='border-left:none'>&nbsp;</td>
+  <td class=xl25>&nbsp;</td>
+  <td class=xl34 style='border-left:none' x:num>2.04</td>
+  <td class=xl30 x:num="0.30963016742589877" x:fmla="=LOG(E5)-FLOOR(LOG(E5),1)">0.3096302</td>
+  <td class=xl34 style='border-left:none' x:num>3.04</td>
+  <td class=xl30 x:num="0.48287358360875376" x:fmla="=LOG(G5)-FLOOR(LOG(G5),1)">0.4828736</td>
+  <td class=xl34 style='border-left:none' x:num>4.04</td>
+  <td class=xl30 x:num="0.60638136511060492" x:fmla="=LOG(I5)-FLOOR(LOG(I5),1)">0.6063814</td>
+  <td class=xl34 style='border-left:none' x:num>5.04</td>
+  <td class=xl30 x:num="0.70243053644552533" x:fmla="=LOG(K5)-FLOOR(LOG(K5),1)">0.7024305</td>
+  <td class=xl34 style='border-left:none' x:num>6.04</td>
+  <td class=xl30 x:num="0.78103693862113188" x:fmla="=LOG(M5)-FLOOR(LOG(M5),1)">0.7810369</td>
+  <td class=xl34 style='border-left:none' x:num>7.04</td>
+  <td class=xl30 x:num="0.84757265914211222" x:fmla="=LOG(O5)-FLOOR(LOG(O5),1)">0.8475727</td>
+  <td class=xl34 style='border-left:none' x:num>8.04</td>
+  <td class=xl30 x:num="0.90525604874845123" x:fmla="=LOG(Q5)-FLOOR(LOG(Q5),1)">0.9052560</td>
+  <td class=xl34 style='border-left:none' x:num>9.04</td>
+  <td class=xl30 x:num="0.95616843047536326" x:fmla="=LOG(S5)-FLOOR(LOG(S5),1)">0.9561684</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0049999999999999"
+  x:fmla="=A5+0.001">1.005</td>
+  <td class=xl32 x:num="2.1660617565074382E-3" x:fmla="=LOG(A6)">0.00216606</td>
+  <td class=xl24 style='border-left:none'>&nbsp;</td>
+  <td class=xl25>&nbsp;</td>
+  <td class=xl34 style='border-left:none' x:num>2.05</td>
+  <td class=xl30 x:num="0.31175386105575426" x:fmla="=LOG(E6)-FLOOR(LOG(E6),1)">0.3117539</td>
+  <td class=xl34 style='border-left:none' x:num>3.05</td>
+  <td class=xl30 x:num="0.48429983934678583" x:fmla="=LOG(G6)-FLOOR(LOG(G6),1)">0.4842998</td>
+  <td class=xl34 style='border-left:none' x:num>4.05</td>
+  <td class=xl30 x:num="0.60745502321466849" x:fmla="=LOG(I6)-FLOOR(LOG(I6),1)">0.6074550</td>
+  <td class=xl34 style='border-left:none' x:num>5.05</td>
+  <td class=xl30 x:num="0.70329137811866138" x:fmla="=LOG(K6)-FLOOR(LOG(K6),1)">0.7032914</td>
+  <td class=xl34 style='border-left:none' x:num>6.05</td>
+  <td class=xl30 x:num="0.78175537465246892" x:fmla="=LOG(M6)-FLOOR(LOG(M6),1)">0.7817554</td>
+  <td class=xl34 style='border-left:none' x:num>7.05</td>
+  <td class=xl30 x:num="0.84818911699139865" x:fmla="=LOG(O6)-FLOOR(LOG(O6),1)">0.8481891</td>
+  <td class=xl34 style='border-left:none' x:num>8.05</td>
+  <td class=xl30 x:num="0.90579588036786851" x:fmla="=LOG(Q6)-FLOOR(LOG(Q6),1)">0.9057959</td>
+  <td class=xl34 style='border-left:none' x:num>9.05</td>
+  <td class=xl30 x:num="0.9566485792052033" x:fmla="=LOG(S6)-FLOOR(LOG(S6),1)">0.9566486</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0059999999999993"
+  x:fmla="=A6+0.001">1.006</td>
+  <td class=xl32 x:num="2.5979807199083072E-3" x:fmla="=LOG(A7)">0.00259798</td>
+  <td class=xl24 style='border-left:none'>&nbsp;</td>
+  <td class=xl25>&nbsp;</td>
+  <td class=xl34 style='border-left:none' x:num>2.06</td>
+  <td class=xl30 x:num="0.31386722036915343" x:fmla="=LOG(E7)-FLOOR(LOG(E7),1)">0.3138672</td>
+  <td class=xl34 style='border-left:none' x:num>3.06</td>
+  <td class=xl30 x:num="0.48572142648158001" x:fmla="=LOG(G7)-FLOOR(LOG(G7),1)">0.4857214</td>
+  <td class=xl34 style='border-left:none' x:num>4.06</td>
+  <td class=xl30 x:num="0.60852603357719404" x:fmla="=LOG(I7)-FLOOR(LOG(I7),1)">0.6085260</td>
+  <td class=xl34 style='border-left:none' x:num>5.06</td>
+  <td class=xl30 x:num="0.70415051683979912" x:fmla="=LOG(K7)-FLOOR(LOG(K7),1)">0.7041505</td>
+  <td class=xl34 style='border-left:none' x:num>6.06</td>
+  <td class=xl30 x:num="0.78247262416628616" x:fmla="=LOG(M7)-FLOOR(LOG(M7),1)">0.7824726</td>
+  <td class=xl34 style='border-left:none' x:num>7.06</td>
+  <td class=xl30 x:num="0.84880470105180372" x:fmla="=LOG(O7)-FLOOR(LOG(O7),1)">0.8488047</td>
+  <td class=xl34 style='border-left:none' x:num>8.06</td>
+  <td class=xl30 x:num="0.90633504180509072" x:fmla="=LOG(Q7)-FLOOR(LOG(Q7),1)">0.9063350</td>
+  <td class=xl34 style='border-left:none' x:num>9.06</td>
+  <td class=xl30 x:num="0.95712819767681312" x:fmla="=LOG(S7)-FLOOR(LOG(S7),1)">0.9571282</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0069999999999992"
+  x:fmla="=A7+0.001">1.007</td>
+  <td class=xl32 x:num="3.0294705536176745E-3" x:fmla="=LOG(A8)">0.00302947</td>
+  <td class=xl24 style='border-left:none'>&nbsp;</td>
+  <td class=xl25>&nbsp;</td>
+  <td class=xl34 style='border-left:none' x:num>2.07</td>
+  <td class=xl30 x:num="0.31597034545691771" x:fmla="=LOG(E8)-FLOOR(LOG(E8),1)">0.3159703</td>
+  <td class=xl34 style='border-left:none' x:num>3.07</td>
+  <td class=xl30 x:num="0.48713837547718647" x:fmla="=LOG(G8)-FLOOR(LOG(G8),1)">0.4871384</td>
+  <td class=xl34 style='border-left:none' x:num>4.07</td>
+  <td class=xl30 x:num="0.60959440922522001" x:fmla="=LOG(I8)-FLOOR(LOG(I8),1)">0.6095944</td>
+  <td class=xl34 style='border-left:none' x:num>5.07</td>
+  <td class=xl30 x:num="0.70500795933333604" x:fmla="=LOG(K8)-FLOOR(LOG(K8),1)">0.7050080</td>
+  <td class=xl34 style='border-left:none' x:num>6.07</td>
+  <td class=xl30 x:num="0.78318869107525757" x:fmla="=LOG(M8)-FLOOR(LOG(M8),1)">0.7831887</td>
+  <td class=xl34 style='border-left:none' x:num>7.07</td>
+  <td class=xl30 x:num="0.84941941379689945" x:fmla="=LOG(O8)-FLOOR(LOG(O8),1)">0.8494194</td>
+  <td class=xl34 style='border-left:none' x:num>8.07</td>
+  <td class=xl30 x:num="0.90687353472207044" x:fmla="=LOG(Q8)-FLOOR(LOG(Q8),1)">0.9068735</td>
+  <td class=xl34 style='border-left:none' x:num>9.07</td>
+  <td class=xl30 x:num="0.95760728706009524" x:fmla="=LOG(S8)-FLOOR(LOG(S8),1)">0.9576073</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0079999999999991"
+  x:fmla="=A8+0.001">1.008</td>
+  <td class=xl32 x:num="3.4605321095061065E-3" x:fmla="=LOG(A9)">0.00346053</td>
+  <td class=xl24 style='border-left:none'>&nbsp;</td>
+  <td class=xl25>&nbsp;</td>
+  <td class=xl34 style='border-left:none' x:num>2.08</td>
+  <td class=xl30 x:num="0.31806333496276157" x:fmla="=LOG(E9)-FLOOR(LOG(E9),1)">0.3180633</td>
+  <td class=xl34 style='border-left:none' x:num>3.08</td>
+  <td class=xl30 x:num="0.48855071650044429" x:fmla="=LOG(G9)-FLOOR(LOG(G9),1)">0.4885507</td>
+  <td class=xl34 style='border-left:none' x:num>4.08</td>
+  <td class=xl30 x:num="0.61066016308987991" x:fmla="=LOG(I9)-FLOOR(LOG(I9),1)">0.6106602</td>
+  <td class=xl34 style='border-left:none' x:num>5.08</td>
+  <td class=xl30 x:num="0.70586371228391931" x:fmla="=LOG(K9)-FLOOR(LOG(K9),1)">0.7058637</td>
+  <td class=xl34 style='border-left:none' x:num>6.08</td>
+  <td class=xl30 x:num="0.78390357927273491" x:fmla="=LOG(M9)-FLOOR(LOG(M9),1)">0.7839036</td>
+  <td class=xl34 style='border-left:none' x:num>7.08</td>
+  <td class=xl30 x:num="0.85003325768976901" x:fmla="=LOG(O9)-FLOOR(LOG(O9),1)">0.8500333</td>
+  <td class=xl34 style='border-left:none' x:num>8.08</td>
+  <td class=xl30 x:num="0.90741136077458617" x:fmla="=LOG(Q9)-FLOOR(LOG(Q9),1)">0.9074114</td>
+  <td class=xl34 style='border-left:none' x:num>9.08</td>
+  <td class=xl30 x:num="0.95808584852108514" x:fmla="=LOG(S9)-FLOOR(LOG(S9),1)">0.9580858</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.008999999999999"
+  x:fmla="=A9+0.001">1.009</td>
+  <td class=xl32 x:num="3.891166236910095E-3" x:fmla="=LOG(A10)">0.00389117</td>
+  <td class=xl24 style='border-left:none'>&nbsp;</td>
+  <td class=xl25>&nbsp;</td>
+  <td class=xl34 style='border-left:none' x:num>2.09</td>
+  <td class=xl30 x:num="0.32014628611105395"
+  x:fmla="=LOG(E10)-FLOOR(LOG(E10),1)">0.3201463</td>
+  <td class=xl34 style='border-left:none' x:num>3.09</td>
+  <td class=xl30 x:num="0.48995847942483461"
+  x:fmla="=LOG(G10)-FLOOR(LOG(G10),1)">0.4899585</td>
+  <td class=xl34 style='border-left:none' x:num>4.09</td>
+  <td class=xl30 x:num="0.61172330800734176"
+  x:fmla="=LOG(I10)-FLOOR(LOG(I10),1)">0.6117233</td>
+  <td class=xl34 style='border-left:none' x:num>5.09</td>
+  <td class=xl30 x:num="0.70671778233675875"
+  x:fmla="=LOG(K10)-FLOOR(LOG(K10),1)">0.7067178</td>
+  <td class=xl34 style='border-left:none' x:num>6.09</td>
+  <td class=xl30 x:num="0.78461729263287538"
+  x:fmla="=LOG(M10)-FLOOR(LOG(M10),1)">0.7846173</td>
+  <td class=xl34 style='border-left:none' x:num>7.09</td>
+  <td class=xl30 x:num="0.85064623518306648"
+  x:fmla="=LOG(O10)-FLOOR(LOG(O10),1)">0.8506462</td>
+  <td class=xl34 style='border-left:none' x:num>8.09</td>
+  <td class=xl30 x:num="0.90794852161227224"
+  x:fmla="=LOG(Q10)-FLOOR(LOG(Q10),1)">0.9079485</td>
+  <td class=xl34 style='border-left:none' x:num>9.09</td>
+  <td class=xl30 x:num="0.95856388322196739"
+  x:fmla="=LOG(S10)-FLOOR(LOG(S10),1)">0.9585639</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num x:fmla="=A10+0.001">1.010</td>
+  <td class=xl32 x:num="4.3213737826421003E-3" x:fmla="=LOG(A11)">0.00432137</td>
+  <td class=xl34 style='border-left:none' x:num>1.10</td>
+  <td class=xl30 x:num="4.1392685158225077E-2"
+  x:fmla="=LOG(C11)-FLOOR(LOG(C11),1)">0.0413927</td>
+  <td class=xl34 style='border-left:none' x:num>2.10</td>
+  <td class=xl30 x:num="0.3222192947339193" x:fmla="=LOG(E11)-FLOOR(LOG(E11),1)">0.3222193</td>
+  <td class=xl34 style='border-left:none' x:num>3.10</td>
+  <td class=xl30 x:num="0.49136169383427269"
+  x:fmla="=LOG(G11)-FLOOR(LOG(G11),1)">0.4913617</td>
+  <td class=xl34 style='border-left:none' x:num>4.10</td>
+  <td class=xl30 x:num="0.61278385671973545"
+  x:fmla="=LOG(I11)-FLOOR(LOG(I11),1)">0.6127839</td>
+  <td class=xl34 style='border-left:none' x:num>5.10</td>
+  <td class=xl30 x:num="0.70757017609793638"
+  x:fmla="=LOG(K11)-FLOOR(LOG(K11),1)">0.7075702</td>
+  <td class=xl34 style='border-left:none' x:num>6.10</td>
+  <td class=xl30 x:num="0.78532983501076703"
+  x:fmla="=LOG(M11)-FLOOR(LOG(M11),1)">0.7853298</td>
+  <td class=xl34 style='border-left:none' x:num>7.10</td>
+  <td class=xl30 x:num="0.85125834871907524"
+  x:fmla="=LOG(O11)-FLOOR(LOG(O11),1)">0.8512583</td>
+  <td class=xl34 style='border-left:none' x:num>8.10</td>
+  <td class=xl30 x:num="0.90848501887864974"
+  x:fmla="=LOG(Q11)-FLOOR(LOG(Q11),1)">0.9084850</td>
+  <td class=xl34 style='border-left:none' x:num>9.10</td>
+  <td class=xl30 x:num="0.95904139232109353"
+  x:fmla="=LOG(S11)-FLOOR(LOG(S11),1)">0.9590414</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0109999999999988"
+  x:fmla="=A11+0.001">1.011</td>
+  <td class=xl32 x:num="4.7511555910005427E-3" x:fmla="=LOG(A12)">0.00475116</td>
+  <td class=xl34 style='border-left:none' x:num>1.11</td>
+  <td class=xl30 x:num="4.5322978786657475E-2"
+  x:fmla="=LOG(C12)-FLOOR(LOG(C12),1)">0.0453230</td>
+  <td class=xl34 style='border-left:none' x:num>2.11</td>
+  <td class=xl30 x:num="0.32428245529769262"
+  x:fmla="=LOG(E12)-FLOOR(LOG(E12),1)">0.3242825</td>
+  <td class=xl34 style='border-left:none' x:num>3.11</td>
+  <td class=xl30 x:num="0.4927603890268375" x:fmla="=LOG(G12)-FLOOR(LOG(G12),1)">0.4927604</td>
+  <td class=xl34 style='border-left:none' x:num>4.11</td>
+  <td class=xl30 x:num="0.61384182187606928"
+  x:fmla="=LOG(I12)-FLOOR(LOG(I12),1)">0.6138418</td>
+  <td class=xl34 style='border-left:none' x:num>5.11</td>
+  <td class=xl30 x:num="0.70842090013471271"
+  x:fmla="=LOG(K12)-FLOOR(LOG(K12),1)">0.7084209</td>
+  <td class=xl34 style='border-left:none' x:num>6.11</td>
+  <td class=xl30 x:num="0.78604121024255424"
+  x:fmla="=LOG(M12)-FLOOR(LOG(M12),1)">0.7860412</td>
+  <td class=xl34 style='border-left:none' x:num>7.11</td>
+  <td class=xl30 x:num="0.85186960072976636"
+  x:fmla="=LOG(O12)-FLOOR(LOG(O12),1)">0.8518696</td>
+  <td class=xl34 style='border-left:none' x:num>8.11</td>
+  <td class=xl30 x:num="0.90902085421115597"
+  x:fmla="=LOG(Q12)-FLOOR(LOG(Q12),1)">0.9090209</td>
+  <td class=xl34 style='border-left:none' x:num>9.11</td>
+  <td class=xl30 x:num="0.95951837697299824"
+  x:fmla="=LOG(S12)-FLOOR(LOG(S12),1)">0.9595184</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0119999999999987"
+  x:fmla="=A12+0.001">1.012</td>
+  <td class=xl32 x:num="5.1805125037797427E-3" x:fmla="=LOG(A13)">0.00518051</td>
+  <td class=xl34 style='border-left:none' x:num>1.12</td>
+  <td class=xl30 x:num="4.9218022670181653E-2"
+  x:fmla="=LOG(C13)-FLOOR(LOG(C13),1)">0.0492180</td>
+  <td class=xl34 style='border-left:none' x:num>2.12</td>
+  <td class=xl30 x:num="0.32633586092875144"
+  x:fmla="=LOG(E13)-FLOOR(LOG(E13),1)">0.3263359</td>
+  <td class=xl34 style='border-left:none' x:num>3.12</td>
+  <td class=xl30 x:num="0.49415459401844281"
+  x:fmla="=LOG(G13)-FLOOR(LOG(G13),1)">0.4941546</td>
+  <td class=xl34 style='border-left:none' x:num>4.12</td>
+  <td class=xl30 x:num="0.61489721603313463"
+  x:fmla="=LOG(I13)-FLOOR(LOG(I13),1)">0.6148972</td>
+  <td class=xl34 style='border-left:none' x:num>5.12</td>
+  <td class=xl30 x:num="0.70926996097583073"
+  x:fmla="=LOG(K13)-FLOOR(LOG(K13),1)">0.7092700</td>
+  <td class=xl34 style='border-left:none' x:num>6.12</td>
+  <td class=xl30 x:num="0.78675142214556115"
+  x:fmla="=LOG(M13)-FLOOR(LOG(M13),1)">0.7867514</td>
+  <td class=xl34 style='border-left:none' x:num>7.12</td>
+  <td class=xl30 x:num="0.85247999363685634"
+  x:fmla="=LOG(O13)-FLOOR(LOG(O13),1)">0.8524800</td>
+  <td class=xl34 style='border-left:none' x:num>8.12</td>
+  <td class=xl30 x:num="0.90955602924117529"
+  x:fmla="=LOG(Q13)-FLOOR(LOG(Q13),1)">0.9095560</td>
+  <td class=xl34 style='border-left:none' x:num>9.12</td>
+  <td class=xl30 x:num="0.95999483832841614"
+  x:fmla="=LOG(S13)-FLOOR(LOG(S13),1)">0.9599948</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0129999999999986"
+  x:fmla="=A13+0.001">1.013</td>
+  <td class=xl32 x:num="5.6094453602798149E-3" x:fmla="=LOG(A14)">0.00560945</td>
+  <td class=xl34 style='border-left:none' x:num>1.13</td>
+  <td class=xl30 x:num="5.3078443483419682E-2"
+  x:fmla="=LOG(C14)-FLOOR(LOG(C14),1)">0.0530784</td>
+  <td class=xl34 style='border-left:none' x:num>2.13</td>
+  <td class=xl30 x:num="0.32837960343873768"
+  x:fmla="=LOG(E14)-FLOOR(LOG(E14),1)">0.3283796</td>
+  <td class=xl34 style='border-left:none' x:num>3.13</td>
+  <td class=xl30 x:num="0.49554433754644844"
+  x:fmla="=LOG(G14)-FLOOR(LOG(G14),1)">0.4955443</td>
+  <td class=xl34 style='border-left:none' x:num>4.13</td>
+  <td class=xl30 x:num="0.61595005165640104"
+  x:fmla="=LOG(I14)-FLOOR(LOG(I14),1)">0.6159501</td>
+  <td class=xl34 style='border-left:none' x:num>5.13</td>
+  <td class=xl30 x:num="0.71011736511181622"
+  x:fmla="=LOG(K14)-FLOOR(LOG(K14),1)">0.7101174</td>
+  <td class=xl34 style='border-left:none' x:num>6.13</td>
+  <td class=xl30 x:num="0.78746047451841505"
+  x:fmla="=LOG(M14)-FLOOR(LOG(M14),1)">0.7874605</td>
+  <td class=xl34 style='border-left:none' x:num>7.13</td>
+  <td class=xl30 x:num="0.85308952985186559"
+  x:fmla="=LOG(O14)-FLOOR(LOG(O14),1)">0.8530895</td>
+  <td class=xl34 style='border-left:none' x:num>8.13</td>
+  <td class=xl30 x:num="0.91009054559406821"
+  x:fmla="=LOG(Q14)-FLOOR(LOG(Q14),1)">0.9100905</td>
+  <td class=xl34 style='border-left:none' x:num>9.13</td>
+  <td class=xl30 x:num="0.96047077753429899"
+  x:fmla="=LOG(S14)-FLOOR(LOG(S14),1)">0.9604708</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0139999999999985"
+  x:fmla="=A14+0.001">1.014</td>
+  <td class=xl32 x:num="6.0379549973165105E-3" x:fmla="=LOG(A15)">0.00603795</td>
+  <td class=xl34 style='border-left:none' x:num>1.14</td>
+  <td class=xl30 x:num="5.6904851336472557E-2"
+  x:fmla="=LOG(C15)-FLOOR(LOG(C15),1)">0.0569049</td>
+  <td class=xl34 style='border-left:none' x:num>2.14</td>
+  <td class=xl30 x:num="0.33041377334919086"
+  x:fmla="=LOG(E15)-FLOOR(LOG(E15),1)">0.3304138</td>
+  <td class=xl34 style='border-left:none' x:num>3.14</td>
+  <td class=xl30 x:num="0.49692964807321494"
+  x:fmla="=LOG(G15)-FLOOR(LOG(G15),1)">0.4969296</td>
+  <td class=xl34 style='border-left:none' x:num>4.14</td>
+  <td class=xl30 x:num="0.61700034112089897"
+  x:fmla="=LOG(I15)-FLOOR(LOG(I15),1)">0.6170003</td>
+  <td class=xl34 style='border-left:none' x:num>5.14</td>
+  <td class=xl30 x:num="0.71096311899527576"
+  x:fmla="=LOG(K15)-FLOOR(LOG(K15),1)">0.7109631</td>
+  <td class=xl34 style='border-left:none' x:num>6.14</td>
+  <td class=xl30 x:num="0.78816837114116767"
+  x:fmla="=LOG(M15)-FLOOR(LOG(M15),1)">0.7881684</td>
+  <td class=xl34 style='border-left:none' x:num>7.14</td>
+  <td class=xl30 x:num="0.85369821177617433"
+  x:fmla="=LOG(O15)-FLOOR(LOG(O15),1)">0.8536982</td>
+  <td class=xl34 style='border-left:none' x:num>8.14</td>
+  <td class=xl30 x:num="0.91062440488920127"
+  x:fmla="=LOG(Q15)-FLOOR(LOG(Q15),1)">0.9106244</td>
+  <td class=xl34 style='border-left:none' x:num>9.14</td>
+  <td class=xl30 x:num="0.96094619573383144"
+  x:fmla="=LOG(S15)-FLOOR(LOG(S15),1)">0.9609462</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0149999999999999"
+  x:fmla="=A15+0.001">1.015</td>
+  <td class=xl32 x:num="6.466042249231016E-3" x:fmla="=LOG(A16)">0.00646604</td>
+  <td class=xl34 style='border-left:none' x:num>1.15</td>
+  <td class=xl30 x:num="6.069784035361165E-2"
+  x:fmla="=LOG(C16)-FLOOR(LOG(C16),1)">0.0606978</td>
+  <td class=xl34 style='border-left:none' x:num>2.15</td>
+  <td class=xl30 x:num="0.33243845991560533"
+  x:fmla="=LOG(E16)-FLOOR(LOG(E16),1)">0.3324385</td>
+  <td class=xl34 style='border-left:none' x:num>3.15</td>
+  <td class=xl30 x:num="0.49831055378960049"
+  x:fmla="=LOG(G16)-FLOOR(LOG(G16),1)">0.4983106</td>
+  <td class=xl34 style='border-left:none' x:num>4.15</td>
+  <td class=xl30 x:num="0.61804809671209271"
+  x:fmla="=LOG(I16)-FLOOR(LOG(I16),1)">0.6180481</td>
+  <td class=xl34 style='border-left:none' x:num>5.15</td>
+  <td class=xl30 x:num="0.71180722904119109"
+  x:fmla="=LOG(K16)-FLOOR(LOG(K16),1)">0.7118072</td>
+  <td class=xl34 style='border-left:none' x:num>6.15</td>
+  <td class=xl30 x:num="0.7888751157754168" x:fmla="=LOG(M16)-FLOOR(LOG(M16),1)">0.7888751</td>
+  <td class=xl34 style='border-left:none' x:num>7.15</td>
+  <td class=xl30 x:num="0.85430604180108061"
+  x:fmla="=LOG(O16)-FLOOR(LOG(O16),1)">0.8543060</td>
+  <td class=xl34 style='border-left:none' x:num>8.15</td>
+  <td class=xl30 x:num="0.91115760873997664"
+  x:fmla="=LOG(Q16)-FLOOR(LOG(Q16),1)">0.9111576</td>
+  <td class=xl34 style='border-left:none' x:num>9.15</td>
+  <td class=xl30 x:num="0.96142109406644827"
+  x:fmla="=LOG(S16)-FLOOR(LOG(S16),1)">0.9614211</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0159999999999982"
+  x:fmla="=A16+0.001">1.016</td>
+  <td class=xl32 x:num="6.8937079478996969E-3" x:fmla="=LOG(A17)">0.00689371</td>
+  <td class=xl34 style='border-left:none' x:num>1.16</td>
+  <td class=xl30 x:num="6.445798922691845E-2"
+  x:fmla="=LOG(C17)-FLOOR(LOG(C17),1)">0.0644580</td>
+  <td class=xl34 style='border-left:none' x:num>2.16</td>
+  <td class=xl30 x:num="0.3344537511509309" x:fmla="=LOG(E17)-FLOOR(LOG(E17),1)">0.3344538</td>
+  <td class=xl34 style='border-left:none' x:num>3.16</td>
+  <td class=xl30 x:num="0.49968708261840383"
+  x:fmla="=LOG(G17)-FLOOR(LOG(G17),1)">0.4996871</td>
+  <td class=xl34 style='border-left:none' x:num>4.16</td>
+  <td class=xl30 x:num="0.61909333062674277"
+  x:fmla="=LOG(I17)-FLOOR(LOG(I17),1)">0.6190933</td>
+  <td class=xl34 style='border-left:none' x:num>5.16</td>
+  <td class=xl30 x:num="0.71264970162721142"
+  x:fmla="=LOG(K17)-FLOOR(LOG(K17),1)">0.7126497</td>
+  <td class=xl34 style='border-left:none' x:num>6.16</td>
+  <td class=xl30 x:num="0.78958071216442549"
+  x:fmla="=LOG(M17)-FLOOR(LOG(M17),1)">0.7895807</td>
+  <td class=xl34 style='border-left:none' x:num>7.16</td>
+  <td class=xl30 x:num="0.8549130223078556" x:fmla="=LOG(O17)-FLOOR(LOG(O17),1)">0.8549130</td>
+  <td class=xl34 style='border-left:none' x:num>8.16</td>
+  <td class=xl30 x:num="0.91169015875386117"
+  x:fmla="=LOG(Q17)-FLOOR(LOG(Q17),1)">0.9116902</td>
+  <td class=xl34 style='border-left:none' x:num>9.16</td>
+  <td class=xl30 x:num="0.96189547366785044"
+  x:fmla="=LOG(S17)-FLOOR(LOG(S17),1)">0.9618955</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0169999999999981"
+  x:fmla="=A17+0.001">1.017</td>
+  <td class=xl32 x:num="7.3209529227437975E-3" x:fmla="=LOG(A18)">0.00732095</td>
+  <td class=xl34 style='border-left:none' x:num>1.17</td>
+  <td class=xl30 x:num="6.8185861746161619E-2"
+  x:fmla="=LOG(C18)-FLOOR(LOG(C18),1)">0.0681859</td>
+  <td class=xl34 style='border-left:none' x:num>2.17</td>
+  <td class=xl30 x:num="0.33645973384852951"
+  x:fmla="=LOG(E18)-FLOOR(LOG(E18),1)">0.3364597</td>
+  <td class=xl34 style='border-left:none' x:num>3.17</td>
+  <td class=xl30 x:num="0.50105926221775143"
+  x:fmla="=LOG(G18)-FLOOR(LOG(G18),1)">0.5010593</td>
+  <td class=xl34 style='border-left:none' x:num>4.17</td>
+  <td class=xl30 x:num="0.62013605497375746"
+  x:fmla="=LOG(I18)-FLOOR(LOG(I18),1)">0.6201361</td>
+  <td class=xl34 style='border-left:none' x:num>5.17</td>
+  <td class=xl30 x:num="0.71349054309394255"
+  x:fmla="=LOG(K18)-FLOOR(LOG(K18),1)">0.7134905</td>
+  <td class=xl34 style='border-left:none' x:num>6.17</td>
+  <td class=xl30 x:num="0.79028516403324167"
+  x:fmla="=LOG(M18)-FLOOR(LOG(M18),1)">0.7902852</td>
+  <td class=xl34 style='border-left:none' x:num>7.17</td>
+  <td class=xl30 x:num="0.85551915566780012"
+  x:fmla="=LOG(O18)-FLOOR(LOG(O18),1)">0.8555192</td>
+  <td class=xl34 style='border-left:none' x:num>8.17</td>
+  <td class=xl30 x:num="0.9122220565324155" x:fmla="=LOG(Q18)-FLOOR(LOG(Q18),1)">0.9122221</td>
+  <td class=xl34 style='border-left:none' x:num>9.17</td>
+  <td class=xl30 x:num="0.96236933567002114"
+  x:fmla="=LOG(S18)-FLOOR(LOG(S18),1)">0.9623693</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.017999999999998"
+  x:fmla="=A18+0.001">1.018</td>
+  <td class=xl32 x:num="7.7477780007390957E-3" x:fmla="=LOG(A19)">0.00774778</td>
+  <td class=xl34 style='border-left:none' x:num>1.18</td>
+  <td class=xl30 x:num="7.1882007306125359E-2"
+  x:fmla="=LOG(C19)-FLOOR(LOG(C19),1)">0.0718820</td>
+  <td class=xl34 style='border-left:none' x:num>2.18</td>
+  <td class=xl30 x:num="0.33845649360460484"
+  x:fmla="=LOG(E19)-FLOOR(LOG(E19),1)">0.3384565</td>
+  <td class=xl34 style='border-left:none' x:num>3.18</td>
+  <td class=xl30 x:num="0.50242711998443268"
+  x:fmla="=LOG(G19)-FLOOR(LOG(G19),1)">0.5024271</td>
+  <td class=xl34 style='border-left:none' x:num>4.18</td>
+  <td class=xl30 x:num="0.62117628177503514"
+  x:fmla="=LOG(I19)-FLOOR(LOG(I19),1)">0.6211763</td>
+  <td class=xl34 style='border-left:none' x:num>5.18</td>
+  <td class=xl30 x:num="0.71432975974523305"
+  x:fmla="=LOG(K19)-FLOOR(LOG(K19),1)">0.7143298</td>
+  <td class=xl34 style='border-left:none' x:num>6.18</td>
+  <td class=xl30 x:num="0.79098847508881587"
+  x:fmla="=LOG(M19)-FLOOR(LOG(M19),1)">0.7909885</td>
+  <td class=xl34 style='border-left:none' x:num>7.18</td>
+  <td class=xl30 x:num="0.85612444424230028"
+  x:fmla="=LOG(O19)-FLOOR(LOG(O19),1)">0.8561244</td>
+  <td class=xl34 style='border-left:none' x:num>8.18</td>
+  <td class=xl30 x:num="0.91275330367132301"
+  x:fmla="=LOG(Q19)-FLOOR(LOG(Q19),1)">0.9127533</td>
+  <td class=xl34 style='border-left:none' x:num>9.18</td>
+  <td class=xl30 x:num="0.96284268120124239"
+  x:fmla="=LOG(S19)-FLOOR(LOG(S19),1)">0.9628427</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0189999999999979"
+  x:fmla="=A19+0.001">1.019</td>
+  <td class=xl32 x:num="8.1741840064255035E-3" x:fmla="=LOG(A20)">0.00817418</td>
+  <td class=xl34 style='border-left:none' x:num>1.19</td>
+  <td class=xl30 x:num="7.554696139253074E-2"
+  x:fmla="=LOG(C20)-FLOOR(LOG(C20),1)">0.0755470</td>
+  <td class=xl34 style='border-left:none' x:num>2.19</td>
+  <td class=xl30 x:num="0.34044411484011833"
+  x:fmla="=LOG(E20)-FLOOR(LOG(E20),1)">0.3404441</td>
+  <td class=xl34 style='border-left:none' x:num>3.19</td>
+  <td class=xl30 x:num="0.50379068305718111"
+  x:fmla="=LOG(G20)-FLOOR(LOG(G20),1)">0.5037907</td>
+  <td class=xl34 style='border-left:none' x:num>4.19</td>
+  <td class=xl30 x:num="0.62221402296629535"
+  x:fmla="=LOG(I20)-FLOOR(LOG(I20),1)">0.6222140</td>
+  <td class=xl34 style='border-left:none' x:num>5.19</td>
+  <td class=xl30 x:num="0.71516735784845786"
+  x:fmla="=LOG(K20)-FLOOR(LOG(K20),1)">0.7151674</td>
+  <td class=xl34 style='border-left:none' x:num>6.19</td>
+  <td class=xl30 x:num="0.79169064902011799"
+  x:fmla="=LOG(M20)-FLOOR(LOG(M20),1)">0.7916906</td>
+  <td class=xl34 style='border-left:none' x:num>7.19</td>
+  <td class=xl30 x:num="0.85672889038288258"
+  x:fmla="=LOG(O20)-FLOOR(LOG(O20),1)">0.8567289</td>
+  <td class=xl34 style='border-left:none' x:num>8.19</td>
+  <td class=xl30 x:num="0.9132839017604184" x:fmla="=LOG(Q20)-FLOOR(LOG(Q20),1)">0.9132839</td>
+  <td class=xl34 style='border-left:none' x:num>9.19</td>
+  <td class=xl30 x:num="0.96331551138611127"
+  x:fmla="=LOG(S20)-FLOOR(LOG(S20),1)">0.9633155</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num x:fmla="=A20+0.001">1.020</td>
+  <td class=xl32 x:num="8.6001717619166237E-3" x:fmla="=LOG(A21)">0.00860017</td>
+  <td class=xl34 style='border-left:none' x:num>1.20</td>
+  <td class=xl30 x:num="7.9181246047624818E-2"
+  x:fmla="=LOG(C21)-FLOOR(LOG(C21),1)">0.0791812</td>
+  <td class=xl34 style='border-left:none' x:num>2.20</td>
+  <td class=xl30 x:num="0.34242268082220628"
+  x:fmla="=LOG(E21)-FLOOR(LOG(E21),1)">0.3424227</td>
+  <td class=xl34 style='border-left:none' x:num>3.20</td>
+  <td class=xl30 x:num="0.50514997831990605"
+  x:fmla="=LOG(G21)-FLOOR(LOG(G21),1)">0.5051500</td>
+  <td class=xl34 style='border-left:none' x:num>4.20</td>
+  <td class=xl30 x:num="0.62324929039790045"
+  x:fmla="=LOG(I21)-FLOOR(LOG(I21),1)">0.6232493</td>
+  <td class=xl34 style='border-left:none' x:num>5.20</td>
+  <td class=xl30 x:num="0.71600334363479923"
+  x:fmla="=LOG(K21)-FLOOR(LOG(K21),1)">0.7160033</td>
+  <td class=xl34 style='border-left:none' x:num>6.20</td>
+  <td class=xl30 x:num="0.79239168949825389"
+  x:fmla="=LOG(M21)-FLOOR(LOG(M21),1)">0.7923917</td>
+  <td class=xl34 style='border-left:none' x:num>7.20</td>
+  <td class=xl30 x:num="0.85733249643126852"
+  x:fmla="=LOG(O21)-FLOOR(LOG(O21),1)">0.8573325</td>
+  <td class=xl34 style='border-left:none' x:num>8.20</td>
+  <td class=xl30 x:num="0.91381385238371671"
+  x:fmla="=LOG(Q21)-FLOOR(LOG(Q21),1)">0.9138139</td>
+  <td class=xl34 style='border-left:none' x:num>9.20</td>
+  <td class=xl30 x:num="0.96378782734555524"
+  x:fmla="=LOG(S21)-FLOOR(LOG(S21),1)">0.9637878</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0209999999999977"
+  x:fmla="=A21+0.001">1.021</td>
+  <td class=xl32 x:num="9.0257420869092643E-3" x:fmla="=LOG(A22)">0.00902574</td>
+  <td class=xl34 style='border-left:none' x:num>1.21</td>
+  <td class=xl30 x:num="8.2785370316450071E-2"
+  x:fmla="=LOG(C22)-FLOOR(LOG(C22),1)">0.0827854</td>
+  <td class=xl34 style='border-left:none' x:num>2.21</td>
+  <td class=xl30 x:num="0.34439227368511072"
+  x:fmla="=LOG(E22)-FLOOR(LOG(E22),1)">0.3443923</td>
+  <td class=xl34 style='border-left:none' x:num>3.21</td>
+  <td class=xl30 x:num="0.5065050324048721" x:fmla="=LOG(G22)-FLOOR(LOG(G22),1)">0.5065050</td>
+  <td class=xl34 style='border-left:none' x:num>4.21</td>
+  <td class=xl30 x:num="0.62428209583566829"
+  x:fmla="=LOG(I22)-FLOOR(LOG(I22),1)">0.6242821</td>
+  <td class=xl34 style='border-left:none' x:num>5.21</td>
+  <td class=xl30 x:num="0.71683772329952444"
+  x:fmla="=LOG(K22)-FLOOR(LOG(K22),1)">0.7168377</td>
+  <td class=xl34 style='border-left:none' x:num>6.21</td>
+  <td class=xl30 x:num="0.7930916001765802" x:fmla="=LOG(M22)-FLOOR(LOG(M22),1)">0.7930916</td>
+  <td class=xl34 style='border-left:none' x:num>7.21</td>
+  <td class=xl30 x:num="0.85793526471942905"
+  x:fmla="=LOG(O22)-FLOOR(LOG(O22),1)">0.8579353</td>
+  <td class=xl34 style='border-left:none' x:num>8.21</td>
+  <td class=xl30 x:num="0.91434315711944081"
+  x:fmla="=LOG(Q22)-FLOOR(LOG(Q22),1)">0.9143432</td>
+  <td class=xl34 style='border-left:none' x:num>9.21</td>
+  <td class=xl30 x:num="0.96425963019684902"
+  x:fmla="=LOG(S22)-FLOOR(LOG(S22),1)">0.9642596</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0219999999999976"
+  x:fmla="=A22+0.001">1.022</td>
+  <td class=xl32 x:num="9.4508957986928974E-3" x:fmla="=LOG(A23)">0.00945090</td>
+  <td class=xl34 style='border-left:none' x:num>1.22</td>
+  <td class=xl30 x:num="8.6359830674748214E-2"
+  x:fmla="=LOG(C23)-FLOOR(LOG(C23),1)">0.0863598</td>
+  <td class=xl34 style='border-left:none' x:num="2.21999999999999">2.22</td>
+  <td class=xl30 x:num="0.34635297445063667"
+  x:fmla="=LOG(E23)-FLOOR(LOG(E23),1)">0.3463530</td>
+  <td class=xl34 style='border-left:none' x:num="3.21999999999999">3.22</td>
+  <td class=xl30 x:num="0.50785587169582957"
+  x:fmla="=LOG(G23)-FLOOR(LOG(G23),1)">0.5078559</td>
+  <td class=xl34 style='border-left:none' x:num>4.22</td>
+  <td class=xl30 x:num="0.62531245096167387"
+  x:fmla="=LOG(I23)-FLOOR(LOG(I23),1)">0.6253125</td>
+  <td class=xl34 style='border-left:none' x:num>5.22</td>
+  <td class=xl30 x:num="0.71767050300226209"
+  x:fmla="=LOG(K23)-FLOOR(LOG(K23),1)">0.7176705</td>
+  <td class=xl34 style='border-left:none' x:num>6.22</td>
+  <td class=xl30 x:num="0.79379038469081864"
+  x:fmla="=LOG(M23)-FLOOR(LOG(M23),1)">0.7937904</td>
+  <td class=xl34 style='border-left:none' x:num>7.22</td>
+  <td class=xl30 x:num="0.85853719756963909"
+  x:fmla="=LOG(O23)-FLOOR(LOG(O23),1)">0.8585372</td>
+  <td class=xl34 style='border-left:none' x:num>8.22</td>
+  <td class=xl30 x:num="0.91487181754005042"
+  x:fmla="=LOG(Q23)-FLOOR(LOG(Q23),1)">0.9148718</td>
+  <td class=xl34 style='border-left:none' x:num>9.22</td>
+  <td class=xl30 x:num="0.96473092105362934"
+  x:fmla="=LOG(S23)-FLOOR(LOG(S23),1)">0.9647309</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0229999999999975"
+  x:fmla="=A23+0.001">1.023</td>
+  <td class=xl32 x:num="9.8756337121590817E-3" x:fmla="=LOG(A24)">0.00987563</td>
+  <td class=xl34 style='border-left:none' x:num>1.23</td>
+  <td class=xl30 x:num="8.9905111439397931E-2"
+  x:fmla="=LOG(C24)-FLOOR(LOG(C24),1)">0.0899051</td>
+  <td class=xl34 style='border-left:none' x:num>2.23</td>
+  <td class=xl30 x:num="0.34830486304816066"
+  x:fmla="=LOG(E24)-FLOOR(LOG(E24),1)">0.3483049</td>
+  <td class=xl34 style='border-left:none' x:num>3.23</td>
+  <td class=xl30 x:num="0.50920252233110286"
+  x:fmla="=LOG(G24)-FLOOR(LOG(G24),1)">0.5092025</td>
+  <td class=xl34 style='border-left:none' x:num>4.23</td>
+  <td class=xl30 x:num="0.6263403673750424" x:fmla="=LOG(I24)-FLOOR(LOG(I24),1)">0.6263404</td>
+  <td class=xl34 style='border-left:none' x:num>5.23</td>
+  <td class=xl30 x:num="0.71850168886727428"
+  x:fmla="=LOG(K24)-FLOOR(LOG(K24),1)">0.7185017</td>
+  <td class=xl34 style='border-left:none' x:num>6.23</td>
+  <td class=xl30 x:num="0.79448804665916961"
+  x:fmla="=LOG(M24)-FLOOR(LOG(M24),1)">0.7944880</td>
+  <td class=xl34 style='border-left:none' x:num>7.23</td>
+  <td class=xl30 x:num="0.85913829729453084"
+  x:fmla="=LOG(O24)-FLOOR(LOG(O24),1)">0.8591383</td>
+  <td class=xl34 style='border-left:none' x:num>8.23</td>
+  <td class=xl30 x:num="0.91539983521226986"
+  x:fmla="=LOG(Q24)-FLOOR(LOG(Q24),1)">0.9153998</td>
+  <td class=xl34 style='border-left:none' x:num>9.23</td>
+  <td class=xl30 x:num="0.96520170102591207"
+  x:fmla="=LOG(S24)-FLOOR(LOG(S24),1)">0.9652017</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0239999999999974"
+  x:fmla="=A24+0.001">1.024</td>
+  <td class=xl32 x:num="1.0299956639810832E-2" x:fmla="=LOG(A25)">0.01029996</td>
+  <td class=xl34 style='border-left:none' x:num>1.24</td>
+  <td class=xl30 x:num="9.3421685162235063E-2"
+  x:fmla="=LOG(C25)-FLOOR(LOG(C25),1)">0.0934217</td>
+  <td class=xl34 style='border-left:none' x:num="2.23999999999999">2.24</td>
+  <td class=xl30 x:num="0.35024801833416086"
+  x:fmla="=LOG(E25)-FLOOR(LOG(E25),1)">0.3502480</td>
+  <td class=xl34 style='border-left:none' x:num="3.23999999999999">3.24</td>
+  <td class=xl30 x:num="0.51054501020661081"
+  x:fmla="=LOG(G25)-FLOOR(LOG(G25),1)">0.5105450</td>
+  <td class=xl34 style='border-left:none' x:num="4.2399999999999904">4.24</td>
+  <td class=xl30 x:num="0.6273658565927317" x:fmla="=LOG(I25)-FLOOR(LOG(I25),1)">0.6273659</td>
+  <td class=xl34 style='border-left:none' x:num="5.2399999999999904">5.24</td>
+  <td class=xl30 x:num="0.71933128698372584"
+  x:fmla="=LOG(K25)-FLOOR(LOG(K25),1)">0.7193313</td>
+  <td class=xl34 style='border-left:none' x:num="6.2399999999999904">6.24</td>
+  <td class=xl30 x:num="0.79518458968242334"
+  x:fmla="=LOG(M25)-FLOOR(LOG(M25),1)">0.7951846</td>
+  <td class=xl34 style='border-left:none' x:num="7.2399999999999904">7.24</td>
+  <td class=xl30 x:num="0.85973856619714628"
+  x:fmla="=LOG(O25)-FLOOR(LOG(O25),1)">0.8597386</td>
+  <td class=xl34 style='border-left:none' x:num="8.2399999999999896">8.24</td>
+  <td class=xl30 x:num="0.91592721169711522"
+  x:fmla="=LOG(Q25)-FLOOR(LOG(Q25),1)">0.9159272</td>
+  <td class=xl34 style='border-left:none' x:num="9.2399999999999896">9.24</td>
+  <td class=xl30 x:num="0.96567197122010617"
+  x:fmla="=LOG(S25)-FLOOR(LOG(S25),1)">0.9656720</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0249999999999999"
+  x:fmla="=A25+0.001">1.025</td>
+  <td class=xl32 x:num="1.0723865391771937E-2" x:fmla="=LOG(A26)">0.01072387</td>
+  <td class=xl34 style='border-left:none' x:num>1.25</td>
+  <td class=xl30 x:num="9.691001300805642E-2"
+  x:fmla="=LOG(C26)-FLOOR(LOG(C26),1)">0.0969100</td>
+  <td class=xl34 style='border-left:none' x:num>2.25</td>
+  <td class=xl30 x:num="0.35218251811136247"
+  x:fmla="=LOG(E26)-FLOOR(LOG(E26),1)">0.3521825</td>
+  <td class=xl34 style='border-left:none' x:num>3.25</td>
+  <td class=xl30 x:num="0.51188336097887432"
+  x:fmla="=LOG(G26)-FLOOR(LOG(G26),1)">0.5118834</td>
+  <td class=xl34 style='border-left:none' x:num="4.2499999999999902">4.25</td>
+  <td class=xl30 x:num="0.62838893005031049"
+  x:fmla="=LOG(I26)-FLOOR(LOG(I26),1)">0.6283889</td>
+  <td class=xl34 style='border-left:none' x:num="5.2499999999999902">5.25</td>
+  <td class=xl30 x:num="0.72015930340595602"
+  x:fmla="=LOG(K26)-FLOOR(LOG(K26),1)">0.7201593</td>
+  <td class=xl34 style='border-left:none' x:num="6.2499999999999902">6.25</td>
+  <td class=xl30 x:num="0.79588001734407454"
+  x:fmla="=LOG(M26)-FLOOR(LOG(M26),1)">0.7958800</td>
+  <td class=xl34 style='border-left:none' x:num="7.2499999999999902">7.25</td>
+  <td class=xl30 x:num="0.86033800657099313"
+  x:fmla="=LOG(O26)-FLOOR(LOG(O26),1)">0.8603380</td>
+  <td class=xl34 style='border-left:none' x:num="8.2499999999999893">8.25</td>
+  <td class=xl30 x:num="0.91645394854992457"
+  x:fmla="=LOG(Q26)-FLOOR(LOG(Q26),1)">0.9164539</td>
+  <td class=xl34 style='border-left:none' x:num="9.2499999999999893">9.25</td>
+  <td class=xl30 x:num="0.96614173273903214"
+  x:fmla="=LOG(S26)-FLOOR(LOG(S26),1)">0.9661417</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0259999999999971"
+  x:fmla="=A26+0.001">1.026</td>
+  <td class=xl32 x:num="1.1147360775796257E-2" x:fmla="=LOG(A27)">0.01114736</td>
+  <td class=xl34 style='border-left:none' x:num>1.26</td>
+  <td class=xl30 x:num="0.10037054511756291"
+  x:fmla="=LOG(C27)-FLOOR(LOG(C27),1)">0.1003705</td>
+  <td class=xl34 style='border-left:none' x:num="2.25999999999999">2.26</td>
+  <td class=xl30 x:num="0.35410843914739898"
+  x:fmla="=LOG(E27)-FLOOR(LOG(E27),1)">0.3541084</td>
+  <td class=xl34 style='border-left:none' x:num="3.25999999999999">3.26</td>
+  <td class=xl30 x:num="0.51321760006793771"
+  x:fmla="=LOG(G27)-FLOOR(LOG(G27),1)">0.5132176</td>
+  <td class=xl34 style='border-left:none' x:num="4.25999999999999">4.26</td>
+  <td class=xl30 x:num="0.62940959910271788"
+  x:fmla="=LOG(I27)-FLOOR(LOG(I27),1)">0.6294096</td>
+  <td class=xl34 style='border-left:none' x:num="5.25999999999999">5.26</td>
+  <td class=xl30 x:num="0.72098574415373828"
+  x:fmla="=LOG(K27)-FLOOR(LOG(K27),1)">0.7209857</td>
+  <td class=xl34 style='border-left:none' x:num="6.25999999999999">6.26</td>
+  <td class=xl30 x:num="0.79657433321042903"
+  x:fmla="=LOG(M27)-FLOOR(LOG(M27),1)">0.7965743</td>
+  <td class=xl34 style='border-left:none' x:num="7.25999999999999">7.26</td>
+  <td class=xl30 x:num="0.86093662070009314"
+  x:fmla="=LOG(O27)-FLOOR(LOG(O27),1)">0.8609366</td>
+  <td class=xl34 style='border-left:none' x:num="8.2599999999999891">8.26</td>
+  <td class=xl30 x:num="0.91698004732038163"
+  x:fmla="=LOG(Q27)-FLOOR(LOG(Q27),1)">0.9169800</td>
+  <td class=xl34 style='border-left:none' x:num="9.2599999999999891">9.26</td>
+  <td class=xl30 x:num="0.96661098668193379"
+  x:fmla="=LOG(S27)-FLOOR(LOG(S27),1)">0.9666110</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.026999999999997"
+  x:fmla="=A27+0.001">1.027</td>
+  <td class=xl32 x:num="1.1570443597276939E-2" x:fmla="=LOG(A28)">0.01157044</td>
+  <td class=xl34 style='border-left:none' x:num>1.27</td>
+  <td class=xl30 x:num="0.10380372095595687"
+  x:fmla="=LOG(C28)-FLOOR(LOG(C28),1)">0.1038037</td>
+  <td class=xl34 style='border-left:none' x:num="2.2699999999999898">2.27</td>
+  <td class=xl30 x:num="0.35602585719312074"
+  x:fmla="=LOG(E28)-FLOOR(LOG(E28),1)">0.3560259</td>
+  <td class=xl34 style='border-left:none' x:num="3.2699999999999898">3.27</td>
+  <td class=xl30 x:num="0.51454775266028474"
+  x:fmla="=LOG(G28)-FLOOR(LOG(G28),1)">0.5145478</td>
+  <td class=xl34 style='border-left:none' x:num="4.2699999999999898">4.27</td>
+  <td class=xl30 x:num="0.63042787502502284"
+  x:fmla="=LOG(I28)-FLOOR(LOG(I28),1)">0.6304279</td>
+  <td class=xl34 style='border-left:none' x:num="5.2699999999999898">5.27</td>
+  <td class=xl30 x:num="0.72181061521254575"
+  x:fmla="=LOG(K28)-FLOOR(LOG(K28),1)">0.7218106</td>
+  <td class=xl34 style='border-left:none' x:num="6.2699999999999898">6.27</td>
+  <td class=xl30 x:num="0.79726754083071572"
+  x:fmla="=LOG(M28)-FLOOR(LOG(M28),1)">0.7972675</td>
+  <td class=xl34 style='border-left:none' x:num="7.2699999999999898">7.27</td>
+  <td class=xl30 x:num="0.86153441085903726"
+  x:fmla="=LOG(O28)-FLOOR(LOG(O28),1)">0.8615344</td>
+  <td class=xl34 style='border-left:none' x:num="8.2699999999999907">8.27</td>
+  <td class=xl30 x:num="0.91750550955254617"
+  x:fmla="=LOG(Q28)-FLOOR(LOG(Q28),1)">0.9175055</td>
+  <td class=xl34 style='border-left:none' x:num="9.2699999999999907">9.27</td>
+  <td class=xl30 x:num="0.96707973414449666"
+  x:fmla="=LOG(S28)-FLOOR(LOG(S28),1)">0.9670797</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0279999999999969"
+  x:fmla="=A28+0.001">1.028</td>
+  <td class=xl32 x:num="1.1993114659255625E-2" x:fmla="=LOG(A29)">0.01199311</td>
+  <td class=xl34 style='border-left:none' x:num>1.28</td>
+  <td class=xl30 x:num="0.10720996964786837"
+  x:fmla="=LOG(C29)-FLOOR(LOG(C29),1)">0.1072100</td>
+  <td class=xl34 style='border-left:none' x:num="2.27999999999999">2.28</td>
+  <td class=xl30 x:num="0.35793484700045192"
+  x:fmla="=LOG(E29)-FLOOR(LOG(E29),1)">0.3579348</td>
+  <td class=xl34 style='border-left:none' x:num="3.27999999999999">3.28</td>
+  <td class=xl30 x:num="0.51587384371167777"
+  x:fmla="=LOG(G29)-FLOOR(LOG(G29),1)">0.5158738</td>
+  <td class=xl34 style='border-left:none' x:num="4.2799999999999896">4.28</td>
+  <td class=xl30 x:num="0.63144376901317101"
+  x:fmla="=LOG(I29)-FLOOR(LOG(I29),1)">0.6314438</td>
+  <td class=xl34 style='border-left:none' x:num="5.2799999999999896">5.28</td>
+  <td class=xl30 x:num="0.72263392253381142"
+  x:fmla="=LOG(K29)-FLOOR(LOG(K29),1)">0.7226339</td>
+  <td class=xl34 style='border-left:none' x:num="6.2799999999999896">6.28</td>
+  <td class=xl30 x:num="0.79795964373719541"
+  x:fmla="=LOG(M29)-FLOOR(LOG(M29),1)">0.7979596</td>
+  <td class=xl34 style='border-left:none' x:num="7.2799999999999896">7.28</td>
+  <td class=xl30 x:num="0.86213137931303652"
+  x:fmla="=LOG(O29)-FLOOR(LOG(O29),1)">0.8621314</td>
+  <td class=xl34 style='border-left:none' x:num="8.2799999999999905">8.28</td>
+  <td class=xl30 x:num="0.91803033678487966"
+  x:fmla="=LOG(Q29)-FLOOR(LOG(Q29),1)">0.9180303</td>
+  <td class=xl34 style='border-left:none' x:num="9.2799999999999905">9.28</td>
+  <td class=xl30 x:num="0.96754797621886157"
+  x:fmla="=LOG(S29)-FLOOR(LOG(S29),1)">0.9675480</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0289999999999968"
+  x:fmla="=A29+0.001">1.029</td>
+  <td class=xl32 x:num="1.2415374762431581E-2" x:fmla="=LOG(A30)">0.01241537</td>
+  <td class=xl34 style='border-left:none' x:num>1.29</td>
+  <td class=xl30 x:num="0.11058971029924898"
+  x:fmla="=LOG(C30)-FLOOR(LOG(C30),1)">0.1105897</td>
+  <td class=xl34 style='border-left:none' x:num="2.2899999999999898">2.29</td>
+  <td class=xl30 x:num="0.35983548233988605"
+  x:fmla="=LOG(E30)-FLOOR(LOG(E30),1)">0.3598355</td>
+  <td class=xl34 style='border-left:none' x:num="3.2899999999999898">3.29</td>
+  <td class=xl30 x:num="0.517195897949973" x:fmla="=LOG(G30)-FLOOR(LOG(G30),1)">0.5171959</td>
+  <td class=xl34 style='border-left:none' x:num="4.2899999999999903">4.29</td>
+  <td class=xl30 x:num="0.63245729218472324"
+  x:fmla="=LOG(I30)-FLOOR(LOG(I30),1)">0.6324573</td>
+  <td class=xl34 style='border-left:none' x:num="5.2899999999999903">5.29</td>
+  <td class=xl30 x:num="0.7234556720351849" x:fmla="=LOG(K30)-FLOOR(LOG(K30),1)">0.7234557</td>
+  <td class=xl34 style='border-left:none' x:num="6.2899999999999903">6.29</td>
+  <td class=xl30 x:num="0.7986506454452682" x:fmla="=LOG(M30)-FLOOR(LOG(M30),1)">0.7986506</td>
+  <td class=xl34 style='border-left:none' x:num="7.2899999999999903">7.29</td>
+  <td class=xl30 x:num="0.86272752831797406"
+  x:fmla="=LOG(O30)-FLOOR(LOG(O30),1)">0.8627275</td>
+  <td class=xl34 style='border-left:none' x:num="8.2899999999999903">8.29</td>
+  <td class=xl30 x:num="0.91855453055027303"
+  x:fmla="=LOG(Q30)-FLOOR(LOG(Q30),1)">0.9185545</td>
+  <td class=xl34 style='border-left:none' x:num="9.2899999999999903">9.29</td>
+  <td class=xl30 x:num="0.96801571399364128"
+  x:fmla="=LOG(S30)-FLOOR(LOG(S30),1)">0.9680157</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num x:fmla="=A30+0.001">1.030</td>
+  <td class=xl32 x:num="1.2837224705170812E-2" x:fmla="=LOG(A31)">0.01283722</td>
+  <td class=xl34 style='border-left:none' x:num>1.30</td>
+  <td class=xl30 x:num="0.11394335230683679"
+  x:fmla="=LOG(C31)-FLOOR(LOG(C31),1)">0.1139434</td>
+  <td class=xl34 style='border-left:none' x:num="2.2999999999999901">2.30</td>
+  <td class=xl30 x:num="0.36172783601759101"
+  x:fmla="=LOG(E31)-FLOOR(LOG(E31),1)">0.3617278</td>
+  <td class=xl34 style='border-left:none' x:num="3.2999999999999901">3.30</td>
+  <td class=xl30 x:num="0.51851393987788619"
+  x:fmla="=LOG(G31)-FLOOR(LOG(G31),1)">0.5185139</td>
+  <td class=xl34 style='border-left:none' x:num="4.2999999999999901">4.30</td>
+  <td class=xl30 x:num="0.63346845557958553"
+  x:fmla="=LOG(I31)-FLOOR(LOG(I31),1)">0.6334685</td>
+  <td class=xl34 style='border-left:none' x:num="5.2999999999999901">5.30</td>
+  <td class=xl30 x:num="0.72427586960078827"
+  x:fmla="=LOG(K31)-FLOOR(LOG(K31),1)">0.7242759</td>
+  <td class=xl34 style='border-left:none' x:num="6.2999999999999901">6.30</td>
+  <td class=xl30 x:num="0.79934054945358102"
+  x:fmla="=LOG(M31)-FLOOR(LOG(M31),1)">0.7993405</td>
+  <td class=xl34 style='border-left:none' x:num="7.2999999999999901">7.30</td>
+  <td class=xl30 x:num="0.86332286012045534"
+  x:fmla="=LOG(O31)-FLOOR(LOG(O31),1)">0.8633229</td>
+  <td class=xl34 style='border-left:none' x:num="8.2999999999999901">8.30</td>
+  <td class=xl30 x:num="0.91907809237607341"
+  x:fmla="=LOG(Q31)-FLOOR(LOG(Q31),1)">0.9190781</td>
+  <td class=xl34 style='border-left:none' x:num="9.2999999999999901">9.30</td>
+  <td class=xl30 x:num="0.96848294855393469"
+  x:fmla="=LOG(S31)-FLOOR(LOG(S31),1)">0.9684829</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0309999999999966"
+  x:fmla="=A31+0.001">1.031</td>
+  <td class=xl32 x:num="1.3258665283515108E-2" x:fmla="=LOG(A32)">0.01325867</td>
+  <td class=xl34 style='border-left:none' x:num>1.31</td>
+  <td class=xl30 x:num="0.11727129565576427"
+  x:fmla="=LOG(C32)-FLOOR(LOG(C32),1)">0.1172713</td>
+  <td class=xl34 style='border-left:none' x:num="2.3099999999999898">2.31</td>
+  <td class=xl30 x:num="0.36361197989214239"
+  x:fmla="=LOG(E32)-FLOOR(LOG(E32),1)">0.3636120</td>
+  <td class=xl34 style='border-left:none' x:num="3.3099999999999898">3.31</td>
+  <td class=xl30 x:num="0.51982799377571742"
+  x:fmla="=LOG(G32)-FLOOR(LOG(G32),1)">0.5198280</td>
+  <td class=xl34 style='border-left:none' x:num="4.3099999999999898">4.31</td>
+  <td class=xl30 x:num="0.63447727016073052"
+  x:fmla="=LOG(I32)-FLOOR(LOG(I32),1)">0.6344773</td>
+  <td class=xl34 style='border-left:none' x:num="5.3099999999999898">5.31</td>
+  <td class=xl30 x:num="0.72509452108146821"
+  x:fmla="=LOG(K32)-FLOOR(LOG(K32),1)">0.7250945</td>
+  <td class=xl34 style='border-left:none' x:num="6.3099999999999898">6.31</td>
+  <td class=xl30 x:num="0.80002935924413365"
+  x:fmla="=LOG(M32)-FLOOR(LOG(M32),1)">0.8000294</td>
+  <td class=xl34 style='border-left:none' x:num="7.3099999999999898">7.31</td>
+  <td class=xl30 x:num="0.86391737695785986"
+  x:fmla="=LOG(O32)-FLOOR(LOG(O32),1)">0.8639174</td>
+  <td class=xl34 style='border-left:none' x:num="8.3099999999999898">8.31</td>
+  <td class=xl30 x:num="0.91960102378411046"
+  x:fmla="=LOG(Q32)-FLOOR(LOG(Q32),1)">0.9196010</td>
+  <td class=xl34 style='border-left:none' x:num="9.3099999999999898">9.31</td>
+  <td class=xl30 x:num="0.96894968098134215"
+  x:fmla="=LOG(S32)-FLOOR(LOG(S32),1)">0.9689497</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0319999999999965"
+  x:fmla="=A32+0.001">1.032</td>
+  <td class=xl32 x:num="1.3679697291191065E-2" x:fmla="=LOG(A33)">0.01367970</td>
+  <td class=xl34 style='border-left:none' x:num>1.32</td>
+  <td class=xl30 x:num="0.12057393120584989"
+  x:fmla="=LOG(C33)-FLOOR(LOG(C33),1)">0.1205739</td>
+  <td class=xl34 style='border-left:none' x:num="2.3199999999999901">2.32</td>
+  <td class=xl30 x:num="0.36548798489089779"
+  x:fmla="=LOG(E33)-FLOOR(LOG(E33),1)">0.3654880</td>
+  <td class=xl34 style='border-left:none' x:num="3.3199999999999901">3.32</td>
+  <td class=xl30 x:num="0.52113808370403503"
+  x:fmla="=LOG(G33)-FLOOR(LOG(G33),1)">0.5211381</td>
+  <td class=xl34 style='border-left:none' x:num="4.3199999999999896">4.32</td>
+  <td class=xl30 x:num="0.63548374681491104"
+  x:fmla="=LOG(I33)-FLOOR(LOG(I33),1)">0.6354837</td>
+  <td class=xl34 style='border-left:none' x:num="5.3199999999999896">5.32</td>
+  <td class=xl30 x:num="0.72591163229504729"
+  x:fmla="=LOG(K33)-FLOOR(LOG(K33),1)">0.7259116</td>
+  <td class=xl34 style='border-left:none' x:num="6.3199999999999896">6.32</td>
+  <td class=xl30 x:num="0.80071707828238425"
+  x:fmla="=LOG(M33)-FLOOR(LOG(M33),1)">0.8007171</td>
+  <td class=xl34 style='border-left:none' x:num="7.3199999999999896">7.32</td>
+  <td class=xl30 x:num="0.86451108105839125"
+  x:fmla="=LOG(O33)-FLOOR(LOG(O33),1)">0.8645111</td>
+  <td class=xl34 style='border-left:none' x:num="8.3199999999999896">8.32</td>
+  <td class=xl30 x:num="0.92012332629072335"
+  x:fmla="=LOG(Q33)-FLOOR(LOG(Q33),1)">0.9201233</td>
+  <td class=xl34 style='border-left:none' x:num="9.3199999999999896">9.32</td>
+  <td class=xl30 x:num="0.96941591235398084"
+  x:fmla="=LOG(S33)-FLOOR(LOG(S33),1)">0.9694159</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0329999999999964"
+  x:fmla="=A33+0.001">1.033</td>
+  <td class=xl32 x:num="1.4100321519619052E-2" x:fmla="=LOG(A34)">0.01410032</td>
+  <td class=xl34 style='border-left:none' x:num>1.33</td>
+  <td class=xl30 x:num="0.12385164096708581"
+  x:fmla="=LOG(C34)-FLOOR(LOG(C34),1)">0.1238516</td>
+  <td class=xl34 style='border-left:none' x:num="2.3299999999999899">2.33</td>
+  <td class=xl30 x:num="0.36735592102601711"
+  x:fmla="=LOG(E34)-FLOOR(LOG(E34),1)">0.3673559</td>
+  <td class=xl34 style='border-left:none' x:num="3.3299999999999899">3.33</td>
+  <td class=xl30 x:num="0.52244423350631852"
+  x:fmla="=LOG(G34)-FLOOR(LOG(G34),1)">0.5224442</td>
+  <td class=xl34 style='border-left:none' x:num="4.3299999999999903">4.33</td>
+  <td class=xl30 x:num="0.63648789635336445"
+  x:fmla="=LOG(I34)-FLOOR(LOG(I34),1)">0.6364879</td>
+  <td class=xl34 style='border-left:none' x:num="5.3299999999999903">5.33</td>
+  <td class=xl30 x:num="0.72672720902657151"
+  x:fmla="=LOG(K34)-FLOOR(LOG(K34),1)">0.7267272</td>
+  <td class=xl34 style='border-left:none' x:num="6.3299999999999903">6.33</td>
+  <td class=xl30 x:num="0.80140371001735444"
+  x:fmla="=LOG(M34)-FLOOR(LOG(M34),1)">0.8014037</td>
+  <td class=xl34 style='border-left:none' x:num="7.3299999999999903">7.33</td>
+  <td class=xl30 x:num="0.86510397464112732"
+  x:fmla="=LOG(O34)-FLOOR(LOG(O34),1)">0.8651040</td>
+  <td class=xl34 style='border-left:none' x:num="8.3299999999999894">8.33</td>
+  <td class=xl30 x:num="0.92064500140678707"
+  x:fmla="=LOG(Q34)-FLOOR(LOG(Q34),1)">0.9206450</td>
+  <td class=xl34 style='border-left:none' x:num="9.3299999999999894">9.33</td>
+  <td class=xl30 x:num="0.96988164374649943"
+  x:fmla="=LOG(S34)-FLOOR(LOG(S34),1)">0.9698816</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0339999999999963"
+  x:fmla="=A34+0.001">1.034</td>
+  <td class=xl32 x:num="1.4520538757922127E-2" x:fmla="=LOG(A35)">0.01452054</td>
+  <td class=xl34 style='border-left:none' x:num>1.34</td>
+  <td class=xl30 x:num="0.12710479836480765"
+  x:fmla="=LOG(C35)-FLOOR(LOG(C35),1)">0.1271048</td>
+  <td class=xl34 style='border-left:none' x:num="2.3399999999999901">2.34</td>
+  <td class=xl30 x:num="0.36921585741014101"
+  x:fmla="=LOG(E35)-FLOOR(LOG(E35),1)">0.3692159</td>
+  <td class=xl34 style='border-left:none' x:num="3.3399999999999901">3.34</td>
+  <td class=xl30 x:num="0.52374646681156323"
+  x:fmla="=LOG(G35)-FLOOR(LOG(G35),1)">0.5237465</td>
+  <td class=xl34 style='border-left:none' x:num="4.3399999999999901">4.34</td>
+  <td class=xl30 x:num="0.63748972951250971"
+  x:fmla="=LOG(I35)-FLOOR(LOG(I35),1)">0.6374897</td>
+  <td class=xl34 style='border-left:none' x:num="5.3399999999999901">5.34</td>
+  <td class=xl30 x:num="0.72754125702855565"
+  x:fmla="=LOG(K35)-FLOOR(LOG(K35),1)">0.7275413</td>
+  <td class=xl34 style='border-left:none' x:num="6.3399999999999901">6.34</td>
+  <td class=xl30 x:num="0.80208925788173202"
+  x:fmla="=LOG(M35)-FLOOR(LOG(M35),1)">0.8020893</td>
+  <td class=xl34 style='border-left:none' x:num="7.3399999999999901">7.34</td>
+  <td class=xl30 x:num="0.8656960599160699" x:fmla="=LOG(O35)-FLOOR(LOG(O35),1)">0.8656961</td>
+  <td class=xl34 style='border-left:none' x:num="8.3399999999999892">8.34</td>
+  <td class=xl30 x:num="0.92116605063773815"
+  x:fmla="=LOG(Q35)-FLOOR(LOG(Q35),1)">0.9211661</td>
+  <td class=xl34 style='border-left:none' x:num="9.3399999999999892">9.34</td>
+  <td class=xl30 x:num="0.97034687623009286"
+  x:fmla="=LOG(S35)-FLOOR(LOG(S35),1)">0.9703469</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0349999999999999"
+  x:fmla="=A35+0.001">1.035</td>
+  <td class=xl32 x:num="1.494034979293494E-2" x:fmla="=LOG(A36)">0.01494035</td>
+  <td class=xl34 style='border-left:none' x:num>1.35</td>
+  <td class=xl30 x:num="0.13033376849500614"
+  x:fmla="=LOG(C36)-FLOOR(LOG(C36),1)">0.1303338</td>
+  <td class=xl34 style='border-left:none' x:num="2.3499999999999899">2.35</td>
+  <td class=xl30 x:num="0.37106786227173438"
+  x:fmla="=LOG(E36)-FLOOR(LOG(E36),1)">0.3710679</td>
+  <td class=xl34 style='border-left:none' x:num="3.3499999999999899">3.35</td>
+  <td class=xl30 x:num="0.52504480703684397"
+  x:fmla="=LOG(G36)-FLOOR(LOG(G36),1)">0.5250448</td>
+  <td class=xl34 style='border-left:none' x:num="4.3499999999999899">4.35</td>
+  <td class=xl30 x:num="0.63848925695463632"
+  x:fmla="=LOG(I36)-FLOOR(LOG(I36),1)">0.6384893</td>
+  <td class=xl34 style='border-left:none' x:num="5.3499999999999899">5.35</td>
+  <td class=xl30 x:num="0.72835378202122758"
+  x:fmla="=LOG(K36)-FLOOR(LOG(K36),1)">0.7283538</td>
+  <td class=xl34 style='border-left:none' x:num="6.3499999999999899">6.35</td>
+  <td class=xl30 x:num="0.80277372529197499"
+  x:fmla="=LOG(M36)-FLOOR(LOG(M36),1)">0.8027737</td>
+  <td class=xl34 style='border-left:none' x:num="7.3499999999999899">7.35</td>
+  <td class=xl30 x:num="0.86628733908419431"
+  x:fmla="=LOG(O36)-FLOOR(LOG(O36),1)">0.8662873</td>
+  <td class=xl34 style='border-left:none' x:num="8.3499999999999908">8.35</td>
+  <td class=xl30 x:num="0.92168647548360161"
+  x:fmla="=LOG(Q36)-FLOOR(LOG(Q36),1)">0.9216865</td>
+  <td class=xl34 style='border-left:none' x:num="9.3499999999999908">9.35</td>
+  <td class=xl30 x:num="0.97081161087251733"
+  x:fmla="=LOG(S36)-FLOOR(LOG(S36),1)">0.9708116</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.035999999999996"
+  x:fmla="=A36+0.001">1.036</td>
+  <td class=xl32 x:num="1.5359755409212555E-2" x:fmla="=LOG(A37)">0.01535976</td>
+  <td class=xl34 style='border-left:none' x:num>1.36</td>
+  <td class=xl30 x:num="0.13353890837021754"
+  x:fmla="=LOG(C37)-FLOOR(LOG(C37),1)">0.1335389</td>
+  <td class=xl34 style='border-left:none' x:num="2.3599999999999901">2.36</td>
+  <td class=xl30 x:num="0.37291200297010474"
+  x:fmla="=LOG(E37)-FLOOR(LOG(E37),1)">0.3729120</td>
+  <td class=xl34 style='border-left:none' x:num="3.3599999999999901">3.36</td>
+  <td class=xl30 x:num="0.52633927738984276"
+  x:fmla="=LOG(G37)-FLOOR(LOG(G37),1)">0.5263393</td>
+  <td class=xl34 style='border-left:none' x:num="4.3599999999999897">4.36</td>
+  <td class=xl30 x:num="0.63948648926858498"
+  x:fmla="=LOG(I37)-FLOOR(LOG(I37),1)">0.6394865</td>
+  <td class=xl34 style='border-left:none' x:num="5.3599999999999897">5.36</td>
+  <td class=xl30 x:num="0.72916478969276921"
+  x:fmla="=LOG(K37)-FLOOR(LOG(K37),1)">0.7291648</td>
+  <td class=xl34 style='border-left:none' x:num="6.3599999999999897">6.36</td>
+  <td class=xl30 x:num="0.80345711564841316"
+  x:fmla="=LOG(M37)-FLOOR(LOG(M37),1)">0.8034571</td>
+  <td class=xl34 style='border-left:none' x:num="7.3599999999999897">7.36</td>
+  <td class=xl30 x:num="0.86687781433749822"
+  x:fmla="=LOG(O37)-FLOOR(LOG(O37),1)">0.8668778</td>
+  <td class=xl34 style='border-left:none' x:num="8.3599999999999905">8.36</td>
+  <td class=xl30 x:num="0.92220627743901595"
+  x:fmla="=LOG(Q37)-FLOOR(LOG(Q37),1)">0.9222063</td>
+  <td class=xl34 style='border-left:none' x:num="9.3599999999999905">9.36</td>
+  <td class=xl30 x:num="0.9712758487381048" x:fmla="=LOG(S37)-FLOOR(LOG(S37),1)">0.9712758</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0369999999999959"
+  x:fmla="=A37+0.001">1.037</td>
+  <td class=xl32 x:num="1.5778756389039257E-2" x:fmla="=LOG(A38)">0.01577876</td>
+  <td class=xl34 style='border-left:none' x:num>1.37</td>
+  <td class=xl30 x:num="0.13672056715640679"
+  x:fmla="=LOG(C38)-FLOOR(LOG(C38),1)">0.1367206</td>
+  <td class=xl34 style='border-left:none' x:num="2.3699999999999899">2.37</td>
+  <td class=xl30 x:num="0.37474834601010204"
+  x:fmla="=LOG(E38)-FLOOR(LOG(E38),1)">0.3747483</td>
+  <td class=xl34 style='border-left:none' x:num="3.3699999999999899">3.37</td>
+  <td class=xl30 x:num="0.52762990087133732"
+  x:fmla="=LOG(G38)-FLOOR(LOG(G38),1)">0.5276299</td>
+  <td class=xl34 style='border-left:none' x:num="4.3699999999999903">4.37</td>
+  <td class=xl30 x:num="0.64048143697042093"
+  x:fmla="=LOG(I38)-FLOOR(LOG(I38),1)">0.6404814</td>
+  <td class=xl34 style='border-left:none' x:num="5.3699999999999903">5.37</td>
+  <td class=xl30 x:num="0.7299742856995548" x:fmla="=LOG(K38)-FLOOR(LOG(K38),1)">0.7299743</td>
+  <td class=xl34 style='border-left:none' x:num="6.3699999999999903">6.37</td>
+  <td class=xl30 x:num="0.80413943233534979"
+  x:fmla="=LOG(M38)-FLOOR(LOG(M38),1)">0.8041394</td>
+  <td class=xl34 style='border-left:none' x:num="7.3699999999999903">7.37</td>
+  <td class=xl30 x:num="0.86746748785905092"
+  x:fmla="=LOG(O38)-FLOOR(LOG(O38),1)">0.8674675</td>
+  <td class=xl34 style='border-left:none' x:num="8.3699999999999903">8.37</td>
+  <td class=xl30 x:num="0.92272545799325945"
+  x:fmla="=LOG(Q38)-FLOOR(LOG(Q38),1)">0.9227255</td>
+  <td class=xl34 style='border-left:none' x:num="9.3699999999999903">9.37</td>
+  <td class=xl30 x:num="0.97173959088777784"
+  x:fmla="=LOG(S38)-FLOOR(LOG(S38),1)">0.9717396</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0379999999999958"
+  x:fmla="=A38+0.001">1.038</td>
+  <td class=xl32 x:num="1.6197353512437295E-2" x:fmla="=LOG(A39)">0.01619735</td>
+  <td class=xl34 style='border-left:none' x:num>1.38</td>
+  <td class=xl30 x:num="0.13987908640123647"
+  x:fmla="=LOG(C39)-FLOOR(LOG(C39),1)">0.1398791</td>
+  <td class=xl34 style='border-left:none' x:num="2.3799999999999901">2.38</td>
+  <td class=xl30 x:num="0.37657695705651018"
+  x:fmla="=LOG(E39)-FLOOR(LOG(E39),1)">0.3765770</td>
+  <td class=xl34 style='border-left:none' x:num="3.3799999999999901">3.38</td>
+  <td class=xl30 x:num="0.52891670027765347"
+  x:fmla="=LOG(G39)-FLOOR(LOG(G39),1)">0.5289167</td>
+  <td class=xl34 style='border-left:none' x:num="4.3799999999999901">4.38</td>
+  <td class=xl30 x:num="0.64147411050409853"
+  x:fmla="=LOG(I39)-FLOOR(LOG(I39),1)">0.6414741</td>
+  <td class=xl34 style='border-left:none' x:num="5.3799999999999901">5.38</td>
+  <td class=xl30 x:num="0.73078227566638843"
+  x:fmla="=LOG(K39)-FLOOR(LOG(K39),1)">0.7307823</td>
+  <td class=xl34 style='border-left:none' x:num="6.3799999999999901">6.38</td>
+  <td class=xl30 x:num="0.8048206787211617" x:fmla="=LOG(M39)-FLOOR(LOG(M39),1)">0.8048207</td>
+  <td class=xl34 style='border-left:none' x:num="7.3799999999999901">7.38</td>
+  <td class=xl30 x:num="0.86805636182304102"
+  x:fmla="=LOG(O39)-FLOOR(LOG(O39),1)">0.8680564</td>
+  <td class=xl34 style='border-left:none' x:num="8.3799999999999901">8.38</td>
+  <td class=xl30 x:num="0.92324401863027594"
+  x:fmla="=LOG(Q39)-FLOOR(LOG(Q39),1)">0.9232440</td>
+  <td class=xl34 style='border-left:none' x:num="9.3799999999999901">9.38</td>
+  <td class=xl30 x:num="0.97220283837906396"
+  x:fmla="=LOG(S39)-FLOOR(LOG(S39),1)">0.9722028</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0389999999999957"
+  x:fmla="=A39+0.001">1.039</td>
+  <td class=xl32 x:num="1.6615547557175616E-2" x:fmla="=LOG(A40)">0.01661555</td>
+  <td class=xl34 style='border-left:none' x:num>1.39</td>
+  <td class=xl30 x:num="0.14301480025409505"
+  x:fmla="=LOG(C40)-FLOOR(LOG(C40),1)">0.1430148</td>
+  <td class=xl34 style='border-left:none' x:num="2.3899999999999899">2.39</td>
+  <td class=xl30 x:num="0.37839790094813586"
+  x:fmla="=LOG(E40)-FLOOR(LOG(E40),1)">0.3783979</td>
+  <td class=xl34 style='border-left:none' x:num="3.3899999999999899">3.39</td>
+  <td class=xl30 x:num="0.53019969820308088"
+  x:fmla="=LOG(G40)-FLOOR(LOG(G40),1)">0.5301997</td>
+  <td class=xl34 style='border-left:none' x:num="4.3899999999999899">4.39</td>
+  <td class=xl30 x:num="0.64246452024212042"
+  x:fmla="=LOG(I40)-FLOOR(LOG(I40),1)">0.6424645</td>
+  <td class=xl34 style='border-left:none' x:num="5.3899999999999899">5.39</td>
+  <td class=xl30 x:num="0.73158876518673788"
+  x:fmla="=LOG(K40)-FLOOR(LOG(K40),1)">0.7315888</td>
+  <td class=xl34 style='border-left:none' x:num="6.3899999999999899">6.39</td>
+  <td class=xl30 x:num="0.80550085815839945"
+  x:fmla="=LOG(M40)-FLOOR(LOG(M40),1)">0.8055009</td>
+  <td class=xl34 style='border-left:none' x:num="7.3899999999999899">7.39</td>
+  <td class=xl30 x:num="0.86864443839482519"
+  x:fmla="=LOG(O40)-FLOOR(LOG(O40),1)">0.8686444</td>
+  <td class=xl34 style='border-left:none' x:num="8.3899999999999899">8.39</td>
+  <td class=xl30 x:num="0.92376196082869977"
+  x:fmla="=LOG(Q40)-FLOOR(LOG(Q40),1)">0.9237620</td>
+  <td class=xl34 style='border-left:none' x:num="9.3899999999999899">9.39</td>
+  <td class=xl30 x:num="0.97266559226611049"
+  x:fmla="=LOG(S40)-FLOOR(LOG(S40),1)">0.9726656</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num x:fmla="=A40+0.001">1.040</td>
+  <td class=xl32 x:num="1.7033339298778514E-2" x:fmla="=LOG(A41)">0.01703334</td>
+  <td class=xl34 style='border-left:none' x:num>1.40</td>
+  <td class=xl30 x:num="0.14612803567823801"
+  x:fmla="=LOG(C41)-FLOOR(LOG(C41),1)">0.1461280</td>
+  <td class=xl34 style='border-left:none' x:num="2.3999999999999901">2.40</td>
+  <td class=xl30 x:num="0.38021124171160425"
+  x:fmla="=LOG(E41)-FLOOR(LOG(E41),1)">0.3802112</td>
+  <td class=xl34 style='border-left:none' x:num="3.3999999999999901">3.40</td>
+  <td class=xl30 x:num="0.53147891704225392"
+  x:fmla="=LOG(G41)-FLOOR(LOG(G41),1)">0.5314789</td>
+  <td class=xl34 style='border-left:none' x:num="4.3999999999999897">4.40</td>
+  <td class=xl30 x:num="0.64345267648618643"
+  x:fmla="=LOG(I41)-FLOOR(LOG(I41),1)">0.6434527</td>
+  <td class=xl34 style='border-left:none' x:num="5.3999999999999897">5.40</td>
+  <td class=xl30 x:num="0.73239375982296773"
+  x:fmla="=LOG(K41)-FLOOR(LOG(K41),1)">0.7323938</td>
+  <td class=xl34 style='border-left:none' x:num="6.3999999999999897">6.40</td>
+  <td class=xl30 x:num="0.80617997398388652"
+  x:fmla="=LOG(M41)-FLOOR(LOG(M41),1)">0.8061800</td>
+  <td class=xl34 style='border-left:none' x:num="7.3999999999999897">7.40</td>
+  <td class=xl30 x:num="0.86923171973097557"
+  x:fmla="=LOG(O41)-FLOOR(LOG(O41),1)">0.8692317</td>
+  <td class=xl34 style='border-left:none' x:num="8.3999999999999897">8.40</td>
+  <td class=xl30 x:num="0.92427928606188114"
+  x:fmla="=LOG(Q41)-FLOOR(LOG(Q41),1)">0.9242793</td>
+  <td class=xl34 style='border-left:none' x:num="9.3999999999999897">9.40</td>
+  <td class=xl30 x:num="0.97312785359969822"
+  x:fmla="=LOG(S41)-FLOOR(LOG(S41),1)">0.9731279</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0409999999999955"
+  x:fmla="=A41+0.001">1.041</td>
+  <td class=xl32 x:num="1.7450729510534273E-2" x:fmla="=LOG(A42)">0.01745073</td>
+  <td class=xl34 style='border-left:none' x:num>1.41</td>
+  <td class=xl30 x:num="0.14921911265537988"
+  x:fmla="=LOG(C42)-FLOOR(LOG(C42),1)">0.1492191</td>
+  <td class=xl34 style='border-left:none' x:num="2.4099999999999899">2.41</td>
+  <td class=xl30 x:num="0.38201704257486657"
+  x:fmla="=LOG(E42)-FLOOR(LOG(E42),1)">0.3820170</td>
+  <td class=xl34 style='border-left:none' x:num="3.4099999999999899">3.41</td>
+  <td class=xl30 x:num="0.53275437899249645"
+  x:fmla="=LOG(G42)-FLOOR(LOG(G42),1)">0.5327544</td>
+  <td class=xl34 style='border-left:none' x:num="4.4099999999999904">4.41</td>
+  <td class=xl30 x:num="0.64443858946783761"
+  x:fmla="=LOG(I42)-FLOOR(LOG(I42),1)">0.6444386</td>
+  <td class=xl34 style='border-left:none' x:num="5.4099999999999904">5.41</td>
+  <td class=xl30 x:num="0.73319726510656869"
+  x:fmla="=LOG(K42)-FLOOR(LOG(K42),1)">0.7331973</td>
+  <td class=xl34 style='border-left:none' x:num="6.4099999999999904">6.41</td>
+  <td class=xl30 x:num="0.8068580295188168" x:fmla="=LOG(M42)-FLOOR(LOG(M42),1)">0.8068580</td>
+  <td class=xl34 style='border-left:none' x:num="7.4099999999999904">7.41</td>
+  <td class=xl30 x:num="0.86981820797932763"
+  x:fmla="=LOG(O42)-FLOOR(LOG(O42),1)">0.8698182</td>
+  <td class=xl34 style='border-left:none' x:num="8.4099999999999895">8.41</td>
+  <td class=xl30 x:num="0.92479599579791161"
+  x:fmla="=LOG(Q42)-FLOOR(LOG(Q42),1)">0.9247960</td>
+  <td class=xl34 style='border-left:none' x:num="9.4099999999999895">9.41</td>
+  <td class=xl30 x:num="0.97358962342725641"
+  x:fmla="=LOG(S42)-FLOOR(LOG(S42),1)">0.9735896</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0419999999999954"
+  x:fmla="=A42+0.001">1.042</td>
+  <td class=xl32 x:num="1.7867718963503743E-2" x:fmla="=LOG(A43)">0.01786772</td>
+  <td class=xl34 style='border-left:none' x:num>1.42</td>
+  <td class=xl30 x:num="0.15228834438305647"
+  x:fmla="=LOG(C43)-FLOOR(LOG(C43),1)">0.1522883</td>
+  <td class=xl34 style='border-left:none' x:num="2.4199999999999902">2.42</td>
+  <td class=xl30 x:num="0.38381536598042953"
+  x:fmla="=LOG(E43)-FLOOR(LOG(E43),1)">0.3838154</td>
+  <td class=xl34 style='border-left:none' x:num="3.4199999999999902">3.42</td>
+  <td class=xl30 x:num="0.53402610605613376"
+  x:fmla="=LOG(G43)-FLOOR(LOG(G43),1)">0.5340261</td>
+  <td class=xl34 style='border-left:none' x:num="4.4199999999999902">4.42</td>
+  <td class=xl30 x:num="0.64542226934909097"
+  x:fmla="=LOG(I43)-FLOOR(LOG(I43),1)">0.6454223</td>
+  <td class=xl34 style='border-left:none' x:num="5.4199999999999902">5.42</td>
+  <td class=xl30 x:num="0.73399928653838609"
+  x:fmla="=LOG(K43)-FLOOR(LOG(K43),1)">0.7339993</td>
+  <td class=xl34 style='border-left:none' x:num="6.4199999999999902">6.42</td>
+  <td class=xl30 x:num="0.80753502806885258"
+  x:fmla="=LOG(M43)-FLOOR(LOG(M43),1)">0.8075350</td>
+  <td class=xl34 style='border-left:none' x:num="7.4199999999999902">7.42</td>
+  <td class=xl30 x:num="0.87040390527902645"
+  x:fmla="=LOG(O43)-FLOOR(LOG(O43),1)">0.8704039</td>
+  <td class=xl34 style='border-left:none' x:num="8.4199999999999893">8.42</td>
+  <td class=xl30 x:num="0.92531209149964899"
+  x:fmla="=LOG(Q43)-FLOOR(LOG(Q43),1)">0.9253121</td>
+  <td class=xl34 style='border-left:none' x:num="9.4199999999999893">9.42</td>
+  <td class=xl30 x:num="0.97405090279287687"
+  x:fmla="=LOG(S43)-FLOOR(LOG(S43),1)">0.9740509</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0429999999999953"
+  x:fmla="=A43+0.001">1.043</td>
+  <td class=xl32 x:num="1.8284308426528898E-2" x:fmla="=LOG(A44)">0.01828431</td>
+  <td class=xl34 style='border-left:none' x:num>1.43</td>
+  <td class=xl30 x:num="0.1553360374650618" x:fmla="=LOG(C44)-FLOOR(LOG(C44),1)">0.1553360</td>
+  <td class=xl34 style='border-left:none' x:num="2.4299999999999899">2.43</td>
+  <td class=xl30 x:num="0.3856062735983104" x:fmla="=LOG(E44)-FLOOR(LOG(E44),1)">0.3856063</td>
+  <td class=xl34 style='border-left:none' x:num="3.4299999999999899">3.43</td>
+  <td class=xl30 x:num="0.53529412004276922"
+  x:fmla="=LOG(G44)-FLOOR(LOG(G44),1)">0.5352941</td>
+  <td class=xl34 style='border-left:none' x:num="4.4299999999999899">4.43</td>
+  <td class=xl30 x:num="0.64640372622306852"
+  x:fmla="=LOG(I44)-FLOOR(LOG(I44),1)">0.6464037</td>
+  <td class=xl34 style='border-left:none' x:num="5.4299999999999899">5.43</td>
+  <td class=xl30 x:num="0.73479982958884615"
+  x:fmla="=LOG(K44)-FLOOR(LOG(K44),1)">0.7347998</td>
+  <td class=xl34 style='border-left:none' x:num="6.4299999999999899">6.43</td>
+  <td class=xl30 x:num="0.80821097292422139"
+  x:fmla="=LOG(M44)-FLOOR(LOG(M44),1)">0.8082110</td>
+  <td class=xl34 style='border-left:none' x:num="7.4299999999999899">7.43</td>
+  <td class=xl30 x:num="0.87098881376057469"
+  x:fmla="=LOG(O44)-FLOOR(LOG(O44),1)">0.8709888</td>
+  <td class=xl34 style='border-left:none' x:num="8.4299999999999908">8.43</td>
+  <td class=xl30 x:num="0.92582757462474186"
+  x:fmla="=LOG(Q44)-FLOOR(LOG(Q44),1)">0.9258276</td>
+  <td class=xl34 style='border-left:none' x:num="9.4299999999999908">9.43</td>
+  <td class=xl30 x:num="0.97451169273732796"
+  x:fmla="=LOG(S44)-FLOOR(LOG(S44),1)">0.9745117</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0439999999999952"
+  x:fmla="=A44+0.001">1.044</td>
+  <td class=xl32 x:num="1.8700498666241336E-2" x:fmla="=LOG(A45)">0.01870050</td>
+  <td class=xl34 style='border-left:none' x:num>1.44</td>
+  <td class=xl30 x:num="0.15836249209524964"
+  x:fmla="=LOG(C45)-FLOOR(LOG(C45),1)">0.1583625</td>
+  <td class=xl34 style='border-left:none' x:num="2.4399999999999902">2.44</td>
+  <td class=xl30 x:num="0.38738982633872765"
+  x:fmla="=LOG(E45)-FLOOR(LOG(E45),1)">0.3873898</td>
+  <td class=xl34 style='border-left:none' x:num="3.4399999999999902">3.44</td>
+  <td class=xl30 x:num="0.53655844257152885"
+  x:fmla="=LOG(G45)-FLOOR(LOG(G45),1)">0.5365584</td>
+  <td class=xl34 style='border-left:none' x:num="4.4399999999999897">4.44</td>
+  <td class=xl30 x:num="0.64738297011461887"
+  x:fmla="=LOG(I45)-FLOOR(LOG(I45),1)">0.6473830</td>
+  <td class=xl34 style='border-left:none' x:num="5.4399999999999897">5.44</td>
+  <td class=xl30 x:num="0.73559889969817904"
+  x:fmla="=LOG(K45)-FLOOR(LOG(K45),1)">0.7355989</td>
+  <td class=xl34 style='border-left:none' x:num="6.4399999999999897">6.44</td>
+  <td class=xl30 x:num="0.80888586735981138"
+  x:fmla="=LOG(M45)-FLOOR(LOG(M45),1)">0.8088859</td>
+  <td class=xl34 style='border-left:none' x:num="7.4399999999999897">7.44</td>
+  <td class=xl30 x:num="0.87157293554587811"
+  x:fmla="=LOG(O45)-FLOOR(LOG(O45),1)">0.8715729</td>
+  <td class=xl34 style='border-left:none' x:num="8.4399999999999906">8.44</td>
+  <td class=xl30 x:num="0.92634244662565457"
+  x:fmla="=LOG(Q45)-FLOOR(LOG(Q45),1)">0.9263424</td>
+  <td class=xl34 style='border-left:none' x:num="9.4399999999999906">9.44</td>
+  <td class=xl30 x:num="0.97497199429806858"
+  x:fmla="=LOG(S45)-FLOOR(LOG(S45),1)">0.9749720</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0449999999999999"
+  x:fmla="=A45+0.001">1.045</td>
+  <td class=xl32 x:num="1.9116290447070746E-2" x:fmla="=LOG(A46)">0.01911629</td>
+  <td class=xl34 style='border-left:none' x:num>1.45</td>
+  <td class=xl30 x:num="0.16136800223497488"
+  x:fmla="=LOG(C46)-FLOOR(LOG(C46),1)">0.1613680</td>
+  <td class=xl34 style='border-left:none' x:num="2.44999999999999">2.45</td>
+  <td class=xl30 x:num="0.38916608436453071"
+  x:fmla="=LOG(E46)-FLOOR(LOG(E46),1)">0.3891661</td>
+  <td class=xl34 style='border-left:none' x:num="3.44999999999999">3.45</td>
+  <td class=xl30 x:num="0.53781909507327286"
+  x:fmla="=LOG(G46)-FLOOR(LOG(G46),1)">0.5378191</td>
+  <td class=xl34 style='border-left:none' x:num="4.4499999999999904">4.45</td>
+  <td class=xl30 x:num="0.64836001098093066"
+  x:fmla="=LOG(I46)-FLOOR(LOG(I46),1)">0.6483600</td>
+  <td class=xl34 style='border-left:none' x:num="5.4499999999999904">5.45</td>
+  <td class=xl30 x:num="0.73639650227664166"
+  x:fmla="=LOG(K46)-FLOOR(LOG(K46),1)">0.7363965</td>
+  <td class=xl34 style='border-left:none' x:num="6.4499999999999904">6.45</td>
+  <td class=xl30 x:num="0.8095597146352671" x:fmla="=LOG(M46)-FLOOR(LOG(M46),1)">0.8095597</td>
+  <td class=xl34 style='border-left:none' x:num="7.4499999999999904">7.45</td>
+  <td class=xl30 x:num="0.87215627274829233"
+  x:fmla="=LOG(O46)-FLOOR(LOG(O46),1)">0.8721563</td>
+  <td class=xl34 style='border-left:none' x:num="8.4499999999999904">8.45</td>
+  <td class=xl30 x:num="0.92685670894969185"
+  x:fmla="=LOG(Q46)-FLOOR(LOG(Q46),1)">0.9268567</td>
+  <td class=xl34 style='border-left:none' x:num="9.4499999999999904">9.45</td>
+  <td class=xl30 x:num="0.97543180850926248"
+  x:fmla="=LOG(S46)-FLOOR(LOG(S46),1)">0.9754318</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0459999999999949"
+  x:fmla="=A46+0.001">1.046</td>
+  <td class=xl32 x:num="1.953168453125333E-2" x:fmla="=LOG(A47)">0.01953168</td>
+  <td class=xl34 style='border-left:none' x:num>1.46</td>
+  <td class=xl30 x:num="0.16435285578443709"
+  x:fmla="=LOG(C47)-FLOOR(LOG(C47),1)">0.1643529</td>
+  <td class=xl34 style='border-left:none' x:num="2.4599999999999902">2.46</td>
+  <td class=xl30 x:num="0.39093510710337742"
+  x:fmla="=LOG(E47)-FLOOR(LOG(E47),1)">0.3909351</td>
+  <td class=xl34 style='border-left:none' x:num="3.4599999999999902">3.46</td>
+  <td class=xl30 x:num="0.5390760987927754" x:fmla="=LOG(G47)-FLOOR(LOG(G47),1)">0.5390761</td>
+  <td class=xl34 style='border-left:none' x:num="4.4599999999999902">4.46</td>
+  <td class=xl30 x:num="0.64933485871214092"
+  x:fmla="=LOG(I47)-FLOOR(LOG(I47),1)">0.6493349</td>
+  <td class=xl34 style='border-left:none' x:num="5.4599999999999902">5.46</td>
+  <td class=xl30 x:num="0.7371926427047365" x:fmla="=LOG(K47)-FLOOR(LOG(K47),1)">0.7371926</td>
+  <td class=xl34 style='border-left:none' x:num="6.4599999999999902">6.46</td>
+  <td class=xl30 x:num="0.81023251799508345"
+  x:fmla="=LOG(M47)-FLOOR(LOG(M47),1)">0.8102325</td>
+  <td class=xl34 style='border-left:none' x:num="7.4599999999999902">7.46</td>
+  <td class=xl30 x:num="0.87273882747266818"
+  x:fmla="=LOG(O47)-FLOOR(LOG(O47),1)">0.8727388</td>
+  <td class=xl34 style='border-left:none' x:num="8.4599999999999902">8.46</td>
+  <td class=xl30 x:num="0.92737036303902298"
+  x:fmla="=LOG(Q47)-FLOOR(LOG(Q47),1)">0.9273704</td>
+  <td class=xl34 style='border-left:none' x:num="9.4599999999999902">9.46</td>
+  <td class=xl30 x:num="0.97589113640179226"
+  x:fmla="=LOG(S47)-FLOOR(LOG(S47),1)">0.9758911</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0469999999999948"
+  x:fmla="=A47+0.001">1.047</td>
+  <td class=xl32 x:num="1.9946681678840186E-2" x:fmla="=LOG(A48)">0.01994668</td>
+  <td class=xl34 style='border-left:none' x:num>1.47</td>
+  <td class=xl30 x:num="0.16731733474817609"
+  x:fmla="=LOG(C48)-FLOOR(LOG(C48),1)">0.1673173</td>
+  <td class=xl34 style='border-left:none' x:num="2.46999999999999">2.47</td>
+  <td class=xl30 x:num="0.39269695325966397"
+  x:fmla="=LOG(E48)-FLOOR(LOG(E48),1)">0.3926970</td>
+  <td class=xl34 style='border-left:none' x:num="3.46999999999999">3.47</td>
+  <td class=xl30 x:num="0.54032947479087245"
+  x:fmla="=LOG(G48)-FLOOR(LOG(G48),1)">0.5403295</td>
+  <td class=xl34 style='border-left:none' x:num="4.46999999999999">4.47</td>
+  <td class=xl30 x:num="0.65030752313193552"
+  x:fmla="=LOG(I48)-FLOOR(LOG(I48),1)">0.6503075</td>
+  <td class=xl34 style='border-left:none' x:num="5.46999999999999">5.47</td>
+  <td class=xl30 x:num="0.73798732633343" x:fmla="=LOG(K48)-FLOOR(LOG(K48),1)">0.7379873</td>
+  <td class=xl34 style='border-left:none' x:num="6.46999999999999">6.47</td>
+  <td class=xl30 x:num="0.81090428066869968"
+  x:fmla="=LOG(M48)-FLOOR(LOG(M48),1)">0.8109043</td>
+  <td class=xl34 style='border-left:none' x:num="7.46999999999999">7.47</td>
+  <td class=xl30 x:num="0.87332060181539817"
+  x:fmla="=LOG(O48)-FLOOR(LOG(O48),1)">0.8733206</td>
+  <td class=xl34 style='border-left:none' x:num="8.46999999999999">8.47</td>
+  <td class=xl30 x:num="0.92788341033070643"
+  x:fmla="=LOG(Q48)-FLOOR(LOG(Q48),1)">0.9278834</td>
+  <td class=xl34 style='border-left:none' x:num="9.46999999999999">9.47</td>
+  <td class=xl30 x:num="0.97634997900327292"
+  x:fmla="=LOG(S48)-FLOOR(LOG(S48),1)">0.9763500</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0479999999999947"
+  x:fmla="=A48+0.001">1.048</td>
+  <td class=xl32 x:num="2.0361282647705654E-2" x:fmla="=LOG(A49)">0.02036128</td>
+  <td class=xl34 style='border-left:none' x:num>1.48</td>
+  <td class=xl30 x:num="0.17026171539495738"
+  x:fmla="=LOG(C49)-FLOOR(LOG(C49),1)">0.1702617</td>
+  <td class=xl34 style='border-left:none' x:num="2.4799999999999902">2.48</td>
+  <td class=xl30 x:num="0.39445168082621457"
+  x:fmla="=LOG(E49)-FLOOR(LOG(E49),1)">0.3944517</td>
+  <td class=xl34 style='border-left:none' x:num="3.4799999999999902">3.48</td>
+  <td class=xl30 x:num="0.54157924394657975"
+  x:fmla="=LOG(G49)-FLOOR(LOG(G49),1)">0.5415792</td>
+  <td class=xl34 style='border-left:none' x:num="4.4799999999999898">4.48</td>
+  <td class=xl30 x:num="0.651278013998143" x:fmla="=LOG(I49)-FLOOR(LOG(I49),1)">0.6512780</td>
+  <td class=xl34 style='border-left:none' x:num="5.4799999999999898">5.48</td>
+  <td class=xl30 x:num="0.7387805584843683" x:fmla="=LOG(K49)-FLOOR(LOG(K49),1)">0.7387806</td>
+  <td class=xl34 style='border-left:none' x:num="6.4799999999999898">6.48</td>
+  <td class=xl30 x:num="0.81157500587059261"
+  x:fmla="=LOG(M49)-FLOOR(LOG(M49),1)">0.8115750</td>
+  <td class=xl34 style='border-left:none' x:num="7.4799999999999898">7.48</td>
+  <td class=xl30 x:num="0.87390159786446076"
+  x:fmla="=LOG(O49)-FLOOR(LOG(O49),1)">0.8739016</td>
+  <td class=xl34 style='border-left:none' x:num="8.4799999999999898">8.48</td>
+  <td class=xl30 x:num="0.92839585225671328"
+  x:fmla="=LOG(Q49)-FLOOR(LOG(Q49),1)">0.9283959</td>
+  <td class=xl34 style='border-left:none' x:num="9.4799999999999898">9.48</td>
+  <td class=xl30 x:num="0.97680833733806582"
+  x:fmla="=LOG(S49)-FLOOR(LOG(S49),1)">0.9768083</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0489999999999946"
+  x:fmla="=A49+0.001">1.049</td>
+  <td class=xl32 x:num="2.0775488193555625E-2" x:fmla="=LOG(A50)">0.02077549</td>
+  <td class=xl34 style='border-left:none' x:num>1.49</td>
+  <td class=xl30 x:num="0.17318626841227402"
+  x:fmla="=LOG(C50)-FLOOR(LOG(C50),1)">0.1731863</td>
+  <td class=xl34 style='border-left:none' x:num="2.48999999999999">2.49</td>
+  <td class=xl30 x:num="0.39619934709573462"
+  x:fmla="=LOG(E50)-FLOOR(LOG(E50),1)">0.3961993</td>
+  <td class=xl34 style='border-left:none' x:num="3.48999999999999">3.49</td>
+  <td class=xl30 x:num="0.54282542695917868"
+  x:fmla="=LOG(G50)-FLOOR(LOG(G50),1)">0.5428254</td>
+  <td class=xl34 style='border-left:none' x:num="4.4899999999999904">4.49</td>
+  <td class=xl30 x:num="0.65224634100332224"
+  x:fmla="=LOG(I50)-FLOOR(LOG(I50),1)">0.6522463</td>
+  <td class=xl34 style='border-left:none' x:num="5.4899999999999904">5.49</td>
+  <td class=xl30 x:num="0.73957234445009112"
+  x:fmla="=LOG(K50)-FLOOR(LOG(K50),1)">0.7395723</td>
+  <td class=xl34 style='border-left:none' x:num="6.4899999999999904">6.49</td>
+  <td class=xl30 x:num="0.81224469680036859"
+  x:fmla="=LOG(M50)-FLOOR(LOG(M50),1)">0.8122447</td>
+  <td class=xl34 style='border-left:none' x:num="7.4899999999999904">7.49</td>
+  <td class=xl30 x:num="0.87448181769946587"
+  x:fmla="=LOG(O50)-FLOOR(LOG(O50),1)">0.8744818</td>
+  <td class=xl34 style='border-left:none' x:num="8.4899999999999896">8.49</td>
+  <td class=xl30 x:num="0.92890769024395214"
+  x:fmla="=LOG(Q50)-FLOOR(LOG(Q50),1)">0.9289077</td>
+  <td class=xl34 style='border-left:none' x:num="9.4899999999999896">9.49</td>
+  <td class=xl30 x:num="0.97726621242729217"
+  x:fmla="=LOG(S50)-FLOOR(LOG(S50),1)">0.9772662</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0499999999999945"
+  x:fmla="=A50+0.001">1.050</td>
+  <td class=xl32 x:num="2.1189299069935795E-2" x:fmla="=LOG(A51)">0.02118930</td>
+  <td class=xl34 style='border-left:none' x:num>1.50</td>
+  <td class=xl30 x:num="0.17609125905568124"
+  x:fmla="=LOG(C51)-FLOOR(LOG(C51),1)">0.1760913</td>
+  <td class=xl34 style='border-left:none' x:num="2.4999999999999898">2.50</td>
+  <td class=xl30 x:num="0.39794000867203583"
+  x:fmla="=LOG(E51)-FLOOR(LOG(E51),1)">0.3979400</td>
+  <td class=xl34 style='border-left:none' x:num="3.4999999999999898">3.50</td>
+  <td class=xl30 x:num="0.54406804435027434"
+  x:fmla="=LOG(G51)-FLOOR(LOG(G51),1)">0.5440680</td>
+  <td class=xl34 style='border-left:none' x:num="4.4999999999999902">4.50</td>
+  <td class=xl30 x:num="0.65321251377534273"
+  x:fmla="=LOG(I51)-FLOOR(LOG(I51),1)">0.6532125</td>
+  <td class=xl34 style='border-left:none' x:num="5.4999999999999902">5.50</td>
+  <td class=xl30 x:num="0.74036268949424311"
+  x:fmla="=LOG(K51)-FLOOR(LOG(K51),1)">0.7403627</td>
+  <td class=xl34 style='border-left:none' x:num="6.4999999999999902">6.50</td>
+  <td class=xl30 x:num="0.81291335664285491"
+  x:fmla="=LOG(M51)-FLOOR(LOG(M51),1)">0.8129134</td>
+  <td class=xl34 style='border-left:none' x:num="7.4999999999999902">7.50</td>
+  <td class=xl30 x:num="0.87506126339169943"
+  x:fmla="=LOG(O51)-FLOOR(LOG(O51),1)">0.8750613</td>
+  <td class=xl34 style='border-left:none' x:num="8.4999999999999893">8.50</td>
+  <td class=xl30 x:num="0.92941892571429219"
+  x:fmla="=LOG(Q51)-FLOOR(LOG(Q51),1)">0.9294189</td>
+  <td class=xl34 style='border-left:none' x:num="9.4999999999999893">9.50</td>
+  <td class=xl30 x:num="0.97772360528884728"
+  x:fmla="=LOG(S51)-FLOOR(LOG(S51),1)">0.9777236</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0509999999999944"
+  x:fmla="=A51+0.001">1.051</td>
+  <td class=xl32 x:num="2.1602716028239898E-2" x:fmla="=LOG(A52)">0.02160272</td>
+  <td class=xl34 style='border-left:none' x:num>1.51</td>
+  <td class=xl30 x:num="0.17897694729316943"
+  x:fmla="=LOG(C52)-FLOOR(LOG(C52),1)">0.1789769</td>
+  <td class=xl34 style='border-left:none' x:num="2.50999999999999">2.51</td>
+  <td class=xl30 x:num="0.39967372148103641"
+  x:fmla="=LOG(E52)-FLOOR(LOG(E52),1)">0.3996737</td>
+  <td class=xl34 style='border-left:none' x:num="3.50999999999999">3.51</td>
+  <td class=xl30 x:num="0.54530711646582286"
+  x:fmla="=LOG(G52)-FLOOR(LOG(G52),1)">0.5453071</td>
+  <td class=xl34 style='border-left:none' x:num="4.50999999999999">4.51</td>
+  <td class=xl30 x:num="0.65417654187795959"
+  x:fmla="=LOG(I52)-FLOOR(LOG(I52),1)">0.6541765</td>
+  <td class=xl34 style='border-left:none' x:num="5.50999999999999">5.51</td>
+  <td class=xl30 x:num="0.74115159885178428"
+  x:fmla="=LOG(K52)-FLOOR(LOG(K52),1)">0.7411516</td>
+  <td class=xl34 style='border-left:none' x:num="6.50999999999999">6.51</td>
+  <td class=xl30 x:num="0.81358098856819128"
+  x:fmla="=LOG(M52)-FLOOR(LOG(M52),1)">0.8135810</td>
+  <td class=xl34 style='border-left:none' x:num="7.50999999999999">7.51</td>
+  <td class=xl30 x:num="0.87563993700416787"
+  x:fmla="=LOG(O52)-FLOOR(LOG(O52),1)">0.8756399</td>
+  <td class=xl34 style='border-left:none' x:num="8.5099999999999891">8.51</td>
+  <td class=xl30 x:num="0.92992956008458727"
+  x:fmla="=LOG(Q52)-FLOOR(LOG(Q52),1)">0.9299296</td>
+  <td class=xl34 style='border-left:none' x:num="9.5099999999999891">9.51</td>
+  <td class=xl30 x:num="0.97818051693741348"
+  x:fmla="=LOG(S52)-FLOOR(LOG(S52),1)">0.9781805</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0519999999999943"
+  x:fmla="=A52+0.001">1.052</td>
+  <td class=xl32 x:num="2.2015739817717896E-2" x:fmla="=LOG(A53)">0.02201574</td>
+  <td class=xl34 style='border-left:none' x:num>1.52</td>
+  <td class=xl30 x:num="0.18184358794477254"
+  x:fmla="=LOG(C53)-FLOOR(LOG(C53),1)">0.1818436</td>
+  <td class=xl34 style='border-left:none' x:num="2.5199999999999898">2.52</td>
+  <td class=xl30 x:num="0.40140054078154236"
+  x:fmla="=LOG(E53)-FLOOR(LOG(E53),1)">0.4014005</td>
+  <td class=xl34 style='border-left:none' x:num="3.5199999999999898">3.52</td>
+  <td class=xl30 x:num="0.54654266347812974"
+  x:fmla="=LOG(G53)-FLOOR(LOG(G53),1)">0.5465427</td>
+  <td class=xl34 style='border-left:none' x:num="4.5199999999999898">4.52</td>
+  <td class=xl30 x:num="0.65513843481138112"
+  x:fmla="=LOG(I53)-FLOOR(LOG(I53),1)">0.6551384</td>
+  <td class=xl34 style='border-left:none' x:num="5.5199999999999898">5.52</td>
+  <td class=xl30 x:num="0.74193907772919809"
+  x:fmla="=LOG(K53)-FLOOR(LOG(K53),1)">0.7419391</td>
+  <td class=xl34 style='border-left:none' x:num="6.5199999999999898">6.52</td>
+  <td class=xl30 x:num="0.81424759573191952"
+  x:fmla="=LOG(M53)-FLOOR(LOG(M53),1)">0.8142476</td>
+  <td class=xl34 style='border-left:none' x:num="7.5199999999999898">7.52</td>
+  <td class=xl30 x:num="0.87621784059164165"
+  x:fmla="=LOG(O53)-FLOOR(LOG(O53),1)">0.8762178</td>
+  <td class=xl34 style='border-left:none' x:num="8.5199999999999907">8.52</td>
+  <td class=xl30 x:num="0.93043959476669968"
+  x:fmla="=LOG(Q53)-FLOOR(LOG(Q53),1)">0.9304396</td>
+  <td class=xl34 style='border-left:none' x:num="9.5199999999999907">9.52</td>
+  <td class=xl30 x:num="0.9786369483844739" x:fmla="=LOG(S53)-FLOOR(LOG(S53),1)">0.9786369</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0529999999999942"
+  x:fmla="=A53+0.001">1.053</td>
+  <td class=xl32 x:num="2.242837118548411E-2" x:fmla="=LOG(A54)">0.02242837</td>
+  <td class=xl34 style='border-left:none' x:num>1.53</td>
+  <td class=xl30 x:num="0.18469143081759881"
+  x:fmla="=LOG(C54)-FLOOR(LOG(C54),1)">0.1846914</td>
+  <td class=xl34 style='border-left:none' x:num="2.52999999999999">2.53</td>
+  <td class=xl30 x:num="0.4031205211758162" x:fmla="=LOG(E54)-FLOOR(LOG(E54),1)">0.4031205</td>
+  <td class=xl34 style='border-left:none' x:num="3.52999999999999">3.53</td>
+  <td class=xl30 x:num="0.54777470538782136"
+  x:fmla="=LOG(G54)-FLOOR(LOG(G54),1)">0.5477747</td>
+  <td class=xl34 style='border-left:none' x:num="4.5299999999999896">4.53</td>
+  <td class=xl30 x:num="0.65609820201283087"
+  x:fmla="=LOG(I54)-FLOOR(LOG(I54),1)">0.6560982</td>
+  <td class=xl34 style='border-left:none' x:num="5.5299999999999896">5.53</td>
+  <td class=xl30 x:num="0.74272513130469742"
+  x:fmla="=LOG(K54)-FLOOR(LOG(K54),1)">0.7427251</td>
+  <td class=xl34 style='border-left:none' x:num="6.5299999999999896">6.53</td>
+  <td class=xl30 x:num="0.81491318127507328"
+  x:fmla="=LOG(M54)-FLOOR(LOG(M54),1)">0.8149132</td>
+  <td class=xl34 style='border-left:none' x:num="7.5299999999999896">7.53</td>
+  <td class=xl30 x:num="0.87679497620070002"
+  x:fmla="=LOG(O54)-FLOOR(LOG(O54),1)">0.8767950</td>
+  <td class=xl34 style='border-left:none' x:num="8.5299999999999905">8.53</td>
+  <td class=xl30 x:num="0.93094903116752259"
+  x:fmla="=LOG(Q54)-FLOOR(LOG(Q54),1)">0.9309490</td>
+  <td class=xl34 style='border-left:none' x:num="9.5299999999999905">9.53</td>
+  <td class=xl30 x:num="0.97909290063832599"
+  x:fmla="=LOG(S54)-FLOOR(LOG(S54),1)">0.9790929</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0539999999999941"
+  x:fmla="=A54+0.001">1.054</td>
+  <td class=xl32 x:num="2.2840610876525353E-2" x:fmla="=LOG(A55)">0.02284061</td>
+  <td class=xl34 style='border-left:none' x:num>1.54</td>
+  <td class=xl30 x:num="0.18752072083646307"
+  x:fmla="=LOG(C55)-FLOOR(LOG(C55),1)">0.1875207</td>
+  <td class=xl34 style='border-left:none' x:num="2.5399999999999898">2.54</td>
+  <td class=xl30 x:num="0.40483371661993633"
+  x:fmla="=LOG(E55)-FLOOR(LOG(E55),1)">0.4048337</td>
+  <td class=xl34 style='border-left:none' x:num="3.5399999999999898">3.54</td>
+  <td class=xl30 x:num="0.54900326202578653"
+  x:fmla="=LOG(G55)-FLOOR(LOG(G55),1)">0.5490033</td>
+  <td class=xl34 style='border-left:none' x:num="4.5399999999999903">4.54</td>
+  <td class=xl30 x:num="0.657055852857103" x:fmla="=LOG(I55)-FLOOR(LOG(I55),1)">0.6570559</td>
+  <td class=xl34 style='border-left:none' x:num="5.5399999999999903">5.54</td>
+  <td class=xl30 x:num="0.743509764728429" x:fmla="=LOG(K55)-FLOOR(LOG(K55),1)">0.7435098</td>
+  <td class=xl34 style='border-left:none' x:num="6.5399999999999903">6.54</td>
+  <td class=xl30 x:num="0.81557774832426666"
+  x:fmla="=LOG(M55)-FLOOR(LOG(M55),1)">0.8155777</td>
+  <td class=xl34 style='border-left:none' x:num="7.5399999999999903">7.54</td>
+  <td class=xl30 x:num="0.8773713458697735" x:fmla="=LOG(O55)-FLOOR(LOG(O55),1)">0.8773713</td>
+  <td class=xl34 style='border-left:none' x:num="8.5399999999999903">8.54</td>
+  <td class=xl30 x:num="0.93145787068900454"
+  x:fmla="=LOG(Q55)-FLOOR(LOG(Q55),1)">0.9314579</td>
+  <td class=xl34 style='border-left:none' x:num="9.5399999999999903">9.54</td>
+  <td class=xl30 x:num="0.97954837470409473"
+  x:fmla="=LOG(S55)-FLOOR(LOG(S55),1)">0.9795484</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0549999999999939"
+  x:fmla="=A55+0.001">1.055</td>
+  <td class=xl32 x:num="2.3252459633708977E-2" x:fmla="=LOG(A56)">0.02325246</td>
+  <td class=xl34 style='border-left:none' x:num>1.55</td>
+  <td class=xl30 x:num="0.1903316981702915" x:fmla="=LOG(C56)-FLOOR(LOG(C56),1)">0.1903317</td>
+  <td class=xl34 style='border-left:none' x:num="2.5499999999999901">2.55</td>
+  <td class=xl30 x:num="0.40654018043395346"
+  x:fmla="=LOG(E56)-FLOOR(LOG(E56),1)">0.4065402</td>
+  <td class=xl34 style='border-left:none' x:num="3.5499999999999901">3.55</td>
+  <td class=xl30 x:num="0.55022835305509288"
+  x:fmla="=LOG(G56)-FLOOR(LOG(G56),1)">0.5502284</td>
+  <td class=xl34 style='border-left:none' x:num="4.5499999999999901">4.55</td>
+  <td class=xl30 x:num="0.6580113966571115" x:fmla="=LOG(I56)-FLOOR(LOG(I56),1)">0.6580114</td>
+  <td class=xl34 style='border-left:none' x:num="5.5499999999999901">5.55</td>
+  <td class=xl30 x:num="0.74429298312267544"
+  x:fmla="=LOG(K56)-FLOOR(LOG(K56),1)">0.7442930</td>
+  <td class=xl34 style='border-left:none' x:num="6.5499999999999901">6.55</td>
+  <td class=xl30 x:num="0.81624129999178241"
+  x:fmla="=LOG(M56)-FLOOR(LOG(M56),1)">0.8162413</td>
+  <td class=xl34 style='border-left:none' x:num="7.5499999999999901">7.55</td>
+  <td class=xl30 x:num="0.87794695162918768"
+  x:fmla="=LOG(O56)-FLOOR(LOG(O56),1)">0.8779470</td>
+  <td class=xl34 style='border-left:none' x:num="8.5499999999999901">8.55</td>
+  <td class=xl30 x:num="0.93196611472817215"
+  x:fmla="=LOG(Q56)-FLOOR(LOG(Q56),1)">0.9319661</td>
+  <td class=xl34 style='border-left:none' x:num="9.5499999999999901">9.55</td>
+  <td class=xl30 x:num="0.98000337158374584"
+  x:fmla="=LOG(S56)-FLOOR(LOG(S56),1)">0.9800034</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0559999999999938"
+  x:fmla="=A56+0.001">1.056</td>
+  <td class=xl32 x:num="2.3663918197790918E-2" x:fmla="=LOG(A57)">0.02366392</td>
+  <td class=xl34 style='border-left:none' x:num>1.56</td>
+  <td class=xl30 x:num="0.19312459835446161"
+  x:fmla="=LOG(C57)-FLOOR(LOG(C57),1)">0.1931246</td>
+  <td class=xl34 style='border-left:none' x:num="2.5599999999999898">2.56</td>
+  <td class=xl30 x:num="0.40823996531184786"
+  x:fmla="=LOG(E57)-FLOOR(LOG(E57),1)">0.4082400</td>
+  <td class=xl34 style='border-left:none' x:num="3.5599999999999898">3.56</td>
+  <td class=xl30 x:num="0.55144999797287397"
+  x:fmla="=LOG(G57)-FLOOR(LOG(G57),1)">0.5514500</td>
+  <td class=xl34 style='border-left:none' x:num="4.5599999999999898">4.56</td>
+  <td class=xl30 x:num="0.658964842664434" x:fmla="=LOG(I57)-FLOOR(LOG(I57),1)">0.6589648</td>
+  <td class=xl34 style='border-left:none' x:num="5.5599999999999898">5.56</td>
+  <td class=xl30 x:num="0.74507479158205669"
+  x:fmla="=LOG(K57)-FLOOR(LOG(K57),1)">0.7450748</td>
+  <td class=xl34 style='border-left:none' x:num="6.5599999999999898">6.56</td>
+  <td class=xl30 x:num="0.81690383937565958"
+  x:fmla="=LOG(M57)-FLOOR(LOG(M57),1)">0.8169038</td>
+  <td class=xl34 style='border-left:none' x:num="7.5599999999999898">7.56</td>
+  <td class=xl30 x:num="0.8785217955012059" x:fmla="=LOG(O57)-FLOOR(LOG(O57),1)">0.8785218</td>
+  <td class=xl34 style='border-left:none' x:num="8.5599999999999898">8.56</td>
+  <td class=xl30 x:num="0.93247376467715271"
+  x:fmla="=LOG(Q57)-FLOOR(LOG(Q57),1)">0.9324738</td>
+  <td class=xl34 style='border-left:none' x:num="9.5599999999999898">9.56</td>
+  <td class=xl30 x:num="0.98045789227609959"
+  x:fmla="=LOG(S57)-FLOOR(LOG(S57),1)">0.9804579</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0569999999999937"
+  x:fmla="=A57+0.001">1.057</td>
+  <td class=xl32 x:num="2.407498730742369E-2" x:fmla="=LOG(A58)">0.02407499</td>
+  <td class=xl34 style='border-left:none' x:num>1.57</td>
+  <td class=xl30 x:num="0.19589965240923377"
+  x:fmla="=LOG(C58)-FLOOR(LOG(C58),1)">0.1958997</td>
+  <td class=xl34 style='border-left:none' x:num="2.5699999999999901">2.57</td>
+  <td class=xl30 x:num="0.40993312333129284"
+  x:fmla="=LOG(E58)-FLOOR(LOG(E58),1)">0.4099331</td>
+  <td class=xl34 style='border-left:none' x:num="3.5699999999999901">3.57</td>
+  <td class=xl30 x:num="0.55266821611219197"
+  x:fmla="=LOG(G58)-FLOOR(LOG(G58),1)">0.5526682</td>
+  <td class=xl34 style='border-left:none' x:num="4.5699999999999896">4.57</td>
+  <td class=xl30 x:num="0.65991620006984919"
+  x:fmla="=LOG(I58)-FLOOR(LOG(I58),1)">0.6599162</td>
+  <td class=xl34 style='border-left:none' x:num="5.5699999999999896">5.57</td>
+  <td class=xl30 x:num="0.74585519517372811"
+  x:fmla="=LOG(K58)-FLOOR(LOG(K58),1)">0.7458552</td>
+  <td class=xl34 style='border-left:none' x:num="6.5699999999999896">6.57</td>
+  <td class=xl30 x:num="0.8175653695597801" x:fmla="=LOG(M58)-FLOOR(LOG(M58),1)">0.8175654</td>
+  <td class=xl34 style='border-left:none' x:num="7.5699999999999896">7.57</td>
+  <td class=xl30 x:num="0.87909587950007217"
+  x:fmla="=LOG(O58)-FLOOR(LOG(O58),1)">0.8790959</td>
+  <td class=xl34 style='border-left:none' x:num="8.5699999999999896">8.57</td>
+  <td class=xl30 x:num="0.93298082192319765"
+  x:fmla="=LOG(Q58)-FLOOR(LOG(Q58),1)">0.9329808</td>
+  <td class=xl34 style='border-left:none' x:num="9.5699999999999896">9.57</td>
+  <td class=xl30 x:num="0.98091193777684305"
+  x:fmla="=LOG(S58)-FLOOR(LOG(S58),1)">0.9809119</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0579999999999936"
+  x:fmla="=A58+0.001">1.058</td>
+  <td class=xl32 x:num="2.448566769916433E-2" x:fmla="=LOG(A59)">0.02448567</td>
+  <td class=xl34 style='border-left:none' x:num>1.58</td>
+  <td class=xl30 x:num="0.19865708695442263"
+  x:fmla="=LOG(C59)-FLOOR(LOG(C59),1)">0.1986571</td>
+  <td class=xl34 style='border-left:none' x:num="2.5799999999999899">2.58</td>
+  <td class=xl30 x:num="0.41161970596322844"
+  x:fmla="=LOG(E59)-FLOOR(LOG(E59),1)">0.4116197</td>
+  <td class=xl34 style='border-left:none' x:num="3.5799999999999899">3.58</td>
+  <td class=xl30 x:num="0.55388302664387312"
+  x:fmla="=LOG(G59)-FLOOR(LOG(G59),1)">0.5538830</td>
+  <td class=xl34 style='border-left:none' x:num="4.5799999999999903">4.58</td>
+  <td class=xl30 x:num="0.6608654780038683" x:fmla="=LOG(I59)-FLOOR(LOG(I59),1)">0.6608655</td>
+  <td class=xl34 style='border-left:none' x:num="5.5799999999999903">5.58</td>
+  <td class=xl30 x:num="0.74663419893757799"
+  x:fmla="=LOG(K59)-FLOOR(LOG(K59),1)">0.7466342</td>
+  <td class=xl34 style='border-left:none' x:num="6.5799999999999903">6.58</td>
+  <td class=xl30 x:num="0.81822589361395481"
+  x:fmla="=LOG(M59)-FLOOR(LOG(M59),1)">0.8182259</td>
+  <td class=xl34 style='border-left:none' x:num="7.5799999999999903">7.58</td>
+  <td class=xl30 x:num="0.87966920563205298"
+  x:fmla="=LOG(O59)-FLOOR(LOG(O59),1)">0.8796692</td>
+  <td class=xl34 style='border-left:none' x:num="8.5799999999999894">8.58</td>
+  <td class=xl30 x:num="0.93348728784870494"
+  x:fmla="=LOG(Q59)-FLOOR(LOG(Q59),1)">0.9334873</td>
+  <td class=xl34 style='border-left:none' x:num="9.5799999999999894">9.58</td>
+  <td class=xl30 x:num="0.98136550907854392"
+  x:fmla="=LOG(S59)-FLOOR(LOG(S59),1)">0.9813655</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0589999999999935"
+  x:fmla="=A59+0.001">1.059</td>
+  <td class=xl32 x:num="2.4895960107482337E-2" x:fmla="=LOG(A60)">0.02489596</td>
+  <td class=xl34 style='border-left:none' x:num>1.59</td>
+  <td class=xl30 x:num="0.20139712432045151"
+  x:fmla="=LOG(C60)-FLOOR(LOG(C60),1)">0.2013971</td>
+  <td class=xl34 style='border-left:none' x:num="2.5899999999999901">2.59</td>
+  <td class=xl30 x:num="0.41329976408125019"
+  x:fmla="=LOG(E60)-FLOOR(LOG(E60),1)">0.4132998</td>
+  <td class=xl34 style='border-left:none' x:num="3.5899999999999901">3.59</td>
+  <td class=xl30 x:num="0.55509444857831791"
+  x:fmla="=LOG(G60)-FLOOR(LOG(G60),1)">0.5550944</td>
+  <td class=xl34 style='border-left:none' x:num="4.5899999999999901">4.59</td>
+  <td class=xl30 x:num="0.66181268553726025"
+  x:fmla="=LOG(I60)-FLOOR(LOG(I60),1)">0.6618127</td>
+  <td class=xl34 style='border-left:none' x:num="5.5899999999999901">5.59</td>
+  <td class=xl30 x:num="0.74741180788642247"
+  x:fmla="=LOG(K60)-FLOOR(LOG(K60),1)">0.7474118</td>
+  <td class=xl34 style='border-left:none' x:num="6.5899999999999901">6.59</td>
+  <td class=xl30 x:num="0.81888541459400921"
+  x:fmla="=LOG(M60)-FLOOR(LOG(M60),1)">0.8188854</td>
+  <td class=xl34 style='border-left:none' x:num="7.5899999999999901">7.59</td>
+  <td class=xl30 x:num="0.88024177589547981"
+  x:fmla="=LOG(O60)-FLOOR(LOG(O60),1)">0.8802418</td>
+  <td class=xl34 style='border-left:none' x:num="8.5899999999999892">8.59</td>
+  <td class=xl30 x:num="0.93399316383124176"
+  x:fmla="=LOG(Q60)-FLOOR(LOG(Q60),1)">0.9339932</td>
+  <td class=xl34 style='border-left:none' x:num="9.5899999999999892">9.59</td>
+  <td class=xl30 x:num="0.98181860717066316"
+  x:fmla="=LOG(S60)-FLOOR(LOG(S60),1)">0.9818186</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0599999999999934"
+  x:fmla="=A60+0.001">1.060</td>
+  <td class=xl32 x:num="2.5305865264767535E-2" x:fmla="=LOG(A61)">0.02530587</td>
+  <td class=xl34 style='border-left:none' x:num>1.60</td>
+  <td class=xl30 x:num="0.20411998265592479"
+  x:fmla="=LOG(C61)-FLOOR(LOG(C61),1)">0.2041200</td>
+  <td class=xl34 style='border-left:none' x:num="2.5999999999999899">2.60</td>
+  <td class=xl30 x:num="0.41497334797081625"
+  x:fmla="=LOG(E61)-FLOOR(LOG(E61),1)">0.4149733</td>
+  <td class=xl34 style='border-left:none' x:num="3.5999999999999899">3.60</td>
+  <td class=xl30 x:num="0.55630250076728605"
+  x:fmla="=LOG(G61)-FLOOR(LOG(G61),1)">0.5563025</td>
+  <td class=xl34 style='border-left:none' x:num="4.5999999999999899">4.60</td>
+  <td class=xl30 x:num="0.6627578316815731" x:fmla="=LOG(I61)-FLOOR(LOG(I61),1)">0.6627578</td>
+  <td class=xl34 style='border-left:none' x:num="5.5999999999999899">5.60</td>
+  <td class=xl30 x:num="0.74818802700619969"
+  x:fmla="=LOG(K61)-FLOOR(LOG(K61),1)">0.7481880</td>
+  <td class=xl34 style='border-left:none' x:num="6.5999999999999899">6.60</td>
+  <td class=xl30 x:num="0.819543935541868" x:fmla="=LOG(M61)-FLOOR(LOG(M61),1)">0.8195439</td>
+  <td class=xl34 style='border-left:none' x:num="7.5999999999999899">7.60</td>
+  <td class=xl30 x:num="0.88081359228079081"
+  x:fmla="=LOG(O61)-FLOOR(LOG(O61),1)">0.8808136</td>
+  <td class=xl34 style='border-left:none' x:num="8.5999999999999908">8.60</td>
+  <td class=xl30 x:num="0.93449845124356723"
+  x:fmla="=LOG(Q61)-FLOOR(LOG(Q61),1)">0.9344985</td>
+  <td class=xl34 style='border-left:none' x:num="9.5999999999999908">9.60</td>
+  <td class=xl30 x:num="0.98227123303956798"
+  x:fmla="=LOG(S61)-FLOOR(LOG(S61),1)">0.9822712</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0609999999999933"
+  x:fmla="=A61+0.001">1.061</td>
+  <td class=xl32 x:num="2.5715383901337915E-2" x:fmla="=LOG(A62)">0.02571538</td>
+  <td class=xl34 style='border-left:none' x:num>1.61</td>
+  <td class=xl30 x:num="0.20682587603184974"
+  x:fmla="=LOG(C62)-FLOOR(LOG(C62),1)">0.2068259</td>
+  <td class=xl34 style='border-left:none' x:num="2.6099999999999901">2.61</td>
+  <td class=xl30 x:num="0.41664050733827934"
+  x:fmla="=LOG(E62)-FLOOR(LOG(E62),1)">0.4166405</td>
+  <td class=xl34 style='border-left:none' x:num="3.6099999999999901">3.61</td>
+  <td class=xl30 x:num="0.55750720190565672"
+  x:fmla="=LOG(G62)-FLOOR(LOG(G62),1)">0.5575072</td>
+  <td class=xl34 style='border-left:none' x:num="4.6099999999999897">4.61</td>
+  <td class=xl30 x:num="0.6637009253896472" x:fmla="=LOG(I62)-FLOOR(LOG(I62),1)">0.6637009</td>
+  <td class=xl34 style='border-left:none' x:num="5.6099999999999897">5.61</td>
+  <td class=xl30 x:num="0.74896286125616063"
+  x:fmla="=LOG(K62)-FLOOR(LOG(K62),1)">0.7489629</td>
+  <td class=xl34 style='border-left:none' x:num="6.6099999999999897">6.61</td>
+  <td class=xl30 x:num="0.82020145948563961"
+  x:fmla="=LOG(M62)-FLOOR(LOG(M62),1)">0.8202015</td>
+  <td class=xl34 style='border-left:none' x:num="7.6099999999999897">7.61</td>
+  <td class=xl30 x:num="0.88138465677057221"
+  x:fmla="=LOG(O62)-FLOOR(LOG(O62),1)">0.8813847</td>
+  <td class=xl34 style='border-left:none' x:num="8.6099999999999905">8.61</td>
+  <td class=xl30 x:num="0.93500315145365431"
+  x:fmla="=LOG(Q62)-FLOOR(LOG(Q62),1)">0.9350032</td>
+  <td class=xl34 style='border-left:none' x:num="9.6099999999999905">9.61</td>
+  <td class=xl30 x:num="0.98272338766854495"
+  x:fmla="=LOG(S62)-FLOOR(LOG(S62),1)">0.9827234</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0619999999999932"
+  x:fmla="=A62+0.001">1.062</td>
+  <td class=xl32 x:num="2.6124516745447468E-2" x:fmla="=LOG(A63)">0.02612452</td>
+  <td class=xl34 style='border-left:none' x:num>1.62</td>
+  <td class=xl30 x:num="0.20951501454263097"
+  x:fmla="=LOG(C63)-FLOOR(LOG(C63),1)">0.2095150</td>
+  <td class=xl34 style='border-left:none' x:num="2.6199999999999899">2.62</td>
+  <td class=xl30 x:num="0.41830129131974381"
+  x:fmla="=LOG(E63)-FLOOR(LOG(E63),1)">0.4183013</td>
+  <td class=xl34 style='border-left:none' x:num="3.6199999999999899">3.62</td>
+  <td class=xl30 x:num="0.55870857053316447"
+  x:fmla="=LOG(G63)-FLOOR(LOG(G63),1)">0.5587086</td>
+  <td class=xl34 style='border-left:none' x:num="4.6199999999999903">4.62</td>
+  <td class=xl30 x:num="0.66464197555612459"
+  x:fmla="=LOG(I63)-FLOOR(LOG(I63),1)">0.6646420</td>
+  <td class=xl34 style='border-left:none' x:num="5.6199999999999903">5.62</td>
+  <td class=xl30 x:num="0.7497363155690604" x:fmla="=LOG(K63)-FLOOR(LOG(K63),1)">0.7497363</td>
+  <td class=xl34 style='border-left:none' x:num="6.6199999999999903">6.62</td>
+  <td class=xl30 x:num="0.82085798943969934"
+  x:fmla="=LOG(M63)-FLOOR(LOG(M63),1)">0.8208580</td>
+  <td class=xl34 style='border-left:none' x:num="7.6199999999999903">7.62</td>
+  <td class=xl30 x:num="0.88195497133959999"
+  x:fmla="=LOG(O63)-FLOOR(LOG(O63),1)">0.8819550</td>
+  <td class=xl34 style='border-left:none' x:num="8.6199999999999903">8.62</td>
+  <td class=xl30 x:num="0.93550726582471233"
+  x:fmla="=LOG(Q63)-FLOOR(LOG(Q63),1)">0.9355073</td>
+  <td class=xl34 style='border-left:none' x:num="9.6199999999999903">9.62</td>
+  <td class=xl30 x:num="0.98317507203781251"
+  x:fmla="=LOG(S63)-FLOOR(LOG(S63),1)">0.9831751</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0629999999999931"
+  x:fmla="=A63+0.001">1.063</td>
+  <td class=xl32 x:num="2.6533264523293923E-2" x:fmla="=LOG(A64)">0.02653326</td>
+  <td class=xl34 style='border-left:none' x:num>1.63</td>
+  <td class=xl30 x:num="0.21218760440395779"
+  x:fmla="=LOG(C64)-FLOOR(LOG(C64),1)">0.2121876</td>
+  <td class=xl34 style='border-left:none' x:num="2.6299999999999901">2.63</td>
+  <td class=xl30 x:num="0.41995574848975625"
+  x:fmla="=LOG(E64)-FLOOR(LOG(E64),1)">0.4199557</td>
+  <td class=xl34 style='border-left:none' x:num="3.6299999999999901">3.63</td>
+  <td class=xl30 x:num="0.55990662503611133"
+  x:fmla="=LOG(G64)-FLOOR(LOG(G64),1)">0.5599066</td>
+  <td class=xl34 style='border-left:none' x:num="4.6299999999999901">4.63</td>
+  <td class=xl30 x:num="0.66558099101795221"
+  x:fmla="=LOG(I64)-FLOOR(LOG(I64),1)">0.6655810</td>
+  <td class=xl34 style='border-left:none' x:num="5.6299999999999901">5.63</td>
+  <td class=xl30 x:num="0.75050839485134546"
+  x:fmla="=LOG(K64)-FLOOR(LOG(K64),1)">0.7505084</td>
+  <td class=xl34 style='border-left:none' x:num="6.6299999999999901">6.63</td>
+  <td class=xl30 x:num="0.82151352840477254"
+  x:fmla="=LOG(M64)-FLOOR(LOG(M64),1)">0.8215135</td>
+  <td class=xl34 style='border-left:none' x:num="7.6299999999999901">7.63</td>
+  <td class=xl30 x:num="0.88252453795487995"
+  x:fmla="=LOG(O64)-FLOOR(LOG(O64),1)">0.8825245</td>
+  <td class=xl34 style='border-left:none' x:num="8.6299999999999901">8.63</td>
+  <td class=xl30 x:num="0.93601079571520907"
+  x:fmla="=LOG(Q64)-FLOOR(LOG(Q64),1)">0.9360108</td>
+  <td class=xl34 style='border-left:none' x:num="9.6299999999999901">9.63</td>
+  <td class=xl30 x:num="0.98362628712453404"
+  x:fmla="=LOG(S64)-FLOOR(LOG(S64),1)">0.9836263</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.063999999999993"
+  x:fmla="=A64+0.001">1.064</td>
+  <td class=xl32 x:num="2.69416279590265E-2" x:fmla="=LOG(A65)">0.02694163</td>
+  <td class=xl34 style='border-left:none' x:num>1.64</td>
+  <td class=xl30 x:num="0.21484384804769785"
+  x:fmla="=LOG(C65)-FLOOR(LOG(C65),1)">0.2148438</td>
+  <td class=xl34 style='border-left:none' x:num="2.6399999999999899">2.64</td>
+  <td class=xl30 x:num="0.42160392686982939"
+  x:fmla="=LOG(E65)-FLOOR(LOG(E65),1)">0.4216039</td>
+  <td class=xl34 style='border-left:none' x:num="3.6399999999999899">3.64</td>
+  <td class=xl30 x:num="0.56110138364905482"
+  x:fmla="=LOG(G65)-FLOOR(LOG(G65),1)">0.5611014</td>
+  <td class=xl34 style='border-left:none' x:num="4.6399999999999899">4.64</td>
+  <td class=xl30 x:num="0.66651798055487987"
+  x:fmla="=LOG(I65)-FLOOR(LOG(I65),1)">0.6665180</td>
+  <td class=xl34 style='border-left:none' x:num="5.6399999999999899">5.64</td>
+  <td class=xl30 x:num="0.75127910398334152"
+  x:fmla="=LOG(K65)-FLOOR(LOG(K65),1)">0.7512791</td>
+  <td class=xl34 style='border-left:none' x:num="6.6399999999999899">6.64</td>
+  <td class=xl30 x:num="0.82216807936801684"
+  x:fmla="=LOG(M65)-FLOOR(LOG(M65),1)">0.8221681</td>
+  <td class=xl34 style='border-left:none' x:num="7.6399999999999899">7.64</td>
+  <td class=xl30 x:num="0.88309335857568938"
+  x:fmla="=LOG(O65)-FLOOR(LOG(O65),1)">0.8830934</td>
+  <td class=xl34 style='border-left:none' x:num="8.6399999999999899">8.64</td>
+  <td class=xl30 x:num="0.93651374247889274"
+  x:fmla="=LOG(Q65)-FLOOR(LOG(Q65),1)">0.9365137</td>
+  <td class=xl34 style='border-left:none' x:num="9.6399999999999899">9.64</td>
+  <td class=xl30 x:num="0.9840770339028303" x:fmla="=LOG(S65)-FLOOR(LOG(S65),1)">0.9840770</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0649999999999928"
+  x:fmla="=A65+0.001">1.065</td>
+  <td class=xl32 x:num="2.734960777475361E-2" x:fmla="=LOG(A66)">0.02734961</td>
+  <td class=xl34 style='border-left:none' x:num>1.65</td>
+  <td class=xl30 x:num="0.21748394421390627"
+  x:fmla="=LOG(C66)-FLOOR(LOG(C66),1)">0.2174839</td>
+  <td class=xl34 style='border-left:none' x:num="2.6499999999999901">2.65</td>
+  <td class=xl30 x:num="0.42324587393680624"
+  x:fmla="=LOG(E66)-FLOOR(LOG(E66),1)">0.4232459</td>
+  <td class=xl34 style='border-left:none' x:num="3.6499999999999901">3.65</td>
+  <td class=xl30 x:num="0.56229286445647353"
+  x:fmla="=LOG(G66)-FLOOR(LOG(G66),1)">0.5622929</td>
+  <td class=xl34 style='border-left:none' x:num="4.6499999999999897">4.65</td>
+  <td class=xl30 x:num="0.66745295288995299"
+  x:fmla="=LOG(I66)-FLOOR(LOG(I66),1)">0.6674530</td>
+  <td class=xl34 style='border-left:none' x:num="5.6499999999999897">5.65</td>
+  <td class=xl30 x:num="0.75204844781943769"
+  x:fmla="=LOG(K66)-FLOOR(LOG(K66),1)">0.7520484</td>
+  <td class=xl34 style='border-left:none' x:num="6.6499999999999897">6.65</td>
+  <td class=xl30 x:num="0.82282164530310398"
+  x:fmla="=LOG(M66)-FLOOR(LOG(M66),1)">0.8228216</td>
+  <td class=xl34 style='border-left:none' x:num="7.6499999999999897">7.65</td>
+  <td class=xl30 x:num="0.88366143515361706"
+  x:fmla="=LOG(O66)-FLOOR(LOG(O66),1)">0.8836614</td>
+  <td class=xl34 style='border-left:none' x:num="8.6499999999999897">8.65</td>
+  <td class=xl30 x:num="0.93701610746481367"
+  x:fmla="=LOG(Q66)-FLOOR(LOG(Q66),1)">0.9370161</td>
+  <td class=xl34 style='border-left:none' x:num="9.6499999999999897">9.65</td>
+  <td class=xl30 x:num="0.98452731334379207"
+  x:fmla="=LOG(S66)-FLOOR(LOG(S66),1)">0.9845273</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0659999999999927"
+  x:fmla="=A66+0.001">1.066</td>
+  <td class=xl32 x:num="2.7757204690550496E-2" x:fmla="=LOG(A67)">0.02775720</td>
+  <td class=xl34 style='border-left:none' x:num>1.66</td>
+  <td class=xl30 x:num="0.22010808804005508"
+  x:fmla="=LOG(C67)-FLOOR(LOG(C67),1)">0.2201081</td>
+  <td class=xl34 style='border-left:none' x:num="2.6599999999999899">2.66</td>
+  <td class=xl30 x:num="0.42488163663106532"
+  x:fmla="=LOG(E67)-FLOOR(LOG(E67),1)">0.4248816</td>
+  <td class=xl34 style='border-left:none' x:num="3.6599999999999899">3.66</td>
+  <td class=xl30 x:num="0.56348108539440944"
+  x:fmla="=LOG(G67)-FLOOR(LOG(G67),1)">0.5634811</td>
+  <td class=xl34 style='border-left:none' x:num="4.6599999999999904">4.66</td>
+  <td class=xl30 x:num="0.66838591668999925"
+  x:fmla="=LOG(I67)-FLOOR(LOG(I67),1)">0.6683859</td>
+  <td class=xl34 style='border-left:none' x:num="5.6599999999999904">5.66</td>
+  <td class=xl30 x:num="0.75281643118827068"
+  x:fmla="=LOG(K67)-FLOOR(LOG(K67),1)">0.7528164</td>
+  <td class=xl34 style='border-left:none' x:num="6.6599999999999904">6.66</td>
+  <td class=xl30 x:num="0.82347422917030044"
+  x:fmla="=LOG(M67)-FLOOR(LOG(M67),1)">0.8234742</td>
+  <td class=xl34 style='border-left:none' x:num="7.6599999999999904">7.66</td>
+  <td class=xl30 x:num="0.88422876963260344"
+  x:fmla="=LOG(O67)-FLOOR(LOG(O67),1)">0.8842288</td>
+  <td class=xl34 style='border-left:none' x:num="8.6599999999999895">8.66</td>
+  <td class=xl30 x:num="0.93751789201734614"
+  x:fmla="=LOG(Q67)-FLOOR(LOG(Q67),1)">0.9375179</td>
+  <td class=xl34 style='border-left:none' x:num="9.6599999999999895">9.66</td>
+  <td class=xl30 x:num="0.98497712641549284"
+  x:fmla="=LOG(S67)-FLOOR(LOG(S67),1)">0.9849771</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0669999999999926"
+  x:fmla="=A67+0.001">1.067</td>
+  <td class=xl32 x:num="2.8164419424466888E-2" x:fmla="=LOG(A68)">0.02816442</td>
+  <td class=xl34 style='border-left:none' x:num>1.67</td>
+  <td class=xl30 x:num="0.22271647114758325"
+  x:fmla="=LOG(C68)-FLOOR(LOG(C68),1)">0.2227165</td>
+  <td class=xl34 style='border-left:none' x:num="2.6699999999999902">2.67</td>
+  <td class=xl30 x:num="0.42651126136457362"
+  x:fmla="=LOG(E68)-FLOOR(LOG(E68),1)">0.4265113</td>
+  <td class=xl34 style='border-left:none' x:num="3.6699999999999902">3.67</td>
+  <td class=xl30 x:num="0.56466606425208821"
+  x:fmla="=LOG(G68)-FLOOR(LOG(G68),1)">0.5646661</td>
+  <td class=xl34 style='border-left:none' x:num="4.6699999999999902">4.67</td>
+  <td class=xl30 x:num="0.66931688056611127"
+  x:fmla="=LOG(I68)-FLOOR(LOG(I68),1)">0.6693169</td>
+  <td class=xl34 style='border-left:none' x:num="5.6699999999999902">5.67</td>
+  <td class=xl30 x:num="0.75358305889290578"
+  x:fmla="=LOG(K68)-FLOOR(LOG(K68),1)">0.7535831</td>
+  <td class=xl34 style='border-left:none' x:num="6.6699999999999902">6.67</td>
+  <td class=xl30 x:num="0.82412583391654837"
+  x:fmla="=LOG(M68)-FLOOR(LOG(M68),1)">0.8241258</td>
+  <td class=xl34 style='border-left:none' x:num="7.6699999999999902">7.67</td>
+  <td class=xl30 x:num="0.8847953639489804" x:fmla="=LOG(O68)-FLOOR(LOG(O68),1)">0.8847954</td>
+  <td class=xl34 style='border-left:none' x:num="8.6699999999999893">8.67</td>
+  <td class=xl30 x:num="0.93801909747620971"
+  x:fmla="=LOG(Q68)-FLOOR(LOG(Q68),1)">0.9380191</td>
+  <td class=xl34 style='border-left:none' x:num="9.6699999999999893">9.67</td>
+  <td class=xl30 x:num="0.98542647408300121"
+  x:fmla="=LOG(S68)-FLOOR(LOG(S68),1)">0.9854265</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0679999999999925"
+  x:fmla="=A68+0.001">1.068</td>
+  <td class=xl32 x:num="2.8571252692534566E-2" x:fmla="=LOG(A69)">0.02857125</td>
+  <td class=xl34 style='border-left:none' x:num>1.68</td>
+  <td class=xl30 x:num="0.22530928172586284"
+  x:fmla="=LOG(C69)-FLOOR(LOG(C69),1)">0.2253093</td>
+  <td class=xl34 style='border-left:none' x:num="2.6799999999999899">2.68</td>
+  <td class=xl30 x:num="0.42813479402878718"
+  x:fmla="=LOG(E69)-FLOOR(LOG(E69),1)">0.4281348</td>
+  <td class=xl34 style='border-left:none' x:num="3.6799999999999899">3.68</td>
+  <td class=xl30 x:num="0.56584781867351652"
+  x:fmla="=LOG(G69)-FLOOR(LOG(G69),1)">0.5658478</td>
+  <td class=xl34 style='border-left:none' x:num="4.6799999999999899">4.68</td>
+  <td class=xl30 x:num="0.6702458530741231" x:fmla="=LOG(I69)-FLOOR(LOG(I69),1)">0.6702459</td>
+  <td class=xl34 style='border-left:none' x:num="5.6799999999999899">5.68</td>
+  <td class=xl30 x:num="0.75434833571101811"
+  x:fmla="=LOG(K69)-FLOOR(LOG(K69),1)">0.7543483</td>
+  <td class=xl34 style='border-left:none' x:num="6.6799999999999899">6.68</td>
+  <td class=xl30 x:num="0.82477646247554504"
+  x:fmla="=LOG(M69)-FLOOR(LOG(M69),1)">0.8247765</td>
+  <td class=xl34 style='border-left:none' x:num="7.6799999999999899">7.68</td>
+  <td class=xl30 x:num="0.88536122003151141"
+  x:fmla="=LOG(O69)-FLOOR(LOG(O69),1)">0.8853612</td>
+  <td class=xl34 style='border-left:none' x:num="8.6799999999999908">8.68</td>
+  <td class=xl30 x:num="0.9385197251764914" x:fmla="=LOG(Q69)-FLOOR(LOG(Q69),1)">0.9385197</td>
+  <td class=xl34 style='border-left:none' x:num="9.6799999999999908">9.68</td>
+  <td class=xl30 x:num="0.98587535730839326"
+  x:fmla="=LOG(S69)-FLOOR(LOG(S69),1)">0.9858754</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0689999999999924"
+  x:fmla="=A69+0.001">1.069</td>
+  <td class=xl32 x:num="2.8977705208774931E-2" x:fmla="=LOG(A70)">0.02897771</td>
+  <td class=xl34 style='border-left:none' x:num>1.69</td>
+  <td class=xl30 x:num="0.22788670461367352"
+  x:fmla="=LOG(C70)-FLOOR(LOG(C70),1)">0.2278867</td>
+  <td class=xl34 style='border-left:none' x:num="2.68999999999998">2.69</td>
+  <td class=xl30 x:num="0.42975228000240473"
+  x:fmla="=LOG(E70)-FLOOR(LOG(E70),1)">0.4297523</td>
+  <td class=xl34 style='border-left:none' x:num="3.68999999999998">3.69</td>
+  <td class=xl30 x:num="0.56702636615905799"
+  x:fmla="=LOG(G70)-FLOOR(LOG(G70),1)">0.5670264</td>
+  <td class=xl34 style='border-left:none' x:num="4.6899999999999897">4.69</td>
+  <td class=xl30 x:num="0.67117284271508226"
+  x:fmla="=LOG(I70)-FLOOR(LOG(I70),1)">0.6711728</td>
+  <td class=xl34 style='border-left:none' x:num="5.6899999999999897">5.69</td>
+  <td class=xl30 x:num="0.75511226639507034"
+  x:fmla="=LOG(K70)-FLOOR(LOG(K70),1)">0.7551123</td>
+  <td class=xl34 style='border-left:none' x:num="6.6899999999999897">6.69</td>
+  <td class=xl30 x:num="0.82542611776782249"
+  x:fmla="=LOG(M70)-FLOOR(LOG(M70),1)">0.8254261</td>
+  <td class=xl34 style='border-left:none' x:num="7.6899999999999897">7.69</td>
+  <td class=xl30 x:num="0.88592633980143043"
+  x:fmla="=LOG(O70)-FLOOR(LOG(O70),1)">0.8859263</td>
+  <td class=xl34 style='border-left:none' x:num="8.6899999999999906">8.69</td>
+  <td class=xl30 x:num="0.93901977644866597"
+  x:fmla="=LOG(Q70)-FLOOR(LOG(Q70),1)">0.9390198</td>
+  <td class=xl34 style='border-left:none' x:num="9.6899999999999906">9.69</td>
+  <td class=xl30 x:num="0.9863237770507649" x:fmla="=LOG(S70)-FLOOR(LOG(S70),1)">0.9863238</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0699999999999923"
+  x:fmla="=A70+0.001">1.070</td>
+  <td class=xl32 x:num="2.9383777685206513E-2" x:fmla="=LOG(A71)">0.02938378</td>
+  <td class=xl34 style='border-left:none' x:num>1.70</td>
+  <td class=xl30 x:num="0.23044892137827391"
+  x:fmla="=LOG(C71)-FLOOR(LOG(C71),1)">0.2304489</td>
+  <td class=xl34 style='border-left:none' x:num="2.69999999999999">2.70</td>
+  <td class=xl30 x:num="0.4313637641589857" x:fmla="=LOG(E71)-FLOOR(LOG(E71),1)">0.4313638</td>
+  <td class=xl34 style='border-left:none' x:num="3.69999999999999">3.70</td>
+  <td class=xl30 x:num="0.56820172406699387"
+  x:fmla="=LOG(G71)-FLOOR(LOG(G71),1)">0.5682017</td>
+  <td class=xl34 style='border-left:none' x:num="4.6999999999999904">4.70</td>
+  <td class=xl30 x:num="0.67209785793571653"
+  x:fmla="=LOG(I71)-FLOOR(LOG(I71),1)">0.6720979</td>
+  <td class=xl34 style='border-left:none' x:num="5.6999999999999904">5.70</td>
+  <td class=xl30 x:num="0.75587485567249069"
+  x:fmla="=LOG(K71)-FLOOR(LOG(K71),1)">0.7558749</td>
+  <td class=xl34 style='border-left:none' x:num="6.6999999999999904">6.70</td>
+  <td class=xl30 x:num="0.82607480270082578"
+  x:fmla="=LOG(M71)-FLOOR(LOG(M71),1)">0.8260748</td>
+  <td class=xl34 style='border-left:none' x:num="7.6999999999999904">7.70</td>
+  <td class=xl30 x:num="0.88649072517248129"
+  x:fmla="=LOG(O71)-FLOOR(LOG(O71),1)">0.8864907</td>
+  <td class=xl34 style='border-left:none' x:num="8.6999999999999904">8.70</td>
+  <td class=xl30 x:num="0.93951925261861802"
+  x:fmla="=LOG(Q71)-FLOOR(LOG(Q71),1)">0.9395193</td>
+  <td class=xl34 style='border-left:none' x:num="9.6999999999999904">9.70</td>
+  <td class=xl30 x:num="0.98677173426624443"
+  x:fmla="=LOG(S71)-FLOOR(LOG(S71),1)">0.9867717</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0709999999999922"
+  x:fmla="=A71+0.001">1.071</td>
+  <td class=xl32 x:num="2.9789470831852464E-2" x:fmla="=LOG(A72)">0.02978947</td>
+  <td class=xl34 style='border-left:none' x:num>1.71</td>
+  <td class=xl30 x:num="0.23299611039215382"
+  x:fmla="=LOG(C72)-FLOOR(LOG(C72),1)">0.2329961</td>
+  <td class=xl34 style='border-left:none' x:num="2.70999999999998">2.71</td>
+  <td class=xl30 x:num="0.4329692908744025" x:fmla="=LOG(E72)-FLOOR(LOG(E72),1)">0.4329693</td>
+  <td class=xl34 style='border-left:none' x:num="3.70999999999998">3.71</td>
+  <td class=xl30 x:num="0.56937390961504353"
+  x:fmla="=LOG(G72)-FLOOR(LOG(G72),1)">0.5693739</td>
+  <td class=xl34 style='border-left:none' x:num="4.7099999999999804">4.71</td>
+  <td class=xl30 x:num="0.6730209071288944" x:fmla="=LOG(I72)-FLOOR(LOG(I72),1)">0.6730209</td>
+  <td class=xl34 style='border-left:none' x:num="5.7099999999999804">5.71</td>
+  <td class=xl30 x:num="0.75663610824584659"
+  x:fmla="=LOG(K72)-FLOOR(LOG(K72),1)">0.7566361</td>
+  <td class=xl34 style='border-left:none' x:num="6.7099999999999804">6.71</td>
+  <td class=xl30 x:num="0.82672252016899084"
+  x:fmla="=LOG(M72)-FLOOR(LOG(M72),1)">0.8267225</td>
+  <td class=xl34 style='border-left:none' x:num="7.7099999999999804">7.71</td>
+  <td class=xl30 x:num="0.88705437805095588"
+  x:fmla="=LOG(O72)-FLOOR(LOG(O72),1)">0.8870544</td>
+  <td class=xl34 style='border-left:none' x:num="8.7099999999999795">8.71</td>
+  <td class=xl30 x:num="0.94001815500766217"
+  x:fmla="=LOG(Q72)-FLOOR(LOG(Q72),1)">0.9400182</td>
+  <td class=xl34 style='border-left:none' x:num="9.7099999999999795">9.71</td>
+  <td class=xl30 x:num="0.98721922990800393"
+  x:fmla="=LOG(S72)-FLOOR(LOG(S72),1)">0.9872192</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0719999999999921"
+  x:fmla="=A72+0.001">1.072</td>
+  <td class=xl32 x:num="3.0194785356748001E-2" x:fmla="=LOG(A73)">0.03019479</td>
+  <td class=xl34 style='border-left:none' x:num>1.72</td>
+  <td class=xl30 x:num="0.2355284469075489" x:fmla="=LOG(C73)-FLOOR(LOG(C73),1)">0.2355284</td>
+  <td class=xl34 style='border-left:none' x:num="2.71999999999999">2.72</td>
+  <td class=xl30 x:num="0.43456890403419712"
+  x:fmla="=LOG(E73)-FLOOR(LOG(E73),1)">0.4345689</td>
+  <td class=xl34 style='border-left:none' x:num="3.71999999999999">3.72</td>
+  <td class=xl30 x:num="0.5705429398818963" x:fmla="=LOG(G73)-FLOOR(LOG(G73),1)">0.5705429</td>
+  <td class=xl34 style='border-left:none' x:num="4.7199999999999802">4.72</td>
+  <td class=xl30 x:num="0.67394199863408599"
+  x:fmla="=LOG(I73)-FLOOR(LOG(I73),1)">0.6739420</td>
+  <td class=xl34 style='border-left:none' x:num="5.7199999999999802">5.72</td>
+  <td class=xl30 x:num="0.7573960287930227" x:fmla="=LOG(K73)-FLOOR(LOG(K73),1)">0.7573960</td>
+  <td class=xl34 style='border-left:none' x:num="6.7199999999999802">6.72</td>
+  <td class=xl30 x:num="0.82736927305382402"
+  x:fmla="=LOG(M73)-FLOOR(LOG(M73),1)">0.8273693</td>
+  <td class=xl34 style='border-left:none' x:num="7.7199999999999802">7.72</td>
+  <td class=xl30 x:num="0.88761730033573505"
+  x:fmla="=LOG(O73)-FLOOR(LOG(O73),1)">0.8876173</td>
+  <td class=xl34 style='border-left:none' x:num="8.7199999999999793">8.72</td>
+  <td class=xl30 x:num="0.94051648493256623"
+  x:fmla="=LOG(Q73)-FLOOR(LOG(Q73),1)">0.9405165</td>
+  <td class=xl34 style='border-left:none' x:num="9.7199999999999793">9.72</td>
+  <td class=xl30 x:num="0.98766626492627363"
+  x:fmla="=LOG(S73)-FLOOR(LOG(S73),1)">0.9876663</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.072999999999992"
+  x:fmla="=A73+0.001">1.073</td>
+  <td class=xl32 x:num="3.0599721965947829E-2" x:fmla="=LOG(A74)">0.03059972</td>
+  <td class=xl34 style='border-left:none' x:num>1.73</td>
+  <td class=xl30 x:num="0.2380461031287954" x:fmla="=LOG(C74)-FLOOR(LOG(C74),1)">0.2380461</td>
+  <td class=xl34 style='border-left:none' x:num="2.72999999999998">2.73</td>
+  <td class=xl30 x:num="0.43616264704075286"
+  x:fmla="=LOG(E74)-FLOOR(LOG(E74),1)">0.4361626</td>
+  <td class=xl34 style='border-left:none' x:num="3.72999999999998">3.73</td>
+  <td class=xl30 x:num="0.57170883180868526"
+  x:fmla="=LOG(G74)-FLOOR(LOG(G74),1)">0.5717088</td>
+  <td class=xl34 style='border-left:none' x:num="4.72999999999998">4.73</td>
+  <td class=xl30 x:num="0.67486114073780978"
+  x:fmla="=LOG(I74)-FLOOR(LOG(I74),1)">0.6748611</td>
+  <td class=xl34 style='border-left:none' x:num="5.72999999999998">5.73</td>
+  <td class=xl30 x:num="0.75815462196738848"
+  x:fmla="=LOG(K74)-FLOOR(LOG(K74),1)">0.7581546</td>
+  <td class=xl34 style='border-left:none' x:num="6.72999999999998">6.73</td>
+  <td class=xl30 x:num="0.82801506422397553"
+  x:fmla="=LOG(M74)-FLOOR(LOG(M74),1)">0.8280151</td>
+  <td class=xl34 style='border-left:none' x:num="7.72999999999998">7.73</td>
+  <td class=xl30 x:num="0.88817949391832374"
+  x:fmla="=LOG(O74)-FLOOR(LOG(O74),1)">0.8881795</td>
+  <td class=xl34 style='border-left:none' x:num="8.7299999999999809">8.73</td>
+  <td class=xl30 x:num="0.94101424370556874"
+  x:fmla="=LOG(Q74)-FLOOR(LOG(Q74),1)">0.9410142</td>
+  <td class=xl34 style='border-left:none' x:num="9.7299999999999809">9.73</td>
+  <td class=xl30 x:num="0.98811284026835111"
+  x:fmla="=LOG(S74)-FLOOR(LOG(S74),1)">0.9881128</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0739999999999919"
+  x:fmla="=A74+0.001">1.074</td>
+  <td class=xl32 x:num="3.1004281363533507E-2" x:fmla="=LOG(A75)">0.03100428</td>
+  <td class=xl34 style='border-left:none' x:num>1.74</td>
+  <td class=xl30 x:num="0.24054924828259971"
+  x:fmla="=LOG(C75)-FLOOR(LOG(C75),1)">0.2405492</td>
+  <td class=xl34 style='border-left:none' x:num="2.7399999999999798">2.74</td>
+  <td class=xl30 x:num="0.43775056282038477"
+  x:fmla="=LOG(E75)-FLOOR(LOG(E75),1)">0.4377506</td>
+  <td class=xl34 style='border-left:none' x:num="3.7399999999999798">3.74</td>
+  <td class=xl30 x:num="0.57287160220047784"
+  x:fmla="=LOG(G75)-FLOOR(LOG(G75),1)">0.5728716</td>
+  <td class=xl34 style='border-left:none' x:num="4.7399999999999798">4.74</td>
+  <td class=xl30 x:num="0.67577834167408324"
+  x:fmla="=LOG(I75)-FLOOR(LOG(I75),1)">0.6757783</td>
+  <td class=xl34 style='border-left:none' x:num="5.7399999999999798">5.74</td>
+  <td class=xl30 x:num="0.75891189239797197"
+  x:fmla="=LOG(K75)-FLOOR(LOG(K75),1)">0.7589119</td>
+  <td class=xl34 style='border-left:none' x:num="6.7399999999999798">6.74</td>
+  <td class=xl30 x:num="0.82865989653531857"
+  x:fmla="=LOG(M75)-FLOOR(LOG(M75),1)">0.8286599</td>
+  <td class=xl34 style='border-left:none' x:num="7.7399999999999798">7.74</td>
+  <td class=xl30 x:num="0.88874096068289143"
+  x:fmla="=LOG(O75)-FLOOR(LOG(O75),1)">0.8887410</td>
+  <td class=xl34 style='border-left:none' x:num="8.7399999999999807">8.74</td>
+  <td class=xl30 x:num="0.94151143263440207"
+  x:fmla="=LOG(Q75)-FLOOR(LOG(Q75),1)">0.9415114</td>
+  <td class=xl34 style='border-left:none' x:num="9.7399999999999807">9.74</td>
+  <td class=xl30 x:num="0.98855895687861461"
+  x:fmla="=LOG(S75)-FLOOR(LOG(S75),1)">0.9885590</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0749999999999917"
+  x:fmla="=A75+0.001">1.075</td>
+  <td class=xl32 x:num="3.1408464251620798E-2" x:fmla="=LOG(A76)">0.03140846</td>
+  <td class=xl34 style='border-left:none' x:num>1.75</td>
+  <td class=xl30 x:num="0.24303804868629444"
+  x:fmla="=LOG(C76)-FLOOR(LOG(C76),1)">0.2430380</td>
+  <td class=xl34 style='border-left:none' x:num="2.74999999999998">2.75</td>
+  <td class=xl30 x:num="0.43933269383025947"
+  x:fmla="=LOG(E76)-FLOOR(LOG(E76),1)">0.4393327</td>
+  <td class=xl34 style='border-left:none' x:num="3.74999999999998">3.75</td>
+  <td class=xl30 x:num="0.57403126772771651"
+  x:fmla="=LOG(G76)-FLOOR(LOG(G76),1)">0.5740313</td>
+  <td class=xl34 style='border-left:none' x:num="4.7499999999999796">4.75</td>
+  <td class=xl30 x:num="0.67669360962486469"
+  x:fmla="=LOG(I76)-FLOOR(LOG(I76),1)">0.6766936</td>
+  <td class=xl34 style='border-left:none' x:num="5.7499999999999796">5.75</td>
+  <td class=xl30 x:num="0.75966784468962889"
+  x:fmla="=LOG(K76)-FLOOR(LOG(K76),1)">0.7596678</td>
+  <td class=xl34 style='border-left:none' x:num="6.7499999999999796">6.75</td>
+  <td class=xl30 x:num="0.82930377283102363"
+  x:fmla="=LOG(M76)-FLOOR(LOG(M76),1)">0.8293038</td>
+  <td class=xl34 style='border-left:none' x:num="7.7499999999999796">7.75</td>
+  <td class=xl30 x:num="0.88930170250630913"
+  x:fmla="=LOG(O76)-FLOOR(LOG(O76),1)">0.8893017</td>
+  <td class=xl34 style='border-left:none' x:num="8.7499999999999805">8.75</td>
+  <td class=xl30 x:num="0.94200805302231228"
+  x:fmla="=LOG(Q76)-FLOOR(LOG(Q76),1)">0.9420081</td>
+  <td class=xl34 style='border-left:none' x:num="9.7499999999999805">9.75</td>
+  <td class=xl30 x:num="0.98900461569853593"
+  x:fmla="=LOG(S76)-FLOOR(LOG(S76),1)">0.9890046</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0759999999999916"
+  x:fmla="=A76+0.001">1.076</td>
+  <td class=xl32 x:num="3.1812271330366994E-2" x:fmla="=LOG(A77)">0.03181227</td>
+  <td class=xl34 style='border-left:none' x:num>1.76</td>
+  <td class=xl30 x:num="0.24551266781414982"
+  x:fmla="=LOG(C77)-FLOOR(LOG(C77),1)">0.2455127</td>
+  <td class=xl34 style='border-left:none' x:num="2.7599999999999798">2.76</td>
+  <td class=xl30 x:num="0.44090908206521451"
+  x:fmla="=LOG(E77)-FLOOR(LOG(E77),1)">0.4409091</td>
+  <td class=xl34 style='border-left:none' x:num="3.7599999999999798">3.76</td>
+  <td class=xl30 x:num="0.57518784492765873"
+  x:fmla="=LOG(G77)-FLOOR(LOG(G77),1)">0.5751878</td>
+  <td class=xl34 style='border-left:none' x:num="4.7599999999999802">4.76</td>
+  <td class=xl30 x:num="0.67760695272049132"
+  x:fmla="=LOG(I77)-FLOOR(LOG(I77),1)">0.6776070</td>
+  <td class=xl34 style='border-left:none' x:num="5.7599999999999802">5.76</td>
+  <td class=xl30 x:num="0.7604224834232105" x:fmla="=LOG(K77)-FLOOR(LOG(K77),1)">0.7604225</td>
+  <td class=xl34 style='border-left:none' x:num="6.7599999999999802">6.76</td>
+  <td class=xl30 x:num="0.82994669594163462"
+  x:fmla="=LOG(M77)-FLOOR(LOG(M77),1)">0.8299467</td>
+  <td class=xl34 style='border-left:none' x:num="7.7599999999999802">7.76</td>
+  <td class=xl30 x:num="0.8898617212581873" x:fmla="=LOG(O77)-FLOOR(LOG(O77),1)">0.8898617</td>
+  <td class=xl34 style='border-left:none' x:num="8.7599999999999802">8.76</td>
+  <td class=xl30 x:num="0.94250410616807978"
+  x:fmla="=LOG(Q77)-FLOOR(LOG(Q77),1)">0.9425041</td>
+  <td class=xl34 style='border-left:none' x:num="9.7599999999999802">9.76</td>
+  <td class=xl30 x:num="0.98944981766669093"
+  x:fmla="=LOG(S77)-FLOOR(LOG(S77),1)">0.9894498</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0769999999999915"
+  x:fmla="=A77+0.001">1.077</td>
+  <td class=xl32 x:num="3.2215703297978168E-2" x:fmla="=LOG(A78)">0.03221570</td>
+  <td class=xl34 style='border-left:none' x:num>1.77</td>
+  <td class=xl30 x:num="0.24797326636180664"
+  x:fmla="=LOG(C78)-FLOOR(LOG(C78),1)">0.2479733</td>
+  <td class=xl34 style='border-left:none' x:num="2.76999999999998">2.77</td>
+  <td class=xl30 x:num="0.44247976906444542"
+  x:fmla="=LOG(E78)-FLOOR(LOG(E78),1)">0.4424798</td>
+  <td class=xl34 style='border-left:none' x:num="3.76999999999998">3.77</td>
+  <td class=xl30 x:num="0.57634135020579058"
+  x:fmla="=LOG(G78)-FLOOR(LOG(G78),1)">0.5763414</td>
+  <td class=xl34 style='border-left:none' x:num="4.76999999999998">4.77</td>
+  <td class=xl30 x:num="0.67851837904011214"
+  x:fmla="=LOG(I78)-FLOOR(LOG(I78),1)">0.6785184</td>
+  <td class=xl34 style='border-left:none' x:num="5.76999999999998">5.77</td>
+  <td class=xl30 x:num="0.76117581315572991"
+  x:fmla="=LOG(K78)-FLOOR(LOG(K78),1)">0.7611758</td>
+  <td class=xl34 style='border-left:none' x:num="6.76999999999998">6.77</td>
+  <td class=xl30 x:num="0.83058866868514303"
+  x:fmla="=LOG(M78)-FLOOR(LOG(M78),1)">0.8305887</td>
+  <td class=xl34 style='border-left:none' x:num="7.76999999999998">7.77</td>
+  <td class=xl30 x:num="0.89042101880091318"
+  x:fmla="=LOG(O78)-FLOOR(LOG(O78),1)">0.8904210</td>
+  <td class=xl34 style='border-left:none' x:num="8.76999999999998">8.77</td>
+  <td class=xl30 x:num="0.94299959336603956"
+  x:fmla="=LOG(Q78)-FLOOR(LOG(Q78),1)">0.9429996</td>
+  <td class=xl34 style='border-left:none' x:num="9.76999999999998">9.77</td>
+  <td class=xl30 x:num="0.98989456371877216"
+  x:fmla="=LOG(S78)-FLOOR(LOG(S78),1)">0.9898946</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0779999999999914"
+  x:fmla="=A78+0.001">1.078</td>
+  <td class=xl32 x:num="3.2618760850716438E-2" x:fmla="=LOG(A79)">0.03261876</td>
+  <td class=xl34 style='border-left:none' x:num>1.78</td>
+  <td class=xl30 x:num="0.250420002308894" x:fmla="=LOG(C79)-FLOOR(LOG(C79),1)">0.2504200</td>
+  <td class=xl34 style='border-left:none' x:num="2.7799999999999798">2.78</td>
+  <td class=xl30 x:num="0.44404479591807311"
+  x:fmla="=LOG(E79)-FLOOR(LOG(E79),1)">0.4440448</td>
+  <td class=xl34 style='border-left:none' x:num="3.7799999999999798">3.78</td>
+  <td class=xl30 x:num="0.57749179983722299"
+  x:fmla="=LOG(G79)-FLOOR(LOG(G79),1)">0.5774918</td>
+  <td class=xl34 style='border-left:none' x:num="4.7799999999999798">4.78</td>
+  <td class=xl30 x:num="0.679427896612117" x:fmla="=LOG(I79)-FLOOR(LOG(I79),1)">0.6794279</td>
+  <td class=xl34 style='border-left:none' x:num="5.7799999999999798">5.78</td>
+  <td class=xl30 x:num="0.76192783842052758"
+  x:fmla="=LOG(K79)-FLOOR(LOG(K79),1)">0.7619278</td>
+  <td class=xl34 style='border-left:none' x:num="6.7799999999999798">6.78</td>
+  <td class=xl30 x:num="0.83122969386706202"
+  x:fmla="=LOG(M79)-FLOOR(LOG(M79),1)">0.8312297</td>
+  <td class=xl34 style='border-left:none' x:num="7.7799999999999798">7.78</td>
+  <td class=xl30 x:num="0.89097959698968776"
+  x:fmla="=LOG(O79)-FLOOR(LOG(O79),1)">0.8909796</td>
+  <td class=xl34 style='border-left:none' x:num="8.7799999999999798">8.78</td>
+  <td class=xl30 x:num="0.94349451590610156"
+  x:fmla="=LOG(Q79)-FLOOR(LOG(Q79),1)">0.9434945</td>
+  <td class=xl34 style='border-left:none' x:num="9.7799999999999798">9.78</td>
+  <td class=xl30 x:num="0.99033885478760053"
+  x:fmla="=LOG(S79)-FLOOR(LOG(S79),1)">0.9903389</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0789999999999913"
+  x:fmla="=A79+0.001">1.079</td>
+  <td class=xl32 x:num="3.3021444682907172E-2" x:fmla="=LOG(A80)">0.03302144</td>
+  <td class=xl34 style='border-left:none' x:num>1.79</td>
+  <td class=xl30 x:num="0.2528530309798932" x:fmla="=LOG(C80)-FLOOR(LOG(C80),1)">0.2528530</td>
+  <td class=xl34 style='border-left:none' x:num="2.7899999999999801">2.79</td>
+  <td class=xl30 x:num="0.44560420327359446"
+  x:fmla="=LOG(E80)-FLOOR(LOG(E80),1)">0.4456042</td>
+  <td class=xl34 style='border-left:none' x:num="3.7899999999999801">3.79</td>
+  <td class=xl30 x:num="0.57863920996807006"
+  x:fmla="=LOG(G80)-FLOOR(LOG(G80),1)">0.5786392</td>
+  <td class=xl34 style='border-left:none' x:num="4.7899999999999796">4.79</td>
+  <td class=xl30 x:num="0.68033551341456133"
+  x:fmla="=LOG(I80)-FLOOR(LOG(I80),1)">0.6803355</td>
+  <td class=xl34 style='border-left:none' x:num="5.7899999999999796">5.79</td>
+  <td class=xl30 x:num="0.7626785637274347" x:fmla="=LOG(K80)-FLOOR(LOG(K80),1)">0.7626786</td>
+  <td class=xl34 style='border-left:none' x:num="6.7899999999999796">6.79</td>
+  <td class=xl30 x:num="0.83186977428050035"
+  x:fmla="=LOG(M80)-FLOOR(LOG(M80),1)">0.8318698</td>
+  <td class=xl34 style='border-left:none' x:num="7.7899999999999796">7.79</td>
+  <td class=xl30 x:num="0.89153745767256332"
+  x:fmla="=LOG(O80)-FLOOR(LOG(O80),1)">0.8915375</td>
+  <td class=xl34 style='border-left:none' x:num="8.7899999999999796">8.79</td>
+  <td class=xl30 x:num="0.94398887507377094"
+  x:fmla="=LOG(Q80)-FLOOR(LOG(Q80),1)">0.9439889</td>
+  <td class=xl34 style='border-left:none' x:num="9.7899999999999796">9.79</td>
+  <td class=xl30 x:num="0.99078269180313694"
+  x:fmla="=LOG(S80)-FLOOR(LOG(S80),1)">0.9907827</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0799999999999912"
+  x:fmla="=A80+0.001">1.080</td>
+  <td class=xl32 x:num="3.3423755486946156E-2" x:fmla="=LOG(A81)">0.03342376</td>
+  <td class=xl34 style='border-left:none' x:num>1.80</td>
+  <td class=xl30 x:num="0.25527250510330607"
+  x:fmla="=LOG(C81)-FLOOR(LOG(C81),1)">0.2552725</td>
+  <td class=xl34 style='border-left:none' x:num="2.7999999999999798">2.80</td>
+  <td class=xl30 x:num="0.4471580313422161" x:fmla="=LOG(E81)-FLOOR(LOG(E81),1)">0.4471580</td>
+  <td class=xl34 style='border-left:none' x:num="3.7999999999999798">3.80</td>
+  <td class=xl30 x:num="0.57978359661680789"
+  x:fmla="=LOG(G81)-FLOOR(LOG(G81),1)">0.5797836</td>
+  <td class=xl34 style='border-left:none' x:num="4.7999999999999803">4.80</td>
+  <td class=xl30 x:num="0.6812412373755854" x:fmla="=LOG(I81)-FLOOR(LOG(I81),1)">0.6812412</td>
+  <td class=xl34 style='border-left:none' x:num="5.7999999999999803">5.80</td>
+  <td class=xl30 x:num="0.76342799356293578"
+  x:fmla="=LOG(K81)-FLOOR(LOG(K81),1)">0.7634280</td>
+  <td class=xl34 style='border-left:none' x:num="6.7999999999999803">6.80</td>
+  <td class=xl30 x:num="0.83250891270623506"
+  x:fmla="=LOG(M81)-FLOOR(LOG(M81),1)">0.8325089</td>
+  <td class=xl34 style='border-left:none' x:num="7.7999999999999803">7.80</td>
+  <td class=xl30 x:num="0.89209460269047935"
+  x:fmla="=LOG(O81)-FLOOR(LOG(O81),1)">0.8920946</td>
+  <td class=xl34 style='border-left:none' x:num="8.7999999999999794">8.80</td>
+  <td class=xl30 x:num="0.94448267215016757"
+  x:fmla="=LOG(Q81)-FLOOR(LOG(Q81),1)">0.9444827</td>
+  <td class=xl34 style='border-left:none' x:num="9.7999999999999794">9.80</td>
+  <td class=xl30 x:num="0.99122607569249399"
+  x:fmla="=LOG(S81)-FLOOR(LOG(S81),1)">0.9912261</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0809999999999911"
+  x:fmla="=A81+0.001">1.081</td>
+  <td class=xl32 x:num="3.3825693953306757E-2" x:fmla="=LOG(A82)">0.03382569</td>
+  <td class=xl34 style='border-left:none' x:num>1.81</td>
+  <td class=xl30 x:num="0.2576785748691845" x:fmla="=LOG(C82)-FLOOR(LOG(C82),1)">0.2576786</td>
+  <td class=xl34 style='border-left:none' x:num="2.8099999999999801">2.81</td>
+  <td class=xl30 x:num="0.44870631990507681"
+  x:fmla="=LOG(E82)-FLOOR(LOG(E82),1)">0.4487063</td>
+  <td class=xl34 style='border-left:none' x:num="3.8099999999999801">3.81</td>
+  <td class=xl30 x:num="0.58092497567561707"
+  x:fmla="=LOG(G82)-FLOOR(LOG(G82),1)">0.5809250</td>
+  <td class=xl34 style='border-left:none' x:num="4.8099999999999801">4.81</td>
+  <td class=xl30 x:num="0.68214507637382993"
+  x:fmla="=LOG(I82)-FLOOR(LOG(I82),1)">0.6821451</td>
+  <td class=xl34 style='border-left:none' x:num="5.8099999999999801">5.81</td>
+  <td class=xl30 x:num="0.76417613239032922"
+  x:fmla="=LOG(K82)-FLOOR(LOG(K82),1)">0.7641761</td>
+  <td class=xl34 style='border-left:none' x:num="6.8099999999999801">6.81</td>
+  <td class=xl30 x:num="0.8331471119127839" x:fmla="=LOG(M82)-FLOOR(LOG(M82),1)">0.8331471</td>
+  <td class=xl34 style='border-left:none' x:num="7.8099999999999801">7.81</td>
+  <td class=xl30 x:num="0.89265103387729927"
+  x:fmla="=LOG(O82)-FLOOR(LOG(O82),1)">0.8926510</td>
+  <td class=xl34 style='border-left:none' x:num="8.8099999999999792">8.81</td>
+  <td class=xl30 x:num="0.94497590841204693"
+  x:fmla="=LOG(Q82)-FLOOR(LOG(Q82),1)">0.9449759</td>
+  <td class=xl34 style='border-left:none' x:num="9.8099999999999792">9.81</td>
+  <td class=xl30 x:num="0.99166900737994756"
+  x:fmla="=LOG(S82)-FLOOR(LOG(S82),1)">0.9916690</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.081999999999991"
+  x:fmla="=A82+0.001">1.082</td>
+  <td class=xl32 x:num="3.4227260770547011E-2" x:fmla="=LOG(A83)">0.03422726</td>
+  <td class=xl34 style='border-left:none' x:num>1.82</td>
+  <td class=xl30 x:num="0.26007138798507479"
+  x:fmla="=LOG(C83)-FLOOR(LOG(C83),1)">0.2600714</td>
+  <td class=xl34 style='border-left:none' x:num="2.8199999999999799">2.82</td>
+  <td class=xl30 x:num="0.45024910831935799"
+  x:fmla="=LOG(E83)-FLOOR(LOG(E83),1)">0.4502491</td>
+  <td class=xl34 style='border-left:none' x:num="3.8199999999999799">3.82</td>
+  <td class=xl30 x:num="0.58206336291170646"
+  x:fmla="=LOG(G83)-FLOOR(LOG(G83),1)">0.5820634</td>
+  <td class=xl34 style='border-left:none' x:num="4.8199999999999799">4.82</td>
+  <td class=xl30 x:num="0.68304703823884771"
+  x:fmla="=LOG(I83)-FLOOR(LOG(I83),1)">0.6830470</td>
+  <td class=xl34 style='border-left:none' x:num="5.8199999999999799">5.82</td>
+  <td class=xl30 x:num="0.76492298464988695"
+  x:fmla="=LOG(K83)-FLOOR(LOG(K83),1)">0.7649230</td>
+  <td class=xl34 style='border-left:none' x:num="6.8199999999999799">6.82</td>
+  <td class=xl30 x:num="0.83378437465647759"
+  x:fmla="=LOG(M83)-FLOOR(LOG(M83),1)">0.8337844</td>
+  <td class=xl34 style='border-left:none' x:num="7.8199999999999799">7.82</td>
+  <td class=xl30 x:num="0.89320675305984687"
+  x:fmla="=LOG(O83)-FLOOR(LOG(O83),1)">0.8932068</td>
+  <td class=xl34 style='border-left:none' x:num="8.8199999999999807">8.82</td>
+  <td class=xl30 x:num="0.94546858513181875"
+  x:fmla="=LOG(Q83)-FLOOR(LOG(Q83),1)">0.9454686</td>
+  <td class=xl34 style='border-left:none' x:num="9.8199999999999807">9.82</td>
+  <td class=xl30 x:num="0.9921114877869488" x:fmla="=LOG(S83)-FLOOR(LOG(S83),1)">0.9921115</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0829999999999909"
+  x:fmla="=A83+0.001">1.083</td>
+  <td class=xl32 x:num="3.4628456625316696E-2" x:fmla="=LOG(A84)">0.03462846</td>
+  <td class=xl34 style='border-left:none' x:num>1.83</td>
+  <td class=xl30 x:num="0.26245108973042947"
+  x:fmla="=LOG(C84)-FLOOR(LOG(C84),1)">0.2624511</td>
+  <td class=xl34 style='border-left:none' x:num="2.8299999999999801">2.83</td>
+  <td class=xl30 x:num="0.45178643552428716"
+  x:fmla="=LOG(E84)-FLOOR(LOG(E84),1)">0.4517864</td>
+  <td class=xl34 style='border-left:none' x:num="3.8299999999999801">3.83</td>
+  <td class=xl30 x:num="0.58319877396862052"
+  x:fmla="=LOG(G84)-FLOOR(LOG(G84),1)">0.5831988</td>
+  <td class=xl34 style='border-left:none' x:num="4.8299999999999796">4.83</td>
+  <td class=xl30 x:num="0.68394713075151037"
+  x:fmla="=LOG(I84)-FLOOR(LOG(I84),1)">0.6839471</td>
+  <td class=xl34 style='border-left:none' x:num="5.8299999999999796">5.83</td>
+  <td class=xl30 x:num="0.76566855475901252"
+  x:fmla="=LOG(K84)-FLOOR(LOG(K84),1)">0.7656686</td>
+  <td class=xl34 style='border-left:none' x:num="6.8299999999999796">6.83</td>
+  <td class=xl30 x:num="0.83442070368153132"
+  x:fmla="=LOG(M84)-FLOOR(LOG(M84),1)">0.8344207</td>
+  <td class=xl34 style='border-left:none' x:num="7.8299999999999796">7.83</td>
+  <td class=xl30 x:num="0.89376176205794222"
+  x:fmla="=LOG(O84)-FLOOR(LOG(O84),1)">0.8937618</td>
+  <td class=xl34 style='border-left:none' x:num="8.8299999999999805">8.83</td>
+  <td class=xl30 x:num="0.94596070357756767"
+  x:fmla="=LOG(Q84)-FLOOR(LOG(Q84),1)">0.9459607</td>
+  <td class=xl34 style='border-left:none' x:num="9.8299999999999805">9.83</td>
+  <td class=xl30 x:num="0.99255351783213475"
+  x:fmla="=LOG(S84)-FLOOR(LOG(S84),1)">0.9925535</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0839999999999907"
+  x:fmla="=A84+0.001">1.084</td>
+  <td class=xl32 x:num="3.5029282202364412E-2" x:fmla="=LOG(A85)">0.03502928</td>
+  <td class=xl34 style='border-left:none' x:num>1.84</td>
+  <td class=xl30 x:num="0.26481782300953649"
+  x:fmla="=LOG(C85)-FLOOR(LOG(C85),1)">0.2648178</td>
+  <td class=xl34 style='border-left:none' x:num="2.8399999999999799">2.84</td>
+  <td class=xl30 x:num="0.45331834004703458"
+  x:fmla="=LOG(E85)-FLOOR(LOG(E85),1)">0.4533183</td>
+  <td class=xl34 style='border-left:none' x:num="3.8399999999999799">3.84</td>
+  <td class=xl30 x:num="0.58433122436752849"
+  x:fmla="=LOG(G85)-FLOOR(LOG(G85),1)">0.5843312</td>
+  <td class=xl34 style='border-left:none' x:num="4.8399999999999803">4.84</td>
+  <td class=xl30 x:num="0.68484536164441068"
+  x:fmla="=LOG(I85)-FLOOR(LOG(I85),1)">0.6848454</td>
+  <td class=xl34 style='border-left:none' x:num="5.8399999999999803">5.84</td>
+  <td class=xl30 x:num="0.76641284711239799"
+  x:fmla="=LOG(K85)-FLOOR(LOG(K85),1)">0.7664128</td>
+  <td class=xl34 style='border-left:none' x:num="6.8399999999999803">6.84</td>
+  <td class=xl30 x:num="0.83505610172011502"
+  x:fmla="=LOG(M85)-FLOOR(LOG(M85),1)">0.8350561</td>
+  <td class=xl34 style='border-left:none' x:num="7.8399999999999803">7.84</td>
+  <td class=xl30 x:num="0.89431606268443731"
+  x:fmla="=LOG(O85)-FLOOR(LOG(O85),1)">0.8943161</td>
+  <td class=xl34 style='border-left:none' x:num="8.8399999999999803">8.84</td>
+  <td class=xl30 x:num="0.94645226501307211"
+  x:fmla="=LOG(Q85)-FLOOR(LOG(Q85),1)">0.9464523</td>
+  <td class=xl34 style='border-left:none' x:num="9.8399999999999803">9.84</td>
+  <td class=xl30 x:num="0.99299509843134059"
+  x:fmla="=LOG(S85)-FLOOR(LOG(S85),1)">0.9929951</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0849999999999906"
+  x:fmla="=A85+0.001">1.085</td>
+  <td class=xl32 x:num="3.5429738184544569E-2" x:fmla="=LOG(A86)">0.03542974</td>
+  <td class=xl34 style='border-left:none' x:num>1.85</td>
+  <td class=xl30 x:num="0.26717172840301384"
+  x:fmla="=LOG(C86)-FLOOR(LOG(C86),1)">0.2671717</td>
+  <td class=xl34 style='border-left:none' x:num="2.8499999999999801">2.85</td>
+  <td class=xl30 x:num="0.45484486000850716"
+  x:fmla="=LOG(E86)-FLOOR(LOG(E86),1)">0.4548449</td>
+  <td class=xl34 style='border-left:none' x:num="3.8499999999999801">3.85</td>
+  <td class=xl30 x:num="0.58546072950849848"
+  x:fmla="=LOG(G86)-FLOOR(LOG(G86),1)">0.5854607</td>
+  <td class=xl34 style='border-left:none' x:num="4.8499999999999801">4.85</td>
+  <td class=xl30 x:num="0.68574173860226184"
+  x:fmla="=LOG(I86)-FLOOR(LOG(I86),1)">0.6857417</td>
+  <td class=xl34 style='border-left:none' x:num="5.8499999999999801">5.85</td>
+  <td class=xl30 x:num="0.76715586608217901"
+  x:fmla="=LOG(K86)-FLOOR(LOG(K86),1)">0.7671559</td>
+  <td class=xl34 style='border-left:none' x:num="6.8499999999999801">6.85</td>
+  <td class=xl30 x:num="0.83569057149242432"
+  x:fmla="=LOG(M86)-FLOOR(LOG(M86),1)">0.8356906</td>
+  <td class=xl34 style='border-left:none' x:num="7.8499999999999801">7.85</td>
+  <td class=xl30 x:num="0.89486965674525143"
+  x:fmla="=LOG(O86)-FLOOR(LOG(O86),1)">0.8948697</td>
+  <td class=xl34 style='border-left:none' x:num="8.8499999999999801">8.85</td>
+  <td class=xl30 x:num="0.94694327069782447"
+  x:fmla="=LOG(Q86)-FLOOR(LOG(Q86),1)">0.9469433</td>
+  <td class=xl34 style='border-left:none' x:num="9.8499999999999801">9.85</td>
+  <td class=xl30 x:num="0.99343623049761087"
+  x:fmla="=LOG(S86)-FLOOR(LOG(S86),1)">0.9934362</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0859999999999905"
+  x:fmla="=A86+0.001">1.086</td>
+  <td class=xl32 x:num="3.5829825252824354E-2" x:fmla="=LOG(A87)">0.03582983</td>
+  <td class=xl34 style='border-left:none' x:num>1.86</td>
+  <td class=xl30 x:num="0.26951294421791633"
+  x:fmla="=LOG(C87)-FLOOR(LOG(C87),1)">0.2695129</td>
+  <td class=xl34 style='border-left:none' x:num="2.8599999999999799">2.86</td>
+  <td class=xl30 x:num="0.45636603312903995"
+  x:fmla="=LOG(E87)-FLOOR(LOG(E87),1)">0.4563660</td>
+  <td class=xl34 style='border-left:none' x:num="3.8599999999999799">3.86</td>
+  <td class=xl30 x:num="0.58658730467175269"
+  x:fmla="=LOG(G87)-FLOOR(LOG(G87),1)">0.5865873</td>
+  <td class=xl34 style='border-left:none' x:num="4.8599999999999799">4.86</td>
+  <td class=xl30 x:num="0.6866362692622916" x:fmla="=LOG(I87)-FLOOR(LOG(I87),1)">0.6866363</td>
+  <td class=xl34 style='border-left:none' x:num="5.8599999999999799">5.86</td>
+  <td class=xl30 x:num="0.76789761601808915"
+  x:fmla="=LOG(K87)-FLOOR(LOG(K87),1)">0.7678976</td>
+  <td class=xl34 style='border-left:none' x:num="6.8599999999999799">6.86</td>
+  <td class=xl30 x:num="0.83632411570675036"
+  x:fmla="=LOG(M87)-FLOOR(LOG(M87),1)">0.8363241</td>
+  <td class=xl34 style='border-left:none' x:num="7.8599999999999799">7.86</td>
+  <td class=xl30 x:num="0.89542254603940674"
+  x:fmla="=LOG(O87)-FLOOR(LOG(O87),1)">0.8954225</td>
+  <td class=xl34 style='border-left:none' x:num="8.8599999999999799">8.86</td>
+  <td class=xl30 x:num="0.94743372188704977"
+  x:fmla="=LOG(Q87)-FLOOR(LOG(Q87),1)">0.9474337</td>
+  <td class=xl34 style='border-left:none' x:num="9.8599999999999799">9.86</td>
+  <td class=xl30 x:num="0.99387691494121033"
+  x:fmla="=LOG(S87)-FLOOR(LOG(S87),1)">0.9938769</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0869999999999904"
+  x:fmla="=A87+0.001">1.087</td>
+  <td class=xl32 x:num="3.6229544086290713E-2" x:fmla="=LOG(A88)">0.03622954</td>
+  <td class=xl34 style='border-left:none' x:num>1.87</td>
+  <td class=xl30 x:num="0.27184160653649897"
+  x:fmla="=LOG(C88)-FLOOR(LOG(C88),1)">0.2718416</td>
+  <td class=xl34 style='border-left:none' x:num="2.8699999999999801">2.87</td>
+  <td class=xl30 x:num="0.45788189673398932"
+  x:fmla="=LOG(E88)-FLOOR(LOG(E88),1)">0.4578819</td>
+  <td class=xl34 style='border-left:none' x:num="3.8699999999999801">3.87</td>
+  <td class=xl30 x:num="0.58771096501890918"
+  x:fmla="=LOG(G88)-FLOOR(LOG(G88),1)">0.5877110</td>
+  <td class=xl34 style='border-left:none' x:num="4.8699999999999797">4.87</td>
+  <td class=xl30 x:num="0.68752896121463247"
+  x:fmla="=LOG(I88)-FLOOR(LOG(I88),1)">0.6875290</td>
+  <td class=xl34 style='border-left:none' x:num="5.8699999999999797">5.87</td>
+  <td class=xl30 x:num="0.768638101247613" x:fmla="=LOG(K88)-FLOOR(LOG(K88),1)">0.7686381</td>
+  <td class=xl34 style='border-left:none' x:num="6.8699999999999797">6.87</td>
+  <td class=xl30 x:num="0.83695673705954909"
+  x:fmla="=LOG(M88)-FLOOR(LOG(M88),1)">0.8369567</td>
+  <td class=xl34 style='border-left:none' x:num="7.8699999999999797">7.87</td>
+  <td class=xl30 x:num="0.89597473235906344"
+  x:fmla="=LOG(O88)-FLOOR(LOG(O88),1)">0.8959747</td>
+  <td class=xl34 style='border-left:none' x:num="8.8699999999999797">8.87</td>
+  <td class=xl30 x:num="0.94792361983172535"
+  x:fmla="=LOG(Q88)-FLOOR(LOG(Q88),1)">0.9479236</td>
+  <td class=xl34 style='border-left:none' x:num="9.8699999999999797">9.87</td>
+  <td class=xl30 x:num="0.99431715266963583"
+  x:fmla="=LOG(S88)-FLOOR(LOG(S88),1)">0.9943172</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0879999999999903"
+  x:fmla="=A88+0.001">1.088</td>
+  <td class=xl32 x:num="3.6628895362157229E-2" x:fmla="=LOG(A89)">0.03662890</td>
+  <td class=xl34 style='border-left:none' x:num>1.88</td>
+  <td class=xl30 x:num="0.27415784926367981"
+  x:fmla="=LOG(C89)-FLOOR(LOG(C89),1)">0.2741578</td>
+  <td class=xl34 style='border-left:none' x:num="2.8799999999999799">2.88</td>
+  <td class=xl30 x:num="0.45939248775922781"
+  x:fmla="=LOG(E89)-FLOOR(LOG(E89),1)">0.4593925</td>
+  <td class=xl34 style='border-left:none' x:num="3.8799999999999799">3.88</td>
+  <td class=xl30 x:num="0.58883172559420505"
+  x:fmla="=LOG(G89)-FLOOR(LOG(G89),1)">0.5888317</td>
+  <td class=xl34 style='border-left:none' x:num="4.8799999999999804">4.88</td>
+  <td class=xl30 x:num="0.6884198220027089" x:fmla="=LOG(I89)-FLOOR(LOG(I89),1)">0.6884198</td>
+  <td class=xl34 style='border-left:none' x:num="5.8799999999999804">5.88</td>
+  <td class=xl30 x:num="0.76937732607613707"
+  x:fmla="=LOG(K89)-FLOOR(LOG(K89),1)">0.7693773</td>
+  <td class=xl34 style='border-left:none' x:num="6.8799999999999804">6.88</td>
+  <td class=xl30 x:num="0.8375884382355101" x:fmla="=LOG(M89)-FLOOR(LOG(M89),1)">0.8375884</td>
+  <td class=xl34 style='border-left:none' x:num="7.8799999999999804">7.88</td>
+  <td class=xl30 x:num="0.89652621748955419"
+  x:fmla="=LOG(O89)-FLOOR(LOG(O89),1)">0.8965262</td>
+  <td class=xl34 style='border-left:none' x:num="8.8799999999999795">8.88</td>
+  <td class=xl30 x:num="0.94841296577860001"
+  x:fmla="=LOG(Q89)-FLOOR(LOG(Q89),1)">0.9484130</td>
+  <td class=xl34 style='border-left:none' x:num="9.8799999999999795">9.88</td>
+  <td class=xl30 x:num="0.9947569445876272" x:fmla="=LOG(S89)-FLOOR(LOG(S89),1)">0.9947569</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0889999999999902"
+  x:fmla="=A89+0.001">1.089</td>
+  <td class=xl32 x:num="3.702787975577105E-2" x:fmla="=LOG(A90)">0.03702788</td>
+  <td class=xl34 style='border-left:none' x:num>1.89</td>
+  <td class=xl30 x:num="0.27646180417324412"
+  x:fmla="=LOG(C90)-FLOOR(LOG(C90),1)">0.2764618</td>
+  <td class=xl34 style='border-left:none' x:num="2.8899999999999801">2.89</td>
+  <td class=xl30 x:num="0.46089784275654488"
+  x:fmla="=LOG(E90)-FLOOR(LOG(E90),1)">0.4608978</td>
+  <td class=xl34 style='border-left:none' x:num="3.8899999999999801">3.89</td>
+  <td class=xl30 x:num="0.58994960132570551"
+  x:fmla="=LOG(G90)-FLOOR(LOG(G90),1)">0.5899496</td>
+  <td class=xl34 style='border-left:none' x:num="4.8899999999999801">4.89</td>
+  <td class=xl30 x:num="0.6893088591236185" x:fmla="=LOG(I90)-FLOOR(LOG(I90),1)">0.6893089</td>
+  <td class=xl34 style='border-left:none' x:num="5.8899999999999801">5.89</td>
+  <td class=xl30 x:num="0.77011529478710017"
+  x:fmla="=LOG(K90)-FLOOR(LOG(K90),1)">0.7701153</td>
+  <td class=xl34 style='border-left:none' x:num="6.8899999999999801">6.89</td>
+  <td class=xl30 x:num="0.83821922190762455"
+  x:fmla="=LOG(M90)-FLOOR(LOG(M90),1)">0.8382192</td>
+  <td class=xl34 style='border-left:none' x:num="7.8899999999999801">7.89</td>
+  <td class=xl30 x:num="0.89707700320941919"
+  x:fmla="=LOG(O90)-FLOOR(LOG(O90),1)">0.8970770</td>
+  <td class=xl34 style='border-left:none' x:num="8.8899999999999793">8.89</td>
+  <td class=xl30 x:num="0.94890176097021273"
+  x:fmla="=LOG(Q90)-FLOOR(LOG(Q90),1)">0.9489018</td>
+  <td class=xl34 style='border-left:none' x:num="9.8899999999999793">9.89</td>
+  <td class=xl30 x:num="0.99519629159717848"
+  x:fmla="=LOG(S90)-FLOOR(LOG(S90),1)">0.9951963</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0899999999999901"
+  x:fmla="=A90+0.001">1.090</td>
+  <td class=xl32 x:num="3.7426497940619689E-2" x:fmla="=LOG(A91)">0.03742650</td>
+  <td class=xl34 style='border-left:none' x:num>1.90</td>
+  <td class=xl30 x:num="0.27875360095282892"
+  x:fmla="=LOG(C91)-FLOOR(LOG(C91),1)">0.2787536</td>
+  <td class=xl34 style='border-left:none' x:num="2.8999999999999799">2.90</td>
+  <td class=xl30 x:num="0.46239799789895308"
+  x:fmla="=LOG(E91)-FLOOR(LOG(E91),1)">0.4623980</td>
+  <td class=xl34 style='border-left:none' x:num="3.8999999999999799">3.90</td>
+  <td class=xl30 x:num="0.59106460702649699"
+  x:fmla="=LOG(G91)-FLOOR(LOG(G91),1)">0.5910646</td>
+  <td class=xl34 style='border-left:none' x:num="4.8999999999999799">4.90</td>
+  <td class=xl30 x:num="0.69019608002851185"
+  x:fmla="=LOG(I91)-FLOOR(LOG(I91),1)">0.6901961</td>
+  <td class=xl34 style='border-left:none' x:num="5.8999999999999799">5.90</td>
+  <td class=xl30 x:num="0.77085201164214268"
+  x:fmla="=LOG(K91)-FLOOR(LOG(K91),1)">0.7708520</td>
+  <td class=xl34 style='border-left:none' x:num="6.8999999999999799">6.90</td>
+  <td class=xl30 x:num="0.838849090737254" x:fmla="=LOG(M91)-FLOOR(LOG(M91),1)">0.8388491</td>
+  <td class=xl34 style='border-left:none' x:num="7.8999999999999799">7.90</td>
+  <td class=xl30 x:num="0.89762709129044027"
+  x:fmla="=LOG(O91)-FLOOR(LOG(O91),1)">0.8976271</td>
+  <td class=xl34 style='border-left:none' x:num="8.8999999999999808">8.90</td>
+  <td class=xl30 x:num="0.9493900066449118" x:fmla="=LOG(Q91)-FLOOR(LOG(Q91),1)">0.9493900</td>
+  <td class=xl34 style='border-left:none' x:num="9.8999999999999808">9.90</td>
+  <td class=xl30 x:num="0.99563519459754912"
+  x:fmla="=LOG(S91)-FLOOR(LOG(S91),1)">0.9956352</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.09099999999999"
+  x:fmla="=A91+0.001">1.091</td>
+  <td class=xl32 x:num="3.782475058833789E-2" x:fmla="=LOG(A92)">0.03782475</td>
+  <td class=xl34 style='border-left:none' x:num>1.91</td>
+  <td class=xl30 x:num="0.28103336724772754"
+  x:fmla="=LOG(C92)-FLOOR(LOG(C92),1)">0.2810334</td>
+  <td class=xl34 style='border-left:none' x:num="2.9099999999999802">2.91</td>
+  <td class=xl30 x:num="0.46389298898590431"
+  x:fmla="=LOG(E92)-FLOOR(LOG(E92),1)">0.4638930</td>
+  <td class=xl34 style='border-left:none' x:num="3.9099999999999802">3.91</td>
+  <td class=xl30 x:num="0.59217675739586462"
+  x:fmla="=LOG(G92)-FLOOR(LOG(G92),1)">0.5921768</td>
+  <td class=xl34 style='border-left:none' x:num="4.9099999999999797">4.91</td>
+  <td class=xl30 x:num="0.69108149212296666"
+  x:fmla="=LOG(I92)-FLOOR(LOG(I92),1)">0.6910815</td>
+  <td class=xl34 style='border-left:none' x:num="5.9099999999999797">5.91</td>
+  <td class=xl30 x:num="0.77158748088125384"
+  x:fmla="=LOG(K92)-FLOOR(LOG(K92),1)">0.7715875</td>
+  <td class=xl34 style='border-left:none' x:num="6.9099999999999797">6.91</td>
+  <td class=xl30 x:num="0.83947804737419718"
+  x:fmla="=LOG(M92)-FLOOR(LOG(M92),1)">0.8394780</td>
+  <td class=xl34 style='border-left:none' x:num="7.9099999999999797">7.91</td>
+  <td class=xl30 x:num="0.89817648349767543"
+  x:fmla="=LOG(O92)-FLOOR(LOG(O92),1)">0.8981765</td>
+  <td class=xl34 style='border-left:none' x:num="8.9099999999999806">8.91</td>
+  <td class=xl30 x:num="0.94987770403687388"
+  x:fmla="=LOG(Q92)-FLOOR(LOG(Q92),1)">0.9498777</td>
+  <td class=xl34 style='border-left:none' x:num="9.9099999999999806">9.91</td>
+  <td class=xl30 x:num="0.99607365448527452"
+  x:fmla="=LOG(S92)-FLOOR(LOG(S92),1)">0.9960737</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0919999999999899"
+  x:fmla="=A92+0.001">1.092</td>
+  <td class=xl32 x:num="3.8222638368714396E-2" x:fmla="=LOG(A93)">0.03822264</td>
+  <td class=xl34 style='border-left:none' x:num>1.92</td>
+  <td class=xl30 x:num="0.28330122870354957"
+  x:fmla="=LOG(C93)-FLOOR(LOG(C93),1)">0.2833012</td>
+  <td class=xl34 style='border-left:none' x:num="2.9199999999999799">2.92</td>
+  <td class=xl30 x:num="0.46538285144841529"
+  x:fmla="=LOG(E93)-FLOOR(LOG(E93),1)">0.4653829</td>
+  <td class=xl34 style='border-left:none' x:num="3.9199999999999799">3.92</td>
+  <td class=xl30 x:num="0.59328606702045505"
+  x:fmla="=LOG(G93)-FLOOR(LOG(G93),1)">0.5932861</td>
+  <td class=xl34 style='border-left:none' x:num="4.9199999999999804">4.92</td>
+  <td class=xl30 x:num="0.69196510276735856"
+  x:fmla="=LOG(I93)-FLOOR(LOG(I93),1)">0.6919651</td>
+  <td class=xl34 style='border-left:none' x:num="5.9199999999999804">5.92</td>
+  <td class=xl30 x:num="0.77232170672291833"
+  x:fmla="=LOG(K93)-FLOOR(LOG(K93),1)">0.7723217</td>
+  <td class=xl34 style='border-left:none' x:num="6.9199999999999804">6.92</td>
+  <td class=xl30 x:num="0.84010609445675655"
+  x:fmla="=LOG(M93)-FLOOR(LOG(M93),1)">0.8401061</td>
+  <td class=xl34 style='border-left:none' x:num="7.9199999999999804">7.92</td>
+  <td class=xl30 x:num="0.89872518158949244"
+  x:fmla="=LOG(O93)-FLOOR(LOG(O93),1)">0.8987252</td>
+  <td class=xl34 style='border-left:none' x:num="8.9199999999999804">8.92</td>
+  <td class=xl30 x:num="0.95036485437612206"
+  x:fmla="=LOG(Q93)-FLOOR(LOG(Q93),1)">0.9503649</td>
+  <td class=xl34 style='border-left:none' x:num="9.9199999999999804">9.92</td>
+  <td class=xl30 x:num="0.9965116721541778" x:fmla="=LOG(S93)-FLOOR(LOG(S93),1)">0.9965117</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0929999999999898"
+  x:fmla="=A93+0.001">1.093</td>
+  <td class=xl32 x:num="3.8620161949698723E-2" x:fmla="=LOG(A94)">0.03862016</td>
+  <td class=xl34 style='border-left:none' x:num>1.93</td>
+  <td class=xl30 x:num="0.28555730900777376"
+  x:fmla="=LOG(C94)-FLOOR(LOG(C94),1)">0.2855573</td>
+  <td class=xl34 style='border-left:none' x:num="2.9299999999999802">2.93</td>
+  <td class=xl30 x:num="0.46686762035410651"
+  x:fmla="=LOG(E94)-FLOOR(LOG(E94),1)">0.4668676</td>
+  <td class=xl34 style='border-left:none' x:num="3.9299999999999802">3.93</td>
+  <td class=xl30 x:num="0.59439255037542449"
+  x:fmla="=LOG(G94)-FLOOR(LOG(G94),1)">0.5943926</td>
+  <td class=xl34 style='border-left:none' x:num="4.9299999999999802">4.93</td>
+  <td class=xl30 x:num="0.6928469192772283" x:fmla="=LOG(I94)-FLOOR(LOG(I94),1)">0.6928469</td>
+  <td class=xl34 style='border-left:none' x:num="5.9299999999999802">5.93</td>
+  <td class=xl30 x:num="0.77305469336426114"
+  x:fmla="=LOG(K94)-FLOOR(LOG(K94),1)">0.7730547</td>
+  <td class=xl34 style='border-left:none' x:num="6.9299999999999802">6.93</td>
+  <td class=xl30 x:num="0.84073323461180549"
+  x:fmla="=LOG(M94)-FLOOR(LOG(M94),1)">0.8407332</td>
+  <td class=xl34 style='border-left:none' x:num="7.9299999999999802">7.93</td>
+  <td class=xl30 x:num="0.89927318731760275"
+  x:fmla="=LOG(O94)-FLOOR(LOG(O94),1)">0.8992732</td>
+  <td class=xl34 style='border-left:none' x:num="8.9299999999999802">8.93</td>
+  <td class=xl30 x:num="0.9508514588885455" x:fmla="=LOG(Q94)-FLOOR(LOG(Q94),1)">0.9508515</td>
+  <td class=xl34 style='border-left:none' x:num="9.9299999999999802">9.93</td>
+  <td class=xl30 x:num="0.99694924849538036"
+  x:fmla="=LOG(S94)-FLOOR(LOG(S94),1)">0.9969492</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0939999999999896"
+  x:fmla="=A94+0.001">1.094</td>
+  <td class=xl32 x:num="3.9017321997407858E-2" x:fmla="=LOG(A95)">0.03901732</td>
+  <td class=xl34 style='border-left:none' x:num>1.94</td>
+  <td class=xl30 x:num="0.28780172993022601"
+  x:fmla="=LOG(C95)-FLOOR(LOG(C95),1)">0.2878017</td>
+  <td class=xl34 style='border-left:none' x:num="2.93999999999998">2.94</td>
+  <td class=xl30 x:num="0.46834733041215432"
+  x:fmla="=LOG(E95)-FLOOR(LOG(E95),1)">0.4683473</td>
+  <td class=xl34 style='border-left:none' x:num="3.93999999999998">3.94</td>
+  <td class=xl30 x:num="0.59549622182557194"
+  x:fmla="=LOG(G95)-FLOOR(LOG(G95),1)">0.5954962</td>
+  <td class=xl34 style='border-left:none' x:num="4.93999999999998">4.94</td>
+  <td class=xl30 x:num="0.69372694892364517"
+  x:fmla="=LOG(I95)-FLOOR(LOG(I95),1)">0.6937269</td>
+  <td class=xl34 style='border-left:none' x:num="5.93999999999998">5.94</td>
+  <td class=xl30 x:num="0.77378644498119209"
+  x:fmla="=LOG(K95)-FLOOR(LOG(K95),1)">0.7737864</td>
+  <td class=xl34 style='border-left:none' x:num="6.93999999999998">6.94</td>
+  <td class=xl30 x:num="0.84135947045485371"
+  x:fmla="=LOG(M95)-FLOOR(LOG(M95),1)">0.8413595</td>
+  <td class=xl34 style='border-left:none' x:num="7.93999999999998">7.94</td>
+  <td class=xl30 x:num="0.89982050242709521"
+  x:fmla="=LOG(O95)-FLOOR(LOG(O95),1)">0.8998205</td>
+  <td class=xl34 style='border-left:none' x:num="8.93999999999998">8.94</td>
+  <td class=xl30 x:num="0.95133751879591666"
+  x:fmla="=LOG(Q95)-FLOOR(LOG(Q95),1)">0.9513375</td>
+  <td class=xl34 style='border-left:none' x:num="9.93999999999998">9.94</td>
+  <td class=xl30 x:num="0.99738638439731242"
+  x:fmla="=LOG(S95)-FLOOR(LOG(S95),1)">0.9973864</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0949999999999895"
+  x:fmla="=A95+0.001">1.095</td>
+  <td class=xl32 x:num="3.9414119176132995E-2" x:fmla="=LOG(A96)">0.03941412</td>
+  <td class=xl34 style='border-left:none' x:num>1.95</td>
+  <td class=xl30 x:num="0.29003461136251801"
+  x:fmla="=LOG(C96)-FLOOR(LOG(C96),1)">0.2900346</td>
+  <td class=xl34 style='border-left:none' x:num="2.9499999999999802">2.95</td>
+  <td class=xl30 x:num="0.46982201597816009"
+  x:fmla="=LOG(E96)-FLOOR(LOG(E96),1)">0.4698220</td>
+  <td class=xl34 style='border-left:none' x:num="3.9499999999999802">3.95</td>
+  <td class=xl30 x:num="0.59659709562645802"
+  x:fmla="=LOG(G96)-FLOOR(LOG(G96),1)">0.5965971</td>
+  <td class=xl34 style='border-left:none' x:num="4.9499999999999797">4.95</td>
+  <td class=xl30 x:num="0.69460519893356698"
+  x:fmla="=LOG(I96)-FLOOR(LOG(I96),1)">0.6946052</td>
+  <td class=xl34 style='border-left:none' x:num="5.9499999999999797">5.95</td>
+  <td class=xl30 x:num="0.77451696572854811"
+  x:fmla="=LOG(K96)-FLOOR(LOG(K96),1)">0.7745170</td>
+  <td class=xl34 style='border-left:none' x:num="6.9499999999999797">6.95</td>
+  <td class=xl30 x:num="0.8419848045901126" x:fmla="=LOG(M96)-FLOOR(LOG(M96),1)">0.8419848</td>
+  <td class=xl34 style='border-left:none' x:num="7.9499999999999797">7.95</td>
+  <td class=xl30 x:num="0.90036712865646917"
+  x:fmla="=LOG(O96)-FLOOR(LOG(O96),1)">0.9003671</td>
+  <td class=xl34 style='border-left:none' x:num="8.9499999999999797">8.95</td>
+  <td class=xl30 x:num="0.95182303531591095"
+  x:fmla="=LOG(Q96)-FLOOR(LOG(Q96),1)">0.9518230</td>
+  <td class=xl34 style='border-left:none' x:num="9.9499999999999797">9.95</td>
+  <td class=xl30 x:num="0.99782308074572457"
+  x:fmla="=LOG(S96)-FLOOR(LOG(S96),1)">0.9978231</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0959999999999894"
+  x:fmla="=A96+0.001">1.096</td>
+  <td class=xl32 x:num="3.9810554148346167E-2" x:fmla="=LOG(A97)">0.03981055</td>
+  <td class=xl34 style='border-left:none' x:num>1.96</td>
+  <td class=xl30 x:num="0.29225607135647602"
+  x:fmla="=LOG(C97)-FLOOR(LOG(C97),1)">0.2922561</td>
+  <td class=xl34 style='border-left:none' x:num="2.95999999999998">2.96</td>
+  <td class=xl30 x:num="0.47129171105893564"
+  x:fmla="=LOG(E97)-FLOOR(LOG(E97),1)">0.4712917</td>
+  <td class=xl34 style='border-left:none' x:num="3.95999999999998">3.96</td>
+  <td class=xl30 x:num="0.59769518592551008"
+  x:fmla="=LOG(G97)-FLOOR(LOG(G97),1)">0.5976952</td>
+  <td class=xl34 style='border-left:none' x:num="4.9599999999999804">4.96</td>
+  <td class=xl30 x:num="0.69548167649019577"
+  x:fmla="=LOG(I97)-FLOOR(LOG(I97),1)">0.6954817</td>
+  <td class=xl34 style='border-left:none' x:num="5.9599999999999804">5.96</td>
+  <td class=xl30 x:num="0.77524625974023498"
+  x:fmla="=LOG(K97)-FLOOR(LOG(K97),1)">0.7752463</td>
+  <td class=xl34 style='border-left:none' x:num="6.9599999999999804">6.96</td>
+  <td class=xl30 x:num="0.84260923961056089"
+  x:fmla="=LOG(M97)-FLOOR(LOG(M97),1)">0.8426092</td>
+  <td class=xl34 style='border-left:none' x:num="7.9599999999999804">7.96</td>
+  <td class=xl30 x:num="0.90091306773766799"
+  x:fmla="=LOG(O97)-FLOOR(LOG(O97),1)">0.9009131</td>
+  <td class=xl34 style='border-left:none' x:num="8.9599999999999795">8.96</td>
+  <td class=xl30 x:num="0.95230800966212426"
+  x:fmla="=LOG(Q97)-FLOOR(LOG(Q97),1)">0.9523080</td>
+  <td class=xl34 style='border-left:none' x:num="9.9599999999999795">9.96</td>
+  <td class=xl30 x:num="0.99825933842369785"
+  x:fmla="=LOG(S97)-FLOOR(LOG(S97),1)">0.9982593</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0969999999999893"
+  x:fmla="=A97+0.001">1.097</td>
+  <td class=xl32 x:num="4.0206627574706902E-2" x:fmla="=LOG(A98)">0.04020663</td>
+  <td class=xl34 style='border-left:none' x:num>1.97</td>
+  <td class=xl30 x:num="0.2944662261615929" x:fmla="=LOG(C98)-FLOOR(LOG(C98),1)">0.2944662</td>
+  <td class=xl34 style='border-left:none' x:num="2.9699999999999802">2.97</td>
+  <td class=xl30 x:num="0.47275644931720945"
+  x:fmla="=LOG(E98)-FLOOR(LOG(E98),1)">0.4727564</td>
+  <td class=xl34 style='border-left:none' x:num="3.9699999999999802">3.97</td>
+  <td class=xl30 x:num="0.59879050676311285"
+  x:fmla="=LOG(G98)-FLOOR(LOG(G98),1)">0.5987905</td>
+  <td class=xl34 style='border-left:none' x:num="4.9699999999999802">4.97</td>
+  <td class=xl30 x:num="0.69635638873333039"
+  x:fmla="=LOG(I98)-FLOOR(LOG(I98),1)">0.6963564</td>
+  <td class=xl34 style='border-left:none' x:num="5.9699999999999802">5.97</td>
+  <td class=xl30 x:num="0.77597433112936764"
+  x:fmla="=LOG(K98)-FLOOR(LOG(K98),1)">0.7759743</td>
+  <td class=xl34 style='border-left:none' x:num="6.9699999999999802">6.97</td>
+  <td class=xl30 x:num="0.84323277809800823"
+  x:fmla="=LOG(M98)-FLOOR(LOG(M98),1)">0.8432328</td>
+  <td class=xl34 style='border-left:none' x:num="7.9699999999999802">7.97</td>
+  <td class=xl30 x:num="0.90145832139611126"
+  x:fmla="=LOG(O98)-FLOOR(LOG(O98),1)">0.9014583</td>
+  <td class=xl34 style='border-left:none' x:num="8.9699999999999793">8.97</td>
+  <td class=xl30 x:num="0.95279244304409105"
+  x:fmla="=LOG(Q98)-FLOOR(LOG(Q98),1)">0.9527924</td>
+  <td class=xl34 style='border-left:none' x:num="9.9699999999999793">9.97</td>
+  <td class=xl30 x:num="0.99869515831165478"
+  x:fmla="=LOG(S98)-FLOOR(LOG(S98),1)">0.9986952</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0979999999999892"
+  x:fmla="=A98+0.001">1.098</td>
+  <td class=xl32 x:num="4.0602340114068831E-2" x:fmla="=LOG(A99)">0.04060234</td>
+  <td class=xl34 style='border-left:none' x:num>1.98</td>
+  <td class=xl30 x:num="0.2966651902615311" x:fmla="=LOG(C99)-FLOOR(LOG(C99),1)">0.2966652</td>
+  <td class=xl34 style='border-left:none' x:num="2.97999999999998">2.98</td>
+  <td class=xl30 x:num="0.47421626407625234"
+  x:fmla="=LOG(E99)-FLOOR(LOG(E99),1)">0.4742163</td>
+  <td class=xl34 style='border-left:none' x:num="3.97999999999998">3.98</td>
+  <td class=xl30 x:num="0.59988307207368563"
+  x:fmla="=LOG(G99)-FLOOR(LOG(G99),1)">0.5998831</td>
+  <td class=xl34 style='border-left:none' x:num="4.97999999999998">4.98</td>
+  <td class=xl30 x:num="0.69722934275971582"
+  x:fmla="=LOG(I99)-FLOOR(LOG(I99),1)">0.6972293</td>
+  <td class=xl34 style='border-left:none' x:num="5.97999999999998">5.98</td>
+  <td class=xl30 x:num="0.77670118398840937"
+  x:fmla="=LOG(K99)-FLOOR(LOG(K99),1)">0.7767012</td>
+  <td class=xl34 style='border-left:none' x:num="6.97999999999998">6.98</td>
+  <td class=xl30 x:num="0.84385542262315982"
+  x:fmla="=LOG(M99)-FLOOR(LOG(M99),1)">0.8438554</td>
+  <td class=xl34 style='border-left:none' x:num="7.97999999999998">7.98</td>
+  <td class=xl30 x:num="0.90200289135072831"
+  x:fmla="=LOG(O99)-FLOOR(LOG(O99),1)">0.9020029</td>
+  <td class=xl34 style='border-left:none' x:num="8.9799999999999809">8.98</td>
+  <td class=xl30 x:num="0.95327633666730349"
+  x:fmla="=LOG(Q99)-FLOOR(LOG(Q99),1)">0.9532763</td>
+  <td class=xl34 style='border-left:none' x:num="9.9799999999999809">9.98</td>
+  <td class=xl30 x:num="0.99913054128737033"
+  x:fmla="=LOG(S99)-FLOOR(LOG(S99),1)">0.9991305</td>
+ </tr>
+ <tr height=14 style='height:10.2pt'>
+  <td height=14 class=xl29 style='height:10.2pt' x:num="1.0989999999999891"
+  x:fmla="=A99+0.001">1.099</td>
+  <td class=xl32 x:num="4.0997692423486262E-2" x:fmla="=LOG(A100)">0.04099769</td>
+  <td class=xl34 style='border-left:none' x:num>1.99</td>
+  <td class=xl30 x:num="0.29885307640970665"
+  x:fmla="=LOG(C100)-FLOOR(LOG(C100),1)">0.2988531</td>
+  <td class=xl34 style='border-left:none' x:num>2.99</td>
+  <td class=xl30 x:num="0.47567118832442956"
+  x:fmla="=LOG(E100)-FLOOR(LOG(E100),1)">0.4756712</td>
+  <td class=xl34 style='border-left:none' x:num="3.9899999999999798">3.99</td>
+  <td class=xl30 x:num="0.60097289568674606"
+  x:fmla="=LOG(G100)-FLOOR(LOG(G100),1)">0.6009729</td>
+  <td class=xl34 style='border-left:none' x:num="4.9899999999999798">4.99</td>
+  <td class=xl30 x:num="0.69810054562338819"
+  x:fmla="=LOG(I100)-FLOOR(LOG(I100),1)">0.6981005</td>
+  <td class=xl34 style='border-left:none' x:num="5.9899999999999798">5.99</td>
+  <td class=xl30 x:num="0.77742682238930993"
+  x:fmla="=LOG(K100)-FLOOR(LOG(K100),1)">0.7774268</td>
+  <td class=xl34 style='border-left:none' x:num="6.9899999999999798">6.99</td>
+  <td class=xl30 x:num="0.84447717574568015"
+  x:fmla="=LOG(M100)-FLOOR(LOG(M100),1)">0.8444772</td>
+  <td class=xl34 style='border-left:none' x:num="7.9899999999999798">7.99</td>
+  <td class=xl30 x:num="0.9025467793139903"
+  x:fmla="=LOG(O100)-FLOOR(LOG(O100),1)">0.9025468</td>
+  <td class=xl34 style='border-left:none' x:num="8.9899999999999807">8.99</td>
+  <td class=xl30 x:num="0.95375969173322783"
+  x:fmla="=LOG(Q100)-FLOOR(LOG(Q100),1)">0.9537597</td>
+  <td class=xl34 style='border-left:none' x:num="9.9899999999999807">9.99</td>
+  <td class=xl30 x:num="0.99956548822598146"
+  x:fmla="=LOG(S100)-FLOOR(LOG(S100),1)">0.9995655</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=36 style='width:27pt'></td>
+  <td width=58 style='width:44pt'></td>
+  <td width=36 style='width:27pt'></td>
+  <td width=53 style='width:40pt'></td>
+  <td width=36 style='width:27pt'></td>
+  <td width=53 style='width:40pt'></td>
+  <td width=36 style='width:27pt'></td>
+  <td width=53 style='width:40pt'></td>
+  <td width=36 style='width:27pt'></td>
+  <td width=53 style='width:40pt'></td>
+  <td width=36 style='width:27pt'></td>
+  <td width=53 style='width:40pt'></td>
+  <td width=36 style='width:27pt'></td>
+  <td width=53 style='width:40pt'></td>
+  <td width=36 style='width:27pt'></td>
+  <td width=53 style='width:40pt'></td>
+  <td width=36 style='width:27pt'></td>
+  <td width=53 style='width:40pt'></td>
+  <td width=36 style='width:27pt'></td>
+  <td width=53 style='width:40pt'></td>
+ </tr>
+ <![endif]>
+</table>
+</center>
+<font size=2>
+<i><B>
+<center><p>
+<img src="../../gif/lighthouse.gif" align = bottom><a href="../../index.html">S.O.S. MATH: Home Page</a></center></center>
+<p>
+<P>
+Do you need more help? Please post your question on our 
+<a href="http://www.sosmath.com/CBB">
+S.O.S. Mathematics CyberBoard</a>.
+</font>
+</b>
+
+<!--BOTTOM AD2-->
+<!--END BOTTOM AD2-->
+<center>
+<table cellpadding="0" border="0" cellspacing="0">
+<tr>
+<td valign=top>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-0120177304734599";
+/* bottomL350x200 */
+google_ad_slot = "9059344227";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<td width=12>
+<td valign=top>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-0120177304734599";
+/* bottomR350x200 */
+google_ad_slot = "1536077426";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</table>
+</center>
+
+
+
+<!--COUNTER-->
+<P>
+<CENTER><FONT size=1 color="darkgray">Copyright © 1999-2013 MathMedics, LLC. All rights reserved.
+<br>
+<a href="http://www.sosmath.com/mail.php">Contact us</a>
+<br>
+Math Medics, LLC. - P.O. Box 12395 - El Paso TX 79913 - USA
+<br><script src="http://www.sosmath.com/cgi-bin/suo.cgi?action=index&e=js"></script> users online during the last hour
+</FONT></CENTER>
+<!--COUNTER END--><script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-278468-1";
+urchinTracker();
+</script>
+</body>
+
+</html>

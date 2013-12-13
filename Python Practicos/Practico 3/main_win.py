@@ -231,9 +231,6 @@ class Directory (gtk.TreeView):
 		
 		self.columns(("Archivo", "fecha", "Tamanio"))
 		self.fill(".")
-		#~ self.run()
-		#~ self.show_all()
-		
 		
 	def columns(self, cols):
 		types = (str,) * len(cols)

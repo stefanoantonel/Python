@@ -1,0 +1,334 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<!--Converted with LaTeX2HTML 98.1p1 release (March 2nd, 1998)
+originally by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Table of of Laplace Transforms</TITLE>
+<META NAME="description" CONTENT="No Title">
+<META NAME="keywords" CONTENT="laplace">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<LINK REL="STYLESHEET" HREF="laplace.css">
+</HEAD>
+<BODY background="../../back001.gif">
+<center>
+<table cellpadding="0" border="0" cellspacing="0">
+<tr>
+<td valign=top>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-0120177304734599";
+/* top728x90 */
+google_ad_slot = "4247478622";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<td width=12>
+<td valign=top>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-0120177304734599";
+/* top160x90 */
+google_ad_slot = "4107877822";
+google_ad_width = 160;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</table>
+
+</center>
+
+<DIV ALIGN="CENTER">
+<B>Elementary Laplace Transforms</B></DIV>
+<BR>
+<DIV ALIGN="CENTER">
+
+<!-- MATH: \begin{eqnarray}
+{\cal L}(1)(s)&=& \frac{1}{s} \ \  (s>0)\\
+{\cal L}(e^{at})(s)&=&   \frac{1}{s-a}\ \  (s>a)\\
+{\cal L}(t^n)(s)&=& \frac{n!}{s^{n+1}}\ \  (s>0,n \mbox{ a positive integer})\\
+{\cal L}(t^p)(s)&=& \frac{\Gamma(p+1)}{s^{p+1}}\ \  (s>0,p>-1)\\
+{\cal L}(\sin(at))(s)&=&  \frac{a}{s^2+a^2}\ \   (s>0)\\
+{\cal L}(\cos(at))(s)&=&  \frac{s}{s^2+a^2} \ \  (s>0)\\
+{\cal L}(e^{at}\cdot \sin(bt))(s)&=& \frac{b}{(s-a)^2+b^2}\ \ (s>a)\\
+{\cal L}(e^{at}\cdot \cos(bt))(s)&=& \frac{s-a}{(s-a)^2+b^2}\ \ (s>a)\\
+{\cal L}(t^n\cdot e^{at})(s)&=& \frac{n!}{(s-a)^{n+1}}\ \ (s>a)\\
+{\cal L}(t^n \cdot f(t))(s)&=& (-1)^n \frac{d^n}{ds^n}\left({\cal L}(f(t))\right)(s)\\
+{\cal L}(f'(t))(s)&=& s\cdot {\cal L}(f(t))(s) - f(0)\\
+{\cal L}(H_c(t))(s)&=&\frac{e^{-cs}}{s}\ \ (s>0)\\
+{\cal L}(H_c(t)\cdot f(t-c))(s)&=& e^{-cs}{\cal L}(f(t))(s)\\
+{\cal L}(H_c(t)\cdot f(t))(s)&=&{e^{-cs}{\cal L}(f(t+c))(s)}\\
+{\cal L}(\delta_c(t))(s)&=& e^{-cs}\\
+{\cal L}(e^{ct}\cdot f(t))(s)&=& {\cal L}(f(t))(s-c)
+\end{eqnarray} -->
+
+<TABLE ALIGN="CENTER" CELLPADDING="0" WIDTH="100%">
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT"><IMG
+ WIDTH="65" HEIGHT="37" ALIGN="MIDDLE" BORDER="0"
+ SRC="img1.gif"
+ ALT="$\displaystyle {\cal L}(1)(s)$"></TD>
+<TD ALIGN="CENTER" NOWRAP>=</TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="88" HEIGHT="58" ALIGN="MIDDLE" BORDER="0"
+ SRC="img2.gif"
+ ALT="$\displaystyle \frac{1}{s} \ \ (s>0)$"></TD>
+<TD WIDTH=10 ALIGN="RIGHT">
+(1)</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT"><IMG
+ WIDTH="77" HEIGHT="40" ALIGN="MIDDLE" BORDER="0"
+ SRC="img3.gif"
+ ALT="$\displaystyle {\cal L}(e^{at})(s)$"></TD>
+<TD ALIGN="CENTER" NOWRAP>=</TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="121" HEIGHT="58" ALIGN="MIDDLE" BORDER="0"
+ SRC="img4.gif"
+ ALT="$\displaystyle \frac{1}{s-a}\ \ (s>a)$"></TD>
+<TD WIDTH=10 ALIGN="RIGHT">
+(2)</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT"><IMG
+ WIDTH="72" HEIGHT="37" ALIGN="MIDDLE" BORDER="0"
+ SRC="img5.gif"
+ ALT="$\displaystyle {\cal L}(t^n)(s)$"></TD>
+<TD ALIGN="CENTER" NOWRAP>=</TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="280" HEIGHT="60" ALIGN="MIDDLE" BORDER="0"
+ SRC="img6.gif"
+ ALT="$\displaystyle \frac{n!}{s^{n+1}}\ \ (s>0,n \mbox{ a positive integer})$"></TD>
+<TD WIDTH=10 ALIGN="RIGHT">
+(3)</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT"><IMG
+ WIDTH="70" HEIGHT="37" ALIGN="MIDDLE" BORDER="0"
+ SRC="img7.gif"
+ ALT="$\displaystyle {\cal L}(t^p)(s)$"></TD>
+<TD ALIGN="CENTER" NOWRAP>=</TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="214" HEIGHT="63" ALIGN="MIDDLE" BORDER="0"
+ SRC="img8.gif"
+ ALT="$\displaystyle \frac{\Gamma(p+1)}{s^{p+1}}\ \ (s>0,p>-1)$"></TD>
+<TD WIDTH=10 ALIGN="RIGHT">
+(4)</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT"><IMG
+ WIDTH="110" HEIGHT="37" ALIGN="MIDDLE" BORDER="0"
+ SRC="img9.gif"
+ ALT="$\displaystyle {\cal L}(\sin(at))(s)$"></TD>
+<TD ALIGN="CENTER" NOWRAP>=</TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="136" HEIGHT="50" ALIGN="MIDDLE" BORDER="0"
+ SRC="img10.gif"
+ ALT="$\displaystyle \frac{a}{s^2+a^2}\ \ (s>0)$"></TD>
+<TD WIDTH=10 ALIGN="RIGHT">
+(5)</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT"><IMG
+ WIDTH="112" HEIGHT="37" ALIGN="MIDDLE" BORDER="0"
+ SRC="img11.gif"
+ ALT="$\displaystyle {\cal L}(\cos(at))(s)$"></TD>
+<TD ALIGN="CENTER" NOWRAP>=</TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="136" HEIGHT="50" ALIGN="MIDDLE" BORDER="0"
+ SRC="img12.gif"
+ ALT="$\displaystyle \frac{s}{s^2+a^2} \ \ (s>0)$"></TD>
+<TD WIDTH=10 ALIGN="RIGHT">
+(6)</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT"><IMG
+ WIDTH="143" HEIGHT="40" ALIGN="MIDDLE" BORDER="0"
+ SRC="img13.gif"
+ ALT="$\displaystyle {\cal L}(e^{at}\cdot \sin(bt))(s)$"></TD>
+<TD ALIGN="CENTER" NOWRAP>=</TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="182" HEIGHT="60" ALIGN="MIDDLE" BORDER="0"
+ SRC="img14.gif"
+ ALT="$\displaystyle \frac{b}{(s-a)^2+b^2}\ \ (s>a)$"></TD>
+<TD WIDTH=10 ALIGN="RIGHT">
+(7)</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT"><IMG
+ WIDTH="145" HEIGHT="40" ALIGN="MIDDLE" BORDER="0"
+ SRC="img15.gif"
+ ALT="$\displaystyle {\cal L}(e^{at}\cdot \cos(bt))(s)$"></TD>
+<TD ALIGN="CENTER" NOWRAP>=</TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="182" HEIGHT="56" ALIGN="MIDDLE" BORDER="0"
+ SRC="img16.gif"
+ ALT="$\displaystyle \frac{s-a}{(s-a)^2+b^2}\ \ (s>a)$"></TD>
+<TD WIDTH=10 ALIGN="RIGHT">
+(8)</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT"><IMG
+ WIDTH="107" HEIGHT="40" ALIGN="MIDDLE" BORDER="0"
+ SRC="img17.gif"
+ ALT="$\displaystyle {\cal L}(t^n\cdot e^{at})(s)$"></TD>
+<TD ALIGN="CENTER" NOWRAP>=</TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="162" HEIGHT="60" ALIGN="MIDDLE" BORDER="0"
+ SRC="img18.gif"
+ ALT="$\displaystyle \frac{n!}{(s-a)^{n+1}}\ \ (s>a)$"></TD>
+<TD WIDTH=10 ALIGN="RIGHT">
+(9)</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT"><IMG
+ WIDTH="118" HEIGHT="37" ALIGN="MIDDLE" BORDER="0"
+ SRC="img19.gif"
+ ALT="$\displaystyle {\cal L}(t^n \cdot f(t))(s)$"></TD>
+<TD ALIGN="CENTER" NOWRAP>=</TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="189" HEIGHT="60" ALIGN="MIDDLE" BORDER="0"
+ SRC="img20.gif"
+ ALT="$\displaystyle (-1)^n \frac{d^n}{ds^n}\left({\cal L}(f(t))\right)(s)$"></TD>
+<TD WIDTH=10 ALIGN="RIGHT">
+(10)</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT"><IMG
+ WIDTH="93" HEIGHT="38" ALIGN="MIDDLE" BORDER="0"
+ SRC="img21.gif"
+ ALT="$\displaystyle {\cal L}(f'(t))(s)$"></TD>
+<TD ALIGN="CENTER" NOWRAP>=</TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="170" HEIGHT="37" ALIGN="MIDDLE" BORDER="0"
+ SRC="img22.gif"
+ ALT="$\displaystyle s\cdot {\cal L}(f(t))(s) - f(0)$"></TD>
+<TD WIDTH=10 ALIGN="RIGHT">
+(11)</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT"><IMG
+ WIDTH="99" HEIGHT="37" ALIGN="MIDDLE" BORDER="0"
+ SRC="img23.gif"
+ ALT="$\displaystyle {\cal L}(H_c(t))(s)$"></TD>
+<TD ALIGN="CENTER" NOWRAP>=</TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="111" HEIGHT="63" ALIGN="MIDDLE" BORDER="0"
+ SRC="img24.gif"
+ ALT="$\displaystyle \frac{e^{-cs}}{s}\ \ (s>0)$"></TD>
+<TD WIDTH=10 ALIGN="RIGHT">
+(12)</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT"><IMG
+ WIDTH="177" HEIGHT="37" ALIGN="MIDDLE" BORDER="0"
+ SRC="img25.gif"
+ ALT="$\displaystyle {\cal L}(H_c(t)\cdot f(t-c))(s)$"></TD>
+<TD ALIGN="CENTER" NOWRAP>=</TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="120" HEIGHT="39" ALIGN="MIDDLE" BORDER="0"
+ SRC="img26.gif"
+ ALT="$\displaystyle e^{-cs}{\cal L}(f(t))(s)$"></TD>
+<TD WIDTH=10 ALIGN="RIGHT">
+(13)</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT"><IMG
+ WIDTH="146" HEIGHT="37" ALIGN="MIDDLE" BORDER="0"
+ SRC="img27.gif"
+ ALT="$\displaystyle {\cal L}(H_c(t)\cdot f(t))(s)$"></TD>
+<TD ALIGN="CENTER" NOWRAP>=</TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="152" HEIGHT="39" ALIGN="MIDDLE" BORDER="0"
+ SRC="img28.gif"
+ ALT="$\displaystyle {e^{-cs}{\cal L}(f(t+c))(s)}$"></TD>
+<TD WIDTH=10 ALIGN="RIGHT">
+(14)</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT"><IMG
+ WIDTH="92" HEIGHT="37" ALIGN="MIDDLE" BORDER="0"
+ SRC="img29.gif"
+ ALT="$\displaystyle {\cal L}(\delta_c(t))(s)$"></TD>
+<TD ALIGN="CENTER" NOWRAP>=</TD>
+<TD ALIGN="LEFT" NOWRAP><I>e</I><SUP>-<I>cs</I></SUP></TD>
+<TD WIDTH=10 ALIGN="RIGHT">
+(15)</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT"><IMG
+ WIDTH="122" HEIGHT="40" ALIGN="MIDDLE" BORDER="0"
+ SRC="img30.gif"
+ ALT="$\displaystyle {\cal L}(e^{ct}\cdot f(t))(s)$"></TD>
+<TD ALIGN="CENTER" NOWRAP>=</TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="120" HEIGHT="37" ALIGN="MIDDLE" BORDER="0"
+ SRC="img31.gif"
+ ALT="$\displaystyle {\cal L}(f(t))(s-c)$"></TD>
+<TD WIDTH=10 ALIGN="RIGHT">
+(16)</TD></TR>
+</TABLE></DIV>
+<BR CLEAR="ALL"><P></P>
+<BR>
+<P><P><center><img src="../../gif/bar.gif"></center><P><P>
+<b>  
+<center>
+<a href="../../diffeq/diffeq.html">[Differential Equations]</a>
+</center> <center>
+<a href="../../geometry/geometry.html">[Geometry]</a>
+<a href="../../algebra/algebra.html">[Algebra]</a>
+<a href="../../trig/trig.html">[Trigonometry ]</a> 
+</center> <center>
+<a href="../../calculus/calculus.html">[Calculus]</a>
+<a href="../../complex/complex.html">[Complex Variables]</a>
+<a href="../../matrix/matrix.html">[Matrix Algebra]</a> 
+ </b></center>
+ <P>
+<center><img src="../../gif/lighthouse.gif"> <a
+href="../../index.html">S.O.S MATHematics home page</a> </center>
+</UL>
+
+<P> 
+Do you need more help? Please post your question on our 
+<a href="http://www.sosmath.com/CBB">
+S.O.S. Mathematics CyberBoard</a>. 
+<p><center><img src="../../gif/sailbar.gif"></center><p> 
+<p>
+
+
+
+<ADDRESS>
+<I>1998-12-04</I>
+</ADDRESS>
+
+<!--BOTTOM AD2-->
+<!--END BOTTOM AD2-->
+<center>
+<table cellpadding="0" border="0" cellspacing="0">
+<tr>
+<td valign=top>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-0120177304734599";
+/* bottomL350x200 */
+google_ad_slot = "9059344227";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<td width=12>
+<td valign=top>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-0120177304734599";
+/* bottomR350x200 */
+google_ad_slot = "1536077426";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</table>
+</center>
+
+
+
+<!--COUNTER-->
+<P>
+<CENTER><FONT size=1 color="darkgray">Copyright © 1999-2013 MathMedics, LLC. All rights reserved.
+<br>
+<a href="http://www.sosmath.com/mail.php">Contact us</a>
+<br>
+Math Medics, LLC. - P.O. Box 12395 - El Paso TX 79913 - USA
+<br><script src="http://www.sosmath.com/cgi-bin/suo.cgi?action=index&e=js"></script> users online during the last hour
+</FONT></CENTER>
+<!--COUNTER END--><script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-278468-1";
+urchinTracker();
+</script>
+</body>
+
+</HTML>
